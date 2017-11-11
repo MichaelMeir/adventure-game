@@ -30,22 +30,7 @@ var currentScene;
 var open = new Audio("resources/audio/terminal/ui_hacking_passgood.wav");
 var locked = new Audio("resources/audio/terminal/ui_hacking_passbad.wav");
 
-var startupSound = new Audio("resources/audio/startup.mp3");
-
 var error = null;
-
-document.onload = new function() {
-	log = document.getElementById("gamelog");
-	addScenes();
-	setScene(0);
-	running = true;
-	cursor();
-
-	// startupSound.volume = 0.5;
-	// startupSound.play();
-	open.volume = 0.2;
-	locked.volume = 0.2;
-}
 
 var letter = 0;
 var splitLine;
@@ -53,64 +38,19 @@ var typing;
 
 var running;
 
-//▋
-
 var showing;
 
 var currentTime = 0;
 var lastTime = 0;
 
-function cursor(timeStamp) {
-	currentTime = (timeStamp - lastTime);
-	if(running && currentTime > 500) {
-		lastTime = timeStamp;
-		if(showing) {
-			if(!log.innerHTML.includes("▋")) {
-				log.innerHTML += "▋";
-			}
-		}else{
-			log.innerHTML = log.innerHTML.replace(/▋/g, "");
-		}
-		showing = !showing;
-	}
-	requestAnimationFrame(cursor);
-}
+document.onload = new function() {
+	log = document.getElementById("gamelog");
+	addScenes();
+	setScene(0);
+	cursor();
 
-function addLine(line) {
-	line = "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" + line;
-	splitLine = line.split("");
-	letter = 0;
-	if(typing == null) {
-		typing = new Audio("resources/audio/terminal/char/multiple/ui_hacking_charmultiple_01.wav");
-		typing.volume = 0.2;
-	}
-	typing.play();
-	animation(0);
-}
-
-function animation(timeStamp) {
-	if(splitLine.length > letter) {
-
-		if(currentScene >= 0) {
-			if(typing.currentTime > 0.4) {
-				typing.pause();
-				var random = Math.floor((Math.random() * 4) + 1);
-				typing = new Audio("resources/audio/terminal/char/multiple/ui_hacking_charmultiple_0" + random + ".wav");
-				typing.volume = 0.2;
-				typing.currentTime = 0;
-				typing.play();
-			}
-		}
-
-		var split = log.innerHTML.split("▋");
-		log.innerHTML = split[0] + splitLine[letter] + "▋";
-		letter++;
-		log.scrollTop = log.scrollHeight;
-		requestAnimationFrame(animation);
-	}else{
-		typing.pause();
-		typing.currentTime = 0;
-	}
+	open.volume = 0.2;
+	locked.volume = 0.2;
 }
 
 function setScene(scene) {
@@ -176,6 +116,59 @@ function setScene(scene) {
 
 }
 
+function animation(timeStamp) {
+	if(splitLine.length > letter) {
+
+		if(currentScene >= 0) {
+			if(typing.currentTime > 0.4) {
+				typing.pause();
+				var random = Math.floor((Math.random() * 4) + 1);
+				typing = new Audio("resources/audio/terminal/char/multiple/ui_hacking_charmultiple_0" + random + ".wav");
+				typing.volume = 0.2;
+				typing.currentTime = 0;
+				typing.play();
+			}
+		}
+
+		var split = log.innerHTML.split("▋");
+		log.innerHTML = split[0] + splitLine[letter] + "▋";
+		letter++;
+		log.scrollTop = log.scrollHeight;
+		requestAnimationFrame(animation);
+	}else{
+		typing.pause();
+		typing.currentTime = 0;
+	}
+}
+
+function cursor(timeStamp) {
+	currentTime = (timeStamp - lastTime);
+	if(running && currentTime > 500) {
+		lastTime = timeStamp;
+		if(showing) {
+			if(!log.innerHTML.includes("▋")) {
+				log.innerHTML += "▋";
+			}
+		}else{
+			log.innerHTML = log.innerHTML.replace(/▋/g, "");
+		}
+		showing = !showing;
+	}
+	requestAnimationFrame(cursor);
+}
+
+function addLine(line) {
+	line = "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" + line;
+	splitLine = line.split("");
+	letter = 0;
+	if(typing == null) {
+		typing = new Audio("resources/audio/terminal/char/multiple/ui_hacking_charmultiple_01.wav");
+		typing.volume = 0.2;
+	}
+	typing.play();
+	animation(0);
+}
+
 function addScenes() {
 
 	//scenes.push(new Screne(A, B, "C", [D], [E], new Redirect(F), [G], "H"));
@@ -203,26 +196,5 @@ function addScenes() {
 
 	scenes.push(new Scene(6, true, "", [3], [], new Redirect(2, "You couldnt go this way."), [new Redirect(0, "Restart!")], "You continued!"));
 	scenes.push(new Scene(7, true, "", [4], [], new Redirect(3, "You couldnt go this way."), [new Redirect(0, "Restart!")], "You continued!"));
-
-	/* TESTING DIALOGUE
-1. Quest?
-- Quest 1. (2)
-- Quest 2. (3)
-2. Quest 1.
-- Search bushes. (4)
-- Proceed. (5)
-3. Quest 2.
-- Search bushes. (4)
-- Proceed. (5)
-4. You search the bush.
-If Q1; find a shoe.
-If Q2; find a glove.
-- Return. (2/3 depending on where you came from.)
-5. Proceed.
-If Q1; need shoe.
-If Q2; need glove.
-If no item; go back.
-If item; go on
-	*/
 
 }
