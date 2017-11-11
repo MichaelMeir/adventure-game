@@ -1,0 +1,97 @@
+@font-face {
+	font-family: "FixedSys";
+	src: url("resources/fixedsys.ttf");
+}
+
+body, textarea {
+	font-family: "FixedSys";
+	background-color: #000;
+	color: #54FE54;
+}
+
+textarea {
+	font-size: 18px;
+	resize: none;
+	width: 93%;
+	height: 400px;
+	background-color: #000;
+	color: #54FE54;
+	border: 1px solid #54FE54;
+	border-width: 3px;
+	border-style: double;
+	padding: 15px;
+	line-height: 1.45;
+	user-select: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+main {
+	margin: auto;
+	padding: 10px;
+	background-color: #000;
+}
+
+div#options {
+	border-radius: 5px;
+	padding: 20px;
+	padding-left: 0px;
+	background-color: #000;
+}
+
+div#options {
+	width: 95%;
+	background-color: #000;
+}
+
+section#bot, section#top {
+	display: block;
+	width: 45%;
+	margin: auto;
+}
+
+a:first-child {
+	margin-left: 0px;
+}
+
+a {
+	margin: 5px;
+	text-decoration: none;
+	color: #54FE54;
+	padding: 10px;
+	background-color: #000;
+	border-radius: 5px;
+	border: 1px solid #54FE54;
+	border-width: 3px;
+	border-style: double;
+}
+
+div#imageView {
+	border: 1px solid #54FE54;
+	border-width: 3px;
+	border-style: double;
+	height: 150px;
+	width: 98%;
+}
+
+img#view {
+	margin: 25px;
+	width: 90%;
+	image-rendering: pixelated;
+}
+
+textarea::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+textarea::-webkit-scrollbar-track {
+    background-color: #000;
+    border: 1px solid #54FE54;
+}
+ 
+textarea::-webkit-scrollbar-thumb {
+  background-color: #54FE54;
+  width: 1px;
+}
