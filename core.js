@@ -43,6 +43,10 @@ var showing;
 var currentTime = 0;
 var lastTime = 0;
 
+//stats
+
+var ScenesVisited = 0;
+
 document.onload = new function() {
 	log = document.getElementById("gamelog");
 	addScenes();
@@ -60,6 +64,16 @@ function setScene(scene) {
 			currentScene = i;
 		}
 	}
+
+	//stats
+
+	if(!(scene < 2)) {
+		ScenesVisited++;
+	}else if(scene > 0 && scene < 2) {
+		ScenesVisited = 0;
+	}
+
+	//---
 
 	console.log(scene);
 
@@ -98,7 +112,7 @@ function setScene(scene) {
 		document.getElementById("view").setAttribute("src", "resources/images/start.png");
 	}
 
-	if(scene == 1) {
+	if(scene <= 1) {
 		log.innerHTML = "";
 	}
 	
@@ -106,44 +120,19 @@ function setScene(scene) {
 		addLine("> " + error + "\n\n" + scenes[currentScene].dialogue);
 		error = null;
 	}else{
-		addLine(scenes[currentScene].dialogue);
+		if(currentScene < 0) {
+			addLine(scenes[currentScene].dialogue);
+		}else{
+			addLine(scenes[currentScene].dialogue.replace("{VISITED}", ScenesVisited));
+		}
 	}
 
 	document.getElementById("options").innerHTML = "";
 
 	for(var i = 0; i < scenes[currentScene].options.length; i++) {
-		for(var j = 0; j < scenes.length; j++) {
-			if(scenes[currentScene].options[i].scene == scenes[j].scene) {
-				document.getElementById("options").innerHTML += "<a href=\"javascript:void(0)\" onclick=\"setScene(" + scenes[currentScene].options[i].scene + ")\">" + scenes[currentScene].options[i].text + " </a>";
-			}
-		}
+		document.getElementById("options").innerHTML += "<a href=\"javascript:void(0)\" onclick=\"setScene(" + scenes[currentScene].options[i].scene + ")\">" + scenes[currentScene].options[i].text + " </a>";
 	}
 
-}
-
-function animation(timeStamp) {
-	if(splitLine.length > letter) {
-
-		if(currentScene >= 0) {
-			if(typing.currentTime > 0.4) {
-				typing.pause();
-				var random = Math.floor((Math.random() * 4) + 1);
-				typing = new Audio("resources/audio/terminal/char/multiple/ui_hacking_charmultiple_0" + random + ".wav");
-				typing.volume = 0.2;
-				typing.currentTime = 0;
-				typing.play();
-			}
-		}
-
-		var split = log.innerHTML.split("▋");
-		log.innerHTML = split[0] + splitLine[letter] + "▋";
-		letter++;
-		log.scrollTop = log.scrollHeight;
-		requestAnimationFrame(animation);
-	}else{
-		typing.pause();
-		typing.currentTime = 0;
-	}
 }
 
 function cursor(timeStamp) {
@@ -174,6 +163,31 @@ function addLine(line) {
 	animation(0);
 }
 
+function animation(timeStamp) {
+	if(splitLine.length > letter) {
+
+		if(currentScene >= 0) {
+			if(typing.currentTime > 0.4) {
+				typing.pause();
+				var random = Math.floor((Math.random() * 4) + 1);
+				typing = new Audio("resources/audio/terminal/char/multiple/ui_hacking_charmultiple_0" + random + ".wav");
+				typing.volume = 0.2;
+				typing.currentTime = 0;
+				typing.play();
+			}
+		}
+
+		var split = log.innerHTML.split("▋");
+		log.innerHTML = split[0] + splitLine[letter] + "▋";
+		letter++;
+		log.scrollTop = log.scrollHeight;
+		requestAnimationFrame(animation);
+	}else{
+		typing.pause();
+		typing.currentTime = 0;
+	}
+}
+
 function addScenes() {
 
 	//scenes.push(new Screne(A, B, "C", [D], [E], new Redirect(F), [G], "H"));
@@ -189,9 +203,10 @@ function addScenes() {
 		H - Dialogue When Accessed,				STRING
 	-----------------------------------------------------------------------
 	*/
+	scenes.push(new Scene(-1, true, "", [], [], new Redirect(0, ""), [new Redirect(0, "Home")], "Your Statistics:\nScenes Visited: {VISITED}\n"));
+	scenes.push(new Scene(0, false, "start.png", [], [-1, -2, -3, -4], new Redirect(0, ""), [new Redirect(1, "Start!")], "**************************************************\nWelcome!\nThis game currently only has a test dialogue, an\nactual story will be added later!"));
 
 	//STORY
-	scenes.push(new Scene(0, false, "start.png", [], [-1, -2, -3, -4], new Redirect(0, ""), [new Redirect(1, "Start!")], "**************************************************\nWelcome!\nThis game currently only has a test dialogue, an\nactual story will be added later!"));
 	scenes.push(new Scene(1, true, "", [], [1, 2], new Redirect(0, ""), [new Redirect(2, "Quest 1."), new Redirect(3, "Quest 2.")], "Quest?"));
 	scenes.push(new Scene(2, false, "", [], [-2], new Redirect(0, ""), [new Redirect(4, "Search bushes."), new Redirect(6, "Continue")], "Quest 1."));
 	scenes.push(new Scene(3, false, "", [], [-1], new Redirect(0, ""), [new Redirect(5, "Search bushes."), new Redirect(7, "Continue")], "Quest 2."));
@@ -199,7 +214,7 @@ function addScenes() {
 	scenes.push(new Scene(4, true, "", [1], [3, -1], new Redirect(2, "You didnt find anything in the bush."), [new Redirect(2, "return.")], "You found a shoe."));
 	scenes.push(new Scene(5, true, "", [2], [4, -2], new Redirect(3, "You didnt find anything in the bush."), [new Redirect(3, "return.")], "You found a glove."));
 
-	scenes.push(new Scene(6, true, "", [3], [], new Redirect(2, "You couldnt go this way."), [new Redirect(0, "Restart!")], "You continued!"));
-	scenes.push(new Scene(7, true, "", [4], [], new Redirect(3, "You couldnt go this way."), [new Redirect(0, "Restart!")], "You continued!"));
+	scenes.push(new Scene(6, true, "", [3], [], new Redirect(2, "You couldnt go this way."), [new Redirect(-1, "Restart!")], "You continued!"));
+	scenes.push(new Scene(7, true, "", [4], [], new Redirect(3, "You couldnt go this way."), [new Redirect(-1, "Restart!")], "You continued!"));
 
 }
