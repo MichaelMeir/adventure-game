@@ -47,6 +47,7 @@ document.onload = new function() {
 	log = document.getElementById("gamelog");
 	addScenes();
 	setScene(0);
+	running = true;
 	cursor();
 
 	open.volume = 0.2;
@@ -91,7 +92,11 @@ function setScene(scene) {
 		}
 	}
 
-	document.getElementById("view").setAttribute("src", "resources/images/" + scenes[currentScene].image);
+	if(scenes[currentScene].image != "") {
+		document.getElementById("view").setAttribute("src", "resources/images/" + scenes[currentScene].image);
+	}else{
+		document.getElementById("view").setAttribute("src", "resources/images/start.png");
+	}
 
 	if(scene == 1) {
 		log.innerHTML = "";
