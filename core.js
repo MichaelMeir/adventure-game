@@ -44,8 +44,12 @@ var currentTime = 0;
 var lastTime = 0;
 
 //stats
+var TimerCurrent = 0;
+var TimerLast = 0;
 
 var ScenesVisited = 0;
+var timeSeconds = 0;
+var timeCounting = false;
 
 document.onload = new function() {
 	log = document.getElementById("gamelog");
@@ -65,16 +69,6 @@ function setScene(scene) {
 		}
 	}
 
-	//stats
-
-	if(!(scene < 2)) {
-		ScenesVisited++;
-	}else if(scene > 0 && scene < 2) {
-		ScenesVisited = 0;
-	}
-
-	//---
-
 	console.log(scene);
 
 	var hasItem = 0;
@@ -93,6 +87,20 @@ function setScene(scene) {
 		setScene(scenes[currentScene].redirect.scene);
 		return;
 	}
+
+	//stats
+
+	if(!(scene < 2)) {
+		ScenesVisited++;
+		timeCounting = true;
+		timer();
+	}else if(scene > 0 && scene < 2) {
+		ScenesVisited = 0;
+		timeSeconds = 0;
+		timeCounting = false;
+	}
+
+	//---
 
 	if(scenes[currentScene].door) {
 		open.play();
@@ -123,7 +131,17 @@ function setScene(scene) {
 		if(currentScene < 0) {
 			addLine(scenes[currentScene].dialogue);
 		}else{
-			addLine(scenes[currentScene].dialogue.replace("{VISITED}", ScenesVisited));
+			var timeString = "";
+			var secondsRatio = (timeSeconds/60);
+			var minutes = 0;
+			while(secondsRatio >= 1) {
+				minutes += 1;
+				secondsRatio -= 1;
+			}
+
+			timeString = minutes + " Minutes and " + Math.round(secondsRatio*60) + " Seconds";
+
+			addLine(scenes[currentScene].dialogue.replace("{VISITED}", ScenesVisited).replace("{TIME}", timeString));
 		}
 	}
 
@@ -133,6 +151,17 @@ function setScene(scene) {
 		document.getElementById("options").innerHTML += "<a href=\"javascript:void(0)\" onclick=\"setScene(" + scenes[currentScene].options[i].scene + ")\">" + scenes[currentScene].options[i].text + " </a>";
 	}
 
+}
+
+function timer(timeStamp) {
+	TimerCurrent = (timeStamp - TimerLast);
+	if(timeCounting) {
+		if(TimerCurrent > 1000) {
+			TimerLast = timeStamp;
+			timeSeconds++;
+		}
+		requestAnimationFrame(timer);
+	}
 }
 
 function cursor(timeStamp) {
@@ -203,7 +232,7 @@ function addScenes() {
 		H - Dialogue When Accessed,				STRING
 	-----------------------------------------------------------------------
 	*/
-	scenes.push(new Scene(-1, true, "", [], [], new Redirect(0, ""), [new Redirect(0, "Home")], "Your Statistics:\nScenes Visited: {VISITED}\n"));
+	scenes.push(new Scene(-1, true, "", [], [], new Redirect(0, ""), [new Redirect(0, "Home")], "Your Statistics:\n Time: {TIME}\n Scenes Visited: {VISITED}\n"));
 	scenes.push(new Scene(0, false, "start.png", [], [-1, -2, -3, -4], new Redirect(0, ""), [new Redirect(1, "Start!")], "**************************************************\nWelcome!\nThis game currently only has a test dialogue, an\nactual story will be added later!"));
 
 	//STORY
