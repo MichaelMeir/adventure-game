@@ -80,24 +80,25 @@ function setScene(scene) {
 	}
 
 	if(scenes[currentScene].needed.length > hasItem) {
-		error = scenes[currentScene].redirect.text;
-		if(scenes[currentScene].door) {
-			locked.play();
+		if(scenes[currentScene].redirect != null) {
+			error = scenes[currentScene].redirect.text;
+			if(scenes[currentScene].door) {
+				locked.play();
+			}
+			setScene(scenes[currentScene].redirect.scene);
+			return;
 		}
-		setScene(scenes[currentScene].redirect.scene);
-		return;
 	}
 
 	//stats
 
-	if(!(scene < 2)) {
+	if(scene >= 2) {
+		setTime();
 		ScenesVisited++;
-		timeCounting = true;
-		timer();
 	}else if(scene > 0 && scene < 2) {
 		ScenesVisited = 0;
 		timeSeconds = 0;
-		timeCounting = false;
+		timeCounting = true;
 	}
 
 	//---
@@ -131,17 +132,8 @@ function setScene(scene) {
 		if(currentScene < 0) {
 			addLine(scenes[currentScene].dialogue);
 		}else{
-			var timeString = "";
-			var secondsRatio = (timeSeconds/60);
-			var minutes = 0;
-			while(secondsRatio >= 1) {
-				minutes += 1;
-				secondsRatio -= 1;
-			}
 
-			timeString = minutes + " Minutes and " + Math.round(secondsRatio*60) + " Seconds";
-
-			addLine(scenes[currentScene].dialogue.replace("{VISITED}", ScenesVisited).replace("{TIME}", timeString));
+			addLine(scenes[currentScene].dialogue.replace("{VISITED}", ScenesVisited).replace("{TIME}", getTime()));
 		}
 	}
 
@@ -153,15 +145,33 @@ function setScene(scene) {
 
 }
 
-function timer(timeStamp) {
-	TimerCurrent = (timeStamp - TimerLast);
+function setTime() {
 	if(timeCounting) {
-		if(TimerCurrent > 1000) {
-			TimerLast = timeStamp;
-			timeSeconds++;
-		}
-		requestAnimationFrame(timer);
+		var date = new Date();
+		var Minutes = date.getMinutes();
+		var Seconds = date.getSeconds();
+		timeSeconds = (Minutes*60) + Seconds;
+		timing = false;
 	}
+}
+
+function getTime() {
+	var date = new Date();
+
+	var pastSeconds = (date.getMinutes()*60) + date.getSeconds();
+
+	var timeString = "";
+	var secondsRatio = ((pastSeconds - timeSeconds)/60);
+	var minutes = 0;
+
+	while(secondsRatio >= 1) {
+		minutes += 1;
+		secondsRatio -= 1;
+	}
+
+	timeString = minutes + " Minutes and " + Math.round(secondsRatio*60) + " Seconds";
+
+	return timeString;
 }
 
 function cursor(timeStamp) {
@@ -232,13 +242,13 @@ function addScenes() {
 		H - Dialogue When Accessed,				STRING
 	-----------------------------------------------------------------------
 	*/
-	scenes.push(new Scene(-1, true, "", [], [], new Redirect(0, ""), [new Redirect(0, "Home")], "Your Statistics:\n Time: {TIME}\n Scenes Visited: {VISITED}\n"));
-	scenes.push(new Scene(0, false, "start.png", [], [-1, -2, -3, -4], new Redirect(0, ""), [new Redirect(1, "Start!")], "**************************************************\nWelcome!\nThis game currently only has a test dialogue, an\nactual story will be added later!"));
+	scenes.push(new Scene(-1, true, "", [], [], null, [new Redirect(0, "Home")], "Your Statistics:\n Time: {TIME}\n Scenes Visited: {VISITED}\n"));
+	scenes.push(new Scene(0, false, "start.png", [], [-1, -2, -3, -4], null, [new Redirect(1, "Start!")], "**************************************************\nWelcome!\nThis game currently only has a test dialogue, an\nactual story will be added later!"));
 
 	//STORY
-	scenes.push(new Scene(1, true, "", [], [1, 2], new Redirect(0, ""), [new Redirect(2, "Quest 1."), new Redirect(3, "Quest 2.")], "Quest?"));
-	scenes.push(new Scene(2, false, "", [], [-2], new Redirect(0, ""), [new Redirect(4, "Search bushes."), new Redirect(6, "Continue")], "Quest 1."));
-	scenes.push(new Scene(3, false, "", [], [-1], new Redirect(0, ""), [new Redirect(5, "Search bushes."), new Redirect(7, "Continue")], "Quest 2."));
+	scenes.push(new Scene(1, true, "", [], [1, 2], null, [new Redirect(2, "Quest 1."), new Redirect(3, "Quest 2.")], "Quest?"));
+	scenes.push(new Scene(2, false, "", [], [-2], null, [new Redirect(4, "Search bushes."), new Redirect(6, "Continue")], "Quest 1."));
+	scenes.push(new Scene(3, false, "", [], [-1], null, [new Redirect(5, "Search bushes."), new Redirect(7, "Continue")], "Quest 2."));
 
 	scenes.push(new Scene(4, true, "", [1], [3, -1], new Redirect(2, "You didnt find anything in the bush."), [new Redirect(2, "return.")], "You found a shoe."));
 	scenes.push(new Scene(5, true, "", [2], [4, -2], new Redirect(3, "You didnt find anything in the bush."), [new Redirect(3, "return.")], "You found a glove."));
