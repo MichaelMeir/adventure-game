@@ -78,7 +78,6 @@ div#imageView {
 
 img#view {
 	margin: 25px;
-	width: 90%;
 	image-rendering: pixelated;
 }
 

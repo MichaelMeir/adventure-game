@@ -44,8 +44,6 @@ var currentTime = 0;
 var lastTime = 0;
 
 //stats
-var TimerCurrent = 0;
-var TimerLast = 0;
 
 var ScenesVisited = 0;
 var timeSeconds = 0;
@@ -97,7 +95,6 @@ function setScene(scene) {
 		ScenesVisited++;
 	}else if(scene > 0 && scene < 2) {
 		ScenesVisited = 0;
-		timeSeconds = 0;
 		timeCounting = true;
 	}
 
@@ -147,21 +144,18 @@ function setScene(scene) {
 
 function setTime() {
 	if(timeCounting) {
-		var date = new Date();
-		var Minutes = date.getMinutes();
-		var Seconds = date.getSeconds();
-		timeSeconds = (Minutes*60) + Seconds;
-		timing = false;
+		timeSeconds = Date.now();
+		timeCounting = false;
 	}
 }
 
 function getTime() {
-	var date = new Date();
 
-	var pastSeconds = (date.getMinutes()*60) + date.getSeconds();
+	var delta = Date.now() - timeSeconds;
+    var seconds = Math.floor(delta / 1000);
 
 	var timeString = "";
-	var secondsRatio = ((pastSeconds - timeSeconds)/60);
+	var secondsRatio = (seconds/60);
 	var minutes = 0;
 
 	while(secondsRatio >= 1) {
