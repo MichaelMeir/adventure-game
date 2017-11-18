@@ -244,19 +244,9 @@ function addScenes() {
 		if(this.readyState == 4 && this.status == 200) {
 			var json = JSON.parse(this.responseText);
 
-			for(var i = -1; i < Object.entries(json["scenes"]).length - 1; i++) {
+			for(var i = 0; i < Object.entries(json["scenes"]).length; i++) {
 
 				var optionsArray = [];
-
-				var needed = [];
-				for(var j = 0; j < Object.entries(json["scenes"][i]["needed"]).length; j++) {
-					needed.push(json["scenes"][i]["needed"][j]);
-				}
-
-				var receiving = [];
-				for(var j = 0; j < Object.entries(json["scenes"][i]["receiving"]).length; j++) {
-					receiving.push(json["scenes"][i]["receiving"][j]);
-				}
 
 				for(var j = 0; j < Object.entries(json["scenes"][i]["options"]).length; j++) {
 					optionsArray.push(new Redirect(
@@ -268,8 +258,8 @@ function addScenes() {
 					json["scenes"][i]["id"],
 					json["scenes"][i]["sound"],
 					json["scenes"][i]["image"],
-					needed,
-					receiving,
+					Array.from(json["scenes"][i]["needed"]),
+					Array.from(json["scenes"][i]["receiving"]),
 					new Redirect(
 						json["scenes"][i]["redirect"]["id"],
 						json["scenes"][i]["redirect"]["error"]),
