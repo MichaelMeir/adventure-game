@@ -1,0 +1,210 @@
+{
+	"scenes": {
+		"-1":{
+			"id": "-1",
+			"sound": true,
+			"image": "start.png",
+			"needed": {
+				},
+			"receiving": {
+					"0": -1,
+					"1": -2,
+					"3": -3,
+					"4": -4
+				},
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": {
+				"0": {
+					"id": 0,
+					"text": "Home"
+				}
+			},
+			"dialogue": "Your Statistics:\n Time: {TIME}\n Scenes Visited: {VISITED}\n"
+		},
+
+		"0": {
+			"id": "0",
+			"sound": true,
+			"image": "start.png",
+			"needed": {},
+			"receiving": {},
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": {
+				"0": {
+					"id": 1,
+					"text": "START!"
+				}
+			},
+			"dialogue": "**************************************************\nWelcome!\nThis game currently only has a test dialogue, an\nactual story will be added later!"
+		},
+
+		"1": {
+			"id": "1",
+			"sound": false,
+			"image": "",
+			"needed": {},
+			"receiving": {
+				"0": 1
+			},
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": {
+				"0": {
+					"id": 2,
+					"text": "QUEST 1"
+				},
+				"1": {
+					"id": 3,
+					"text": "QUEST 2"
+				}
+			},
+			"dialogue": "Choose a quest!"
+		},
+
+		"2": {
+			"id": "2",
+			"sound": false,
+			"image": "",
+			"needed": {},
+			"receiving": {},
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": {
+				"0": {
+					"id": 4,
+					"text": "Search the bushes"
+				},
+				"1": {
+					"id": 6,
+					"text": "Continue"
+				}
+			},
+			"dialogue": "Quest 1"
+		},
+
+		"3": {
+			"id": "3",
+			"sound": false,
+			"image": "",
+			"needed": {},
+			"receiving": {},
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": {
+				"0": {
+					"id": 5,
+					"text": "Search the bushes"
+				},
+				"1": {
+					"id": 7,
+					"text": "Continue"
+				}
+			},
+			"dialogue": "Quest 2"
+		},
+
+		"4": {
+			"id": "4",
+			"sound": false,
+			"image": "",
+			"needed": {
+				"0": 1
+			},
+			"receiving": {
+				"0": -1,
+				"1": 3
+			},
+			"redirect": {
+				"id": 2,
+				"error": "You didnt find anything in the bushes"
+			},
+			"options": {
+				"0": {
+					"id": 2,
+					"text": "Return"
+				}
+			},
+			"dialogue": "You found a shoe!"
+		},
+
+		"5": {
+			"id": "5",
+			"sound": false,
+			"image": "",
+			"needed": {
+				"0": 1
+			},
+			"receiving": {
+				"0": -1,
+				"1": 3
+			},
+			"redirect": {
+				"id": 3,
+				"error": "You didnt find anything in the bushes"
+			},
+			"options": {
+				"0": {
+					"id": 3,
+					"text": "Return"
+				}
+			},
+			"dialogue": "You found a glove!"
+		},
+
+		"6": {
+			"id": "6",
+			"sound": false,
+			"image": "",
+			"needed": {
+				"0": 3
+			},
+			"receiving": {
+			},
+			"redirect": {
+				"id": 2,
+				"error": "You didnt continue"
+			},
+			"options": {
+				"0": {
+					"id": -1,
+					"text": "RESTART"
+				}
+			},
+			"dialogue": "You continued!"
+		},
+
+		"7": {
+			"id": "7",
+			"sound": false,
+			"image": "",
+			"needed": {
+				"0": 3
+			},
+			"receiving": {
+			},
+			"redirect": {
+				"id": 3,
+				"error": "You didnt continue"
+			},
+			"options": {
+				"0": {
+					"id": -1,
+					"text": "RESTART"
+				}
+			},
+			"dialogue": "You continued!"
+		}
+	}
+}

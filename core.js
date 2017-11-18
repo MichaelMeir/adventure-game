@@ -52,7 +52,6 @@ var timeCounting = false;
 document.onload = new function() {
 	log = document.getElementById("gamelog");
 	addScenes();
-	setScene(0);
 	running = true;
 	cursor();
 
@@ -70,6 +69,8 @@ function setScene(scene) {
 	console.log(scene);
 
 	var hasItem = 0;
+
+	console.log(scenes[currentScene]);
 
 	for(var i = 0; i < scenes[currentScene].needed.length; i++) {
 		if(inventory[scenes[currentScene].needed[i]]) {
@@ -90,10 +91,10 @@ function setScene(scene) {
 
 	//stats
 
-	if(scene >= 2) {
+	if(scene >= 1) {
 		setTime();
 		ScenesVisited++;
-	}else if(scene > 0 && scene < 2) {
+	}else if(scene > -1 && scene < 1) {
 		ScenesVisited = 0;
 		timeCounting = true;
 	}
@@ -137,7 +138,7 @@ function setScene(scene) {
 	document.getElementById("options").innerHTML = "";
 
 	for(var i = 0; i < scenes[currentScene].options.length; i++) {
-		document.getElementById("options").innerHTML += "<a href=\"javascript:void(0)\" onclick=\"setScene(" + scenes[currentScene].options[i].scene + ")\">" + scenes[currentScene].options[i].text + " </a>";
+		document.getElementById("options").innerHTML += "<p><a href=\"javascript:void(0)\" onclick=\"setScene(" + scenes[currentScene].options[i].scene + ")\">" + scenes[currentScene].options[i].text + " </a></p>";
 	}
 
 }
@@ -236,18 +237,66 @@ function addScenes() {
 		H - Dialogue When Accessed,				STRING
 	-----------------------------------------------------------------------
 	*/
-	scenes.push(new Scene(-1, true, "", [], [], null, [new Redirect(0, "Home")], "Your Statistics:\n Time: {TIME}\n Scenes Visited: {VISITED}\n"));
-	scenes.push(new Scene(0, false, "start.png", [], [-1, -2, -3, -4], null, [new Redirect(1, "Start!")], "**************************************************\nWelcome!\nThis game currently only has a test dialogue, an\nactual story will be added later!"));
 
-	//STORY
-	scenes.push(new Scene(1, true, "", [], [1, 2], null, [new Redirect(2, "Quest 1."), new Redirect(3, "Quest 2.")], "Quest?"));
-	scenes.push(new Scene(2, false, "", [], [-2], null, [new Redirect(4, "Search bushes."), new Redirect(6, "Continue")], "Quest 1."));
-	scenes.push(new Scene(3, false, "", [], [-1], null, [new Redirect(5, "Search bushes."), new Redirect(7, "Continue")], "Quest 2."));
+	var httpRequest = new XMLHttpRequest();
 
-	scenes.push(new Scene(4, true, "", [1], [3, -1], new Redirect(2, "You didnt find anything in the bush."), [new Redirect(2, "return.")], "You found a shoe."));
-	scenes.push(new Scene(5, true, "", [2], [4, -2], new Redirect(3, "You didnt find anything in the bush."), [new Redirect(3, "return.")], "You found a glove."));
+	httpRequest.onreadystatechange = function() {
+		if(this.readyState == 4 && this.status == 200) {
+			var json = JSON.parse(this.responseText);
 
-	scenes.push(new Scene(6, true, "", [3], [], new Redirect(2, "You couldnt go this way."), [new Redirect(-1, "Restart!")], "You continued!"));
-	scenes.push(new Scene(7, true, "", [4], [], new Redirect(3, "You couldnt go this way."), [new Redirect(-1, "Restart!")], "You continued!"));
+			for(var i = -1; i < Object.entries(json["scenes"]).length - 1; i++) {
+
+				var optionsArray = [];
+
+				var needed = [];
+				for(var j = 0; j < Object.entries(json["scenes"][i]["needed"]).length; j++) {
+					needed.push(json["scenes"][i]["needed"][j]);
+				}
+
+				var receiving = [];
+				for(var j = 0; j < Object.entries(json["scenes"][i]["receiving"]).length; j++) {
+					receiving.push(json["scenes"][i]["receiving"][j]);
+				}
+
+				for(var j = 0; j < Object.entries(json["scenes"][i]["options"]).length; j++) {
+					optionsArray.push(new Redirect(
+						json["scenes"][i]["options"][j]["id"],
+						json["scenes"][i]["options"][j]["text"]));
+				}
+
+				scenes.push(new Scene(
+					json["scenes"][i]["id"],
+					json["scenes"][i]["sound"],
+					json["scenes"][i]["image"],
+					needed,
+					receiving,
+					new Redirect(
+						json["scenes"][i]["redirect"]["id"],
+						json["scenes"][i]["redirect"]["error"]),
+					optionsArray,
+					json["scenes"][i]["dialogue"]
+					));
+			}
+			setScene(0);
+		}
+	};
+
+	httpRequest.open("GET", "scenes.json", true);
+	httpRequest.send();
+
+	// scenes.push(new Scene(-1, true, "", [], [-1, -2, -3, -4], null, [new Redirect(0, "Home")], "Your Statistics:\n Time: {TIME}\n Scenes Visited: {VISITED}\n"));
+	// scenes.push(new Scene(0, false, "start.png", [], [1], null, [new Redirect(1, "Start!")], "**************************************************\nWelcome!\nThis game currently only has a test dialogue, an\nactual story will be added later!"));
+
+	// //STORY
+	// scenes.push(new Scene(1, false, "", [], [1, 2], null, [new Redirect(2, "Quest 1"), new Redirect(3, "Quest 2")], "Choose a quest!"));
+
+	// scenes.push(new Scene(2, false, "", [], [], null, [new Redirect(4, "Search the bushes."), new Redirect(6, "Continue.")], "Quest 1"));
+	// scenes.push(new Scene(3, false, "", [], [], null, [new Redirect(5, "Search the bushes."), new Redirect(7, "Continue.")], "Quest 2"));
+
+	// scenes.push(new Scene(4, true, "", [1], [-1, 3], new Redirect(2, "You didnt find anything else."), [new Redirect(2, "Go back.")], "You found a shoe!"));
+	// scenes.push(new Scene(5, true, "", [2], [-2, 3], new Redirect(3, "You didnt find anything else."), [new Redirect(3, "Go back.")], "You found a glove!"));
+
+	// scenes.push(new Scene(6, true, "", [3], [], new Redirect(2, "you didnt continue!"), [new Redirect(-1, "RESTART")], "you continued!"));
+	// scenes.push(new Scene(7, true, "", [3], [], new Redirect(3, "you didnt continue!"), [new Redirect(-1, "RESTART")], "you continued!"));
 
 }
