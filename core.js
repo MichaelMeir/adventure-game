@@ -240,6 +240,8 @@ function addScenes() {
 
 	var httpRequest = new XMLHttpRequest();
 
+	addLine("ERROR: Could not find/load 'scenes.json' file!");
+
 	httpRequest.onreadystatechange = function() {
 		if(this.readyState == 4 && this.status == 200) {
 			var json = JSON.parse(this.responseText);
@@ -267,6 +269,7 @@ function addScenes() {
 					json["scenes"][i]["dialogue"]
 					));
 			}
+			log.innerHTML = "";
 			setScene(0);
 		}
 	};
