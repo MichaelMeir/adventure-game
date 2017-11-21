@@ -1,3 +1,29 @@
+/*
+
+	{
+		"id": 0,
+		"sound": false,
+		"image": "",
+		"needed": [],
+		"receiving": [],
+		"redirect": {
+			"id" 0,
+			"error": ""
+		},
+		"options": [
+			{
+				"id": 0,
+				"text": ""
+			},
+			{
+				"id": 0,
+				"text": ""
+			}
+		],
+		"dialogue": ""
+	}
+
+*/
 {
 	"scenes": [
 		{

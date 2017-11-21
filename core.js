@@ -224,20 +224,6 @@ function animation(timeStamp) {
 
 function addScenes() {
 
-	//scenes.push(new Screne(A, B, "C", [D], [E], new Redirect(F), [G], "H"));
-	/*
-	-----------------------------------------------------------------------
-		A - Scene ID, 							INTEGER
-		B - Door,								BOOLEAN
-		C - Scene Image, 						STRING
-		D - Items Needed, 						INTEGER - ARRAY
-		E - Items Receiving, 					INTEGER - ARRAY
-		F - Redirect When Access Declined,		REDIRECT - OBJECT(INTEGER, STRING)
-		G - Options, 							REDIRECT - OBJECT(INTEGER, STRING) - ARRAY
-		H - Dialogue When Accessed,				STRING
-	-----------------------------------------------------------------------
-	*/
-
 	var httpRequest = new XMLHttpRequest();
 
 	addLine("ERROR: Could not find/load 'scenes.json' file!");
@@ -276,20 +262,5 @@ function addScenes() {
 
 	httpRequest.open("GET", "scenes.json", true);
 	httpRequest.send();
-
-	// scenes.push(new Scene(-1, true, "", [], [-1, -2, -3, -4], null, [new Redirect(0, "Home")], "Your Statistics:\n Time: {TIME}\n Scenes Visited: {VISITED}\n"));
-	// scenes.push(new Scene(0, false, "start.png", [], [1], null, [new Redirect(1, "Start!")], "**************************************************\nWelcome!\nThis game currently only has a test dialogue, an\nactual story will be added later!"));
-
-	// //STORY
-	// scenes.push(new Scene(1, false, "", [], [1, 2], null, [new Redirect(2, "Quest 1"), new Redirect(3, "Quest 2")], "Choose a quest!"));
-
-	// scenes.push(new Scene(2, false, "", [], [], null, [new Redirect(4, "Search the bushes."), new Redirect(6, "Continue.")], "Quest 1"));
-	// scenes.push(new Scene(3, false, "", [], [], null, [new Redirect(5, "Search the bushes."), new Redirect(7, "Continue.")], "Quest 2"));
-
-	// scenes.push(new Scene(4, true, "", [1], [-1, 3], new Redirect(2, "You didnt find anything else."), [new Redirect(2, "Go back.")], "You found a shoe!"));
-	// scenes.push(new Scene(5, true, "", [2], [-2, 3], new Redirect(3, "You didnt find anything else."), [new Redirect(3, "Go back.")], "You found a glove!"));
-
-	// scenes.push(new Scene(6, true, "", [3], [], new Redirect(2, "you didnt continue!"), [new Redirect(-1, "RESTART")], "you continued!"));
-	// scenes.push(new Scene(7, true, "", [3], [], new Redirect(3, "you didnt continue!"), [new Redirect(-1, "RESTART")], "you continued!"));
 
 }
