@@ -218,7 +218,7 @@
 		{
 			"id": 8,
 			"sound": true,
-			"image": "",
+			"image": "1.png",
 			"needed": [],
 			"receiving": [],
 			"redirect": {

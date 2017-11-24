@@ -60,10 +60,18 @@ document.onload = new function() {
 	locked.volume = 0.2;
 }
 
-function setScene(scene) {
+function setScene(scene, given) {
 	for(var i = 0; i < scenes.length; i++) {
 		if(scenes[i].scene == scene) {
 			currentScene = i;
+		}
+	}
+
+	for(var i = 0; i < given.length; i++) {
+		if(given[i] < 0) {
+			inventory[-given[i]] = false;
+		}else{
+			inventory[given[i]] = true;
 		}
 	}
 
@@ -85,7 +93,7 @@ function setScene(scene) {
 			if(scenes[currentScene].door) {
 				locked.play();
 			}
-			setScene(scenes[currentScene].redirect.scene);
+			setScene(scenes[currentScene].redirect.scene, []);
 			return;
 		}
 	}
@@ -106,18 +114,6 @@ function setScene(scene) {
 		open.play();
 	}
 
-	for(var i = 0; i < scenes[currentScene].options.length; i++) {
-		if(scenes[currentScene].options[i].given != null) {
-			for(var j = 0; j < scenes[currentScene].options[i].given.length; j++) {
-				if(scenes[currentScene].options[i].given[j] < 0) {
-					inventory[-scenes[currentScene].options[i].given[j]] = false;
-				}else if(scenes[currentScene].options[i].given[j] > 0){
-					inventory[scenes[currentScene].options[i].given[j]] = true;
-				}
-			}
-		}
-	}
-
 	for(var i = 0; i < scenes[currentScene].receive.length; i++) {
 		if(scenes[currentScene].receive[i] < 0) {
 			inventory[-scenes[currentScene].receive[i]] = false;
@@ -128,8 +124,6 @@ function setScene(scene) {
 
 	if(scenes[currentScene].image != "") {
 		document.getElementById("view").setAttribute("src", "resources/images/" + scenes[currentScene].image);
-	}else{
-		document.getElementById("view").setAttribute("src", "resources/images/start.png");
 	}
 
 	if(scene <= 1) {
@@ -151,7 +145,7 @@ function setScene(scene) {
 	document.getElementById("options").innerHTML = "";
 
 	for(var i = 0; i < scenes[currentScene].options.length; i++) {
-		document.getElementById("options").innerHTML += "<p><a href=\"javascript:void(0)\" onclick=\"setScene(" + scenes[currentScene].options[i].scene + ")\">" + scenes[currentScene].options[i].text + " </a></p>";
+		document.getElementById("options").innerHTML += "<p><a href=\"javascript:void(0)\" onclick=\"setScene(" + scenes[currentScene].options[i].scene + ", [" + scenes[currentScene].options[i].given +"])\">" + scenes[currentScene].options[i].text + " </a></p>";
 	}
 
 }
@@ -270,7 +264,7 @@ function addScenes() {
 					));
 			}
 			log.innerHTML = "";
-			setScene(0);
+			setScene(0, []);
 		}
 	};
 
