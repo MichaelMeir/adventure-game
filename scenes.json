@@ -237,7 +237,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You walk down the path, as told by the letter you received. \n When you heard of the Clearwater Trial, it never crossed your mind that you may have to go to a dark forest to do your trials. \n \n The forest grows denser by the minute as you walk, and you soon realize the plants are different than the ones near the parking lot. \n The forest is no longer a mere forest, it has become a dark, damp jungle. \n \n As you step into a clearing, matching the description of the letter, with lit candles and lanterns strewn about everywhere, you feel more alone than ever. You’re sure this is where you were meant to meet the guide. \n You turn, contemplating making your way back to the car and going home, but the path is gone. \n \n “Welcome to the Clearwater Trial.” You spin around at the sudden voice. “May I see your acceptance letter?”"
+			"dialogue": "You walk down the path, as told by the letter you received. \nWhen you heard of the Clearwater Trial, it never crossed your mind that you may have to go to a dark forest to do your trials. \n\nThe forest grows denser by the minute as you walk, and you soon realize the plants are different than the ones near the parking lot. \nThe forest is no longer a mere forest, it has become a dark, damp jungle. \n\nAs you step into a clearing, matching the description of the letter, with lit candles and lanterns strewn about everywhere, you feel more alone than ever. You’re sure this is where you were meant to meet the guide. \nYou turn, contemplating making your way back to the car and going home, but the path is gone. \n\n“Welcome to the Clearwater Trial.” You spin around at the sudden voice. “May I see your acceptance letter?”"
 		},
 
 		{
@@ -257,7 +257,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "“I see.” He nods and gestures to the area behind you. “You may leave.” \n You aren’t completely sure what’s going on, but as you turn, you see the path is there once more. \n You turn back to ask the man what’s going on, but he’s gone and all the lights around the clearing have gone out. \n \n You head back to the car, confused and disappointed. \n Guess today wasn’t your lucky day after all. \n \n Missed the chance. \n Game over."
+			"dialogue": "“I see.” He nods and gestures to the area behind you. “You may leave.” \nYou aren’t completely sure what’s going on, but as you turn, you see the path is there once more. \nYou turn back to ask the man what’s going on, but he’s gone and all the lights around the clearing have gone out. \n\nYou head back to the car, confused and disappointed. \nGuess today wasn’t your lucky day after all. \n\nMissed the chance. \nGame over."
 		},
 
 		{
@@ -277,7 +277,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You hand over the letter, watching the man’s smile forming into an almost feral grin. \n “I see.” He looks at you and gives back the letter. “I am Michael. I will be your guide today. Welcome to the Clearwater Trial.” He turns and walks over to a large stone wall. “Are you certain you wish to attempt the trial? Not all who enter will survive.” \n You nod. You have worked hard to get this far, and you do not want to lose your chance now."
+			"dialogue": "You hand over the letter, watching the man’s smile forming into an almost feral grin. \n“I see.” He looks at you and gives back the letter. “I am Michael. I will be your guide today. Welcome to the Clearwater Trial.” He turns and walks over to a large stone wall. “Are you certain you wish to attempt the trial? Not all who enter will survive.” \nYou nod. You have worked hard to get this far, and you do not want to lose your chance now."
 		},
 
 		{
@@ -297,7 +297,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Michael nods, an expression of approval on his face. He touches the stone wall, and intricate markings begin to glow, outlining what you can only describe as doors carved directly into the rock. \n As you watch, the doors open where no door was before, and the man beckons you to follow with a wave of his hand. \n \n As you enter, you find yourself in a small rotunda. Michael stands in the middle, waiting for your attention to return to him. \n “The first round of trials. You will choose one, and should you succeed, you will move on to the next chamber, the next trials. Should you fail, you will return here. Should you fail all three, you will be sent home.” \n He waits for a sign that you heard and understood what he said, before continuing. \n “In this first set of trials, only one is potentially fatal. I will not tell you which door that is.” \n \n He gestures around the room to three doors. “I can give you a small hint as to each door’s trial, should you be uncertain.”"
+			"dialogue": "Michael nods, an expression of approval on his face. He touches the stone wall, and intricate markings begin to glow, outlining what you can only describe as doors carved directly into the rock. \nAs you watch, the doors open where no door was before, and the man beckons you to follow with a wave of his hand. \n\nAs you enter, you find yourself in a small rotunda. Michael stands in the middle, waiting for your attention to return to him. \n“The first round of trials. You will choose one, and should you succeed, you will move on to the next chamber, the next trials. Should you fail, you will return here. Should you fail all three, you will be sent home.” \nHe waits for a sign that you heard and understood what he said, before continuing. \n“In this first set of trials, only one is potentially fatal. I will not tell you which door that is.” \n\nHe gestures around the room to three doors. “I can give you a small hint as to each door’s trial, should you be uncertain.”"
 		},
 
 		{
@@ -327,7 +327,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You look at the three doors. \n To your left is a pristine, white door, akin to the kind you’d see leading to a kitchen. \n To your right is a stone door, lavishly decorated with gold, silks and royal colors, with a large T as its centerpiece. \n In the middle, revealed as Michael steps aside, you see a wooden door with dark blue accents, similar to what you’d see in a library."
+			"dialogue": "You look at the three doors. \nTo your left is a pristine, white door, akin to the kind you’d see leading to a kitchen. \nTo your right is a stone door, lavishly decorated with gold, silks and royal colors, with a large T as its centerpiece. \nIn the middle, revealed as Michael steps aside, you see a wooden door with dark blue accents, similar to what you’d see in a library."
 		},
 
 		{
@@ -422,7 +422,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Michael nods and touches the white door. It glows like the previous door did, and he gestures for you to walk through. \n \n You walk into the room which, indeed, is a kitchen. A young woman, barely an adult, is standing by the counter, mixing various ingredients. \n As you approach, she looks at you and smiles brightly. “Oh, hello. I’m Violet. Are you here for the trial?” You nod, and she brightens further. \n “Wonderful! You’re just in time! I’m making muffins for my sister. She’s in charge of one of the later trials. Maybe you can bring them to her afterwards!” She claps her hands excitedly, and you grab a spare apron, wondering how this is considered a trial at all."
+			"dialogue": "Michael nods and touches the white door. It glows like the previous door did, and he gestures for you to walk through. \n\nYou walk into the room which, indeed, is a kitchen. A young woman, barely an adult, is standing by the counter, mixing various ingredients. \nAs you approach, she looks at you and smiles brightly. “Oh, hello. I’m Violet. Are you here for the trial?” You nod, and she brightens further. \n“Wonderful! You’re just in time! I’m making muffins for my sister. She’s in charge of one of the later trials. Maybe you can bring them to her afterwards!” She claps her hands excitedly, and you grab a spare apron, wondering how this is considered a trial at all."
 		},
 
 		{
@@ -452,7 +452,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "“Alright!” she squeaks. “Let’s start simple! We need to make the dough. The dough’s almost done already. We just need to flavor it.” She puts three items in front of you; vanilla extract, finely chopped almonds, and finely chopped dark, bittersweet chocolate. \n “My sister and I are like night and day,” she says cheerfully. “And she’s definitely the basic one. I’ll go get the fillings!” With that, she leaves you to figure out the correct flavoring on your own."
+			"dialogue": "“Alright!” she squeaks. “Let’s start simple! We need to make the dough. The dough’s almost done already. We just need to flavor it.” She puts three items in front of you; vanilla extract, finely chopped almonds, and finely chopped dark, bittersweet chocolate. \n“My sister and I are like night and day,” she says cheerfully. “And she’s definitely the basic one. I’ll go get the fillings!” With that, she leaves you to figure out the correct flavoring on your own."
 		},
 
 		{
@@ -482,7 +482,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You mix in the flavoring. Violet returns shortly after, deems it fitting, and pours the dough into the muffin forms. You sit in silence for a little moment before Violet drags you back to the counter. \n “We need to get the filling ready. Just put the one you choose into the bag!” She gives you a plastic bag and a spoon, then sets three bowls before you; strawberry jam, pastry cream and salty caramel. \n “She always did have a sweeter tooth than me,” Violet says with a giggle. “I’m surprised she doesn’t match the filling to her fluffy curls!” With that, she once more runs off and searches the kitchen."
+			"dialogue": "You mix in the flavoring. Violet returns shortly after, deems it fitting, and pours the dough into the muffin forms. You sit in silence for a little moment before Violet drags you back to the counter. \n“We need to get the filling ready. Just put the one you choose into the bag!” She gives you a plastic bag and a spoon, then sets three bowls before you; strawberry jam, pastry cream and salty caramel. \n“She always did have a sweeter tooth than me,” Violet says with a giggle. “I’m surprised she doesn’t match the filling to her fluffy curls!” With that, she once more runs off and searches the kitchen."
 		},
 
 		{
@@ -512,7 +512,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You use the spoon to scrape and pour the filling into the plastic bag. When Violet returns with the muffins, she happily accepts the bag, cuts off a corner, and squeezes the filling into the muffins. \n “Okay, before they cool off completely, we need to get the toppings on them!” She gestures to three bowls she’s set out on the table; a bowl full of various kinds of nuts, a bowl full of various kinds of berries, and a bowl full of raw sugar. \n “My sister and I both like to outweigh our previous choices at this stage. Sweetness is good on a salty muffin, and a sharp, tangy flavor tends to fit the basic, sweet muffin my sister likes. Makes it less boring.” She doesn’t run off again, but she doesn’t offer any more words of wisdom either, just looks at you and waits to see what you do."
+			"dialogue": "You use the spoon to scrape and pour the filling into the plastic bag. When Violet returns with the muffins, she happily accepts the bag, cuts off a corner, and squeezes the filling into the muffins. \n“Okay, before they cool off completely, we need to get the toppings on them!” She gestures to three bowls she’s set out on the table; a bowl full of various kinds of nuts, a bowl full of various kinds of berries, and a bowl full of raw sugar. \n“My sister and I both like to outweigh our previous choices at this stage. Sweetness is good on a salty muffin, and a sharp, tangy flavor tends to fit the basic, sweet muffin my sister likes. Makes it less boring.” She doesn’t run off again, but she doesn’t offer any more words of wisdom either, just looks at you and waits to see what you do."
 		},
 
 		{
