@@ -1,33 +1,7 @@
-/*
-
-	{
-		"id": 0,
-		"sound": false,
-		"image": "",
-		"needed": [],
-		"receiving": [],
-		"redirect": {
-			"id" 0,
-			"error": ""
-		},
-		"options": [
-			{
-				"id": 0,
-				"text": ""
-			},
-			{
-				"id": 0,
-				"text": ""
-			}
-		],
-		"dialogue": ""
-	}
-
-*/
 {
 	"scenes": [
 		{
-			"id": "-1",
+			"id": -1,
 			"sound": true,
 			"image": "start.png",
 			"needed": [],
@@ -39,14 +13,15 @@
 			"options": [
 				{
 					"id": 0,
-					"text": "Home"
+					"text": "Home",
+					"given": []
 				}
 			],
-			"dialogue": "Your Statistics:\n Time: {TIME}\n Scenes Visited: {VISITED}\n"
+			"dialogue": "Your Statistics:\nTime: {TIME}\nScenes Visited: {VISITED}\n"
 		},
 
 		{
-			"id": "0",
+			"id": 0,
 			"sound": true,
 			"image": "start.png",
 			"needed": [],
@@ -57,38 +32,31 @@
 			},
 			"options": [
 				{
-					"id": 1,
-					"text": "START!"
-				}
-			],
-			"dialogue": "**************************************************\nWelcome!\nThis game currently only has a test dialogue, an\nactual story will be added later!"
-		},
-
-		{
-			"id": "1",
-			"sound": false,
-			"image": "",
-			"needed": [],
-			"receiving": [1],
-			"redirect": {
-				"id": null,
-				"error": null
-			},
-			"options": [
-				{
-					"id": 2,
-					"text": "QUEST 1"
+					"id": 8,
+					"text": "Start game. ",
+					"given": []
 				},
 				{
 					"id": 3,
-					"text": "QUEST 2"
+					"text": "Tutorial, please. ",
+					"given": []
+				},
+				{
+					"id": 2,
+					"text": "Information. ",
+					"given": []
+				},
+				{
+					"id": 1,
+					"text": "Credits.  ",
+					"given": []
 				}
 			],
-			"dialogue": "Choose a quest!"
+			"dialogue": "Welcome! \nThis is the Clearwater Trial. \nHow may I help you?!"
 		},
 
 		{
-			"id": "2",
+			"id": 1,
 			"sound": false,
 			"image": "",
 			"needed": [],
@@ -99,20 +67,62 @@
 			},
 			"options": [
 				{
-					"id": 4,
-					"text": "Search the bushes"
-				},
-				{
-					"id": 6,
-					"text": "Continue"
+					"id": 0,
+					"text": "Back to menu. ",
+					"given": []
 				}
 			],
-			"dialogue": "Quest 1"
+			"dialogue": "Thank you for showing interest in the people who worked on creating this little game. \n\nStory creation & writing. \nKatharina. \n\nLiterally everything else. \nMichael."
 		},
 
 		{
-			"id": "3",
+			"id": 2,
 			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 0,
+					"text": "Back to menu. ",
+					"given": []
+				}
+			],
+			"dialogue": "About the game: \nThis is a text-based adventure game where you will face puzzles of varying types and difficulties. \nThey are set up in three groups of three, meaning a total of nine puzzles, where solving one in a group will unlock the next area, and should you fail the puzzle, you have two other puzzles to attempt instead. \nNone are too hard, though some may seem challenging. \nWhether they are a piece of cake or turn your brain to mush, we hope you enjoy them. \n\nAbout the creator: \nMichael is learning coding and has to make a text-based game in java for class. However, he doesn’t think of himself as a good story creator, and asks a friend for help. \nAs they share the same Discord group, they both agree that making a silly game, based on their silly corner of internet madness, and full of references that no one outside the Discord will get, is a good idea. And so, the work began. \n\nIf you’re reading this, the coding and story were finished and combined into a game, and we both hope you’ll enjoy the end result."
+		},
+
+		{
+			"id": 3,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 0,
+					"text": "Yes, thank you, I’ll return to the menu. ",
+					"given": []
+				},
+				{
+					"id": 4,
+					"text": "No, sorry, can you give an example? ",
+					"given": []
+				}
+			],
+			"dialogue": "Ah, new to text-based games, perhaps? \nAlright, here’s a rundown. \n\nThis text will be a bit of story, telling you what is going on, what you can do and what you see around you, and the buttons underneath will give you choices. \nSome may give or take items you can use or have used, some may give hidden items you aren’t told about, which may help or hinder later on, by locking or unlocking new dialogue. \n\nDid this help?"
+		},
+
+		{
+			"id": 4,
+			"sound": true,
 			"image": "",
 			"needed": [],
 			"receiving": [],
@@ -123,90 +133,446 @@
 			"options": [
 				{
 					"id": 5,
-					"text": "Search the bushes"
+					"text": "Read note. ",
+					"given": []
+				},
+				{
+					"id": 6,
+					"text": "Eat the cinnamon cookie. ",
+					"given": []
 				},
 				{
 					"id": 7,
-					"text": "Continue"
+					"text": "Eat the chocolate cookie. ",
+					"given": []
 				}
 			],
-			"dialogue": "Quest 2"
+			"dialogue": "Of course! \nText-based games aren’t for everyone, so here’s a small example situation. \nHopefully this will help you understand better. \n\nYou’re standing in front of a table. On the table are two plates and a note. \nThe two plates hold one cookie each; one is cinnamon, and the other is chocolate."
 		},
 
 		{
-			"id": "4",
+			"id": 5,
 			"sound": true,
 			"image": "",
-			"needed": [1],
-			"receiving": [-1, 3],
-			"redirect": {
-				"id": 2,
-				"error": "You didnt find anything in the bushes"
-			},
-			"options": [
-				{
-					"id": 2,
-					"text": "Return"
-				}
-			],
-			"dialogue": "You found a shoe!"
-		},
-
-		{
-			"id": "5",
-			"sound": true,
-			"image": "",
-			"needed": [1],
-			"receiving": [-1, 3],
-			"redirect": {
-				"id": 3,
-				"error": "You didnt find anything in the bushes"
-			},
-			"options": [
-				{
-					"id": 3,
-					"text": "Return"
-				}
-			],
-			"dialogue": "You found a glove!"
-		},
-
-		{
-			"id": "6",
-			"sound": false,
-			"image": "",
-			"needed": [3],
+			"needed": [],
 			"receiving": [],
 			"redirect": {
-				"id": 2,
-				"error": "You didnt continue"
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 6,
+					"text": "Eat the cinnamon cookie. ",
+					"given": []
+				},
+				{
+					"id": 7,
+					"text": "Eat the chocolate cookie. ",
+					"given": []
+				}
+			],
+			"dialogue": "The note reads: \n“The cinnamon cookie is poisoned.”"
+		},
+
+		{
+			"id": 6,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": 0,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 0,
+					"text": "Back to menu. ",
+					"given": []
+				}
+			],
+			"dialogue": "If you read the note, you would know this cookie was poisoned. \nThis was just an example, however, so nothing happens. \nIn the actual game, you may have met a game over and had to restart. \n\nHope this helped. \nGood luck and enjoy the game!"
+		},
+
+		{
+			"id": 7,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 0,
+					"text": "Back to menu. ",
+					"given": []
+				}
+			],
+			"dialogue": "If you read the note, you would know the other cookie was poisoned and this one was safe. \nThis was just an example, however, so nothing happens. \nIn the actual game, you may have met a game over and had to restart if you chose the other cookie. \n\nHope this helped. \nGood luck and enjoy the game!"
+		},
+
+		{
+			"id": 8,
+			"sound": true,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 10,
+					"text": "Hand over the letter. ",
+					"given": []
+				},
+				{
+					"id": 9,
+					"text": "Refuse. ",
+					"given": []
+				}
+			],
+			"dialogue": "You walk down the path, as told by the letter you received. \n When you heard of the Clearwater Trial, it never crossed your mind that you may have to go to a dark forest to do your trials. \n \n The forest grows denser by the minute as you walk, and you soon realize the plants are different than the ones near the parking lot. \n The forest is no longer a mere forest, it has become a dark, damp jungle. \n \n As you step into a clearing, matching the description of the letter, with lit candles and lanterns strewn about everywhere, you feel more alone than ever. You’re sure this is where you were meant to meet the guide. \n You turn, contemplating making your way back to the car and going home, but the path is gone. \n \n “Welcome to the Clearwater Trial.” You spin around at the sudden voice. “May I see your acceptance letter?”"
+		},
+
+		{
+			"id": 9,
+			"sound": true,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
 			},
 			"options": [
 				{
 					"id": -1,
-					"text": "RESTART"
+					"text": "Return to menu.",
+					"given": []
 				}
 			],
-			"dialogue": "You continued!"
+			"dialogue": "“I see.” He nods and gestures to the area behind you. “You may leave.” \n You aren’t completely sure what’s going on, but as you turn, you see the path is there once more. \n You turn back to ask the man what’s going on, but he’s gone and all the lights around the clearing have gone out. \n \n You head back to the car, confused and disappointed. \n Guess today wasn’t your lucky day after all. \n \n Missed the chance. \n Game over."
 		},
 
 		{
-			"id": "7",
+			"id": 10,
 			"sound": false,
 			"image": "",
-			"needed": [3],
+			"needed": [],
 			"receiving": [],
 			"redirect": {
-				"id": 3,
-				"error": "You didnt continue"
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 11,
+					"text": "Continue.",
+					"given": []
+				}
+			],
+			"dialogue": "You hand over the letter, watching the man’s smile forming into an almost feral grin. \n “I see.” He looks at you and gives back the letter. “I am Michael. I will be your guide today. Welcome to the Clearwater Trial.” He turns and walks over to a large stone wall. “Are you certain you wish to attempt the trial? Not all who enter will survive.” \n You nod. You have worked hard to get this far, and you do not want to lose your chance now."
+		},
+
+		{
+			"id": 11,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 12,
+					"text": "Look at the doors. ",
+					"given": []
+				}
+			],
+			"dialogue": "Michael nods, an expression of approval on his face. He touches the stone wall, and intricate markings begin to glow, outlining what you can only describe as doors carved directly into the rock. \n As you watch, the doors open where no door was before, and the man beckons you to follow with a wave of his hand. \n \n As you enter, you find yourself in a small rotunda. Michael stands in the middle, waiting for your attention to return to him. \n “The first round of trials. You will choose one, and should you succeed, you will move on to the next chamber, the next trials. Should you fail, you will return here. Should you fail all three, you will be sent home.” \n He waits for a sign that you heard and understood what he said, before continuing. \n “In this first set of trials, only one is potentially fatal. I will not tell you which door that is.” \n \n He gestures around the room to three doors. “I can give you a small hint as to each door’s trial, should you be uncertain.”"
+		},
+
+		{
+			"id": 12,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 13,
+					"text": "Ask about the white door. ",
+					"given": []
+				},
+				{
+					"id": 14,
+					"text": "Ask about the stone door. ",
+					"given": []
+				},
+				{
+					"id": 15,
+					"text": "Ask about the wooden door. ",
+					"given": []
+				}
+			],
+			"dialogue": "You look at the three doors. \n To your left is a pristine, white door, akin to the kind you’d see leading to a kitchen. \n To your right is a stone door, lavishly decorated with gold, silks and royal colors, with a large T as its centerpiece. \n In the middle, revealed as Michael steps aside, you see a wooden door with dark blue accents, similar to what you’d see in a library."
+		},
+
+		{
+			"id": 13,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 16,
+					"text": "Choose the white door.  ",
+					"given": []
+				},
+				{
+					"id": 12,
+					"text": "Look at the doors again. ",
+					"given": []
+				}
+			],
+			"dialogue": "Michael looks at the pristine, white door. “Ah, miss Violet’s trial. A combination challenge. Quite easy and straight-forward, so long as you know how to listen.””"
+		},
+
+		{
+			"id": 14,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
 			},
 			"options": [
 				{
 					"id": -1,
-					"text": "RESTART"
+					"text": "Choose the stone door. ",
+					"given": []
+				},
+				{
+					"id": 12,
+					"text": "Look at the doors again. ",
+					"given": []
 				}
 			],
-			"dialogue": "You continued!"
+			"dialogue": "Michael chuckles as you ask about the stone door. “Tom is crazy with a capital c. Never before met a person narcissistic enough to create clones of themselves, yet that’s what you will find beyond the door. His riddle isn’t too much of a challenge, but many second guess themselves or overthink it and miss the obvious details.”"
+		},
+
+		{
+			"id": 15,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": -1,
+					"text": "Choose the wooden door. ",
+					"given": []
+				},
+				{
+					"id": 12,
+					"text": "Look at the doors again. ",
+					"given": []
+				}
+			],
+			"dialogue": "Michael looks at the wooden door. “Barely a challenge at all. Miss Katharina wishes more to provoke your mind than test it. She has quite a neutral view of the world, and often wishes to broaden the views and thoughts of others. I doubt you could fail her trial, even if you tried.”"
+		},
+
+		{
+			"id": 16,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 17,
+					"text": "Start the trial. ",
+					"given": []
+				}
+			],
+			"dialogue": "Michael nods and touches the white door. It glows like the previous door did, and he gestures for you to walk through. \n \n You walk into the room which, indeed, is a kitchen. A young woman, barely an adult, is standing by the counter, mixing various ingredients. \n As you approach, she looks at you and smiles brightly. “Oh, hello. I’m Violet. Are you here for the trial?” You nod, and she brightens further. \n “Wonderful! You’re just in time! I’m making muffins for my sister. She’s in charge of one of the later trials. Maybe you can bring them to her afterwards!” She claps her hands excitedly, and you grab a spare apron, wondering how this is considered a trial at all."
+		},
+
+		{
+			"id": 17,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 18,
+					"text": "Vanilla dough. ",
+					"given": [1]
+				},
+				{
+					"id": 18,
+					"text": "Almond dough. ",
+					"given": []
+				},
+				{
+					"id": 18,
+					"text": "Chocolate dough. ",
+					"given": []
+				}
+			],
+			"dialogue": "“Alright!” she squeaks. “Let’s start simple! We need to make the dough. The dough’s almost done already. We just need to flavor it.” She puts three items in front of you; vanilla extract, finely chopped almonds, and finely chopped dark, bittersweet chocolate. \n “My sister and I are like night and day,” she says cheerfully. “And she’s definitely the basic one. I’ll go get the fillings!” With that, she leaves you to figure out the correct flavoring on your own."
+		},
+
+		{
+			"id": 18,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 19,
+					"text": "Strawberry jam filling. ",
+					"given": [2]
+				},
+				{
+					"id": 19,
+					"text": "Pastry cream filling. ",
+					"given": []
+				},
+				{
+					"id": 19,
+					"text": "Salty caramel filling.  ",
+					"given": []
+				}
+			],
+			"dialogue": "You mix in the flavoring. Violet returns shortly after, deems it fitting, and pours the dough into the muffin forms. You sit in silence for a little moment before Violet drags you back to the counter. \n “We need to get the filling ready. Just put the one you choose into the bag!” She gives you a plastic bag and a spoon, then sets three bowls before you; strawberry jam, pastry cream and salty caramel. \n “She always did have a sweeter tooth than me,” Violet says with a giggle. “I’m surprised she doesn’t match the filling to her fluffy curls!” With that, she once more runs off and searches the kitchen."
+		},
+
+		{
+			"id": 19,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 20,
+					"text": "Top with nuts. ",
+					"given": []
+				},
+				{
+					"id": 20,
+					"text": "Top with berries. ",
+					"given": [3]
+				},
+				{
+					"id": 20,
+					"text": "Top with raw sugar. ",
+					"given": []
+				}
+			],
+			"dialogue": "You use the spoon to scrape and pour the filling into the plastic bag. When Violet returns with the muffins, she happily accepts the bag, cuts off a corner, and squeezes the filling into the muffins. \n “Okay, before they cool off completely, we need to get the toppings on them!” She gestures to three bowls she’s set out on the table; a bowl full of various kinds of nuts, a bowl full of various kinds of berries, and a bowl full of raw sugar. \n “My sister and I both like to outweigh our previous choices at this stage. Sweetness is good on a salty muffin, and a sharp, tangy flavor tends to fit the basic, sweet muffin my sister likes. Makes it less boring.” She doesn’t run off again, but she doesn’t offer any more words of wisdom either, just looks at you and waits to see what you do."
+		},
+
+		{
+			"id": 20,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 22,
+					"text": "Wait with bated breath. ",
+					"given": []
+				}
+			],
+			"dialogue": "Violet inspects the muffins, giving a small hum of thought. “Very good. They look amazing. But do they taste amazing? Do you think you made the perfect muffins for my sister?” She offers you a muffin and takes one for herself."
+		},
+
+		{
+			"id": 21,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": -1,
+					"text": "Move on to the next trial. ",
+					"given": []
+				}
+			],
+			"dialogue": "You watch nervously, and although she seems to enjoy the muffin, you get a feeling you didn’t make the right muffin. “Sorry,” she suddenly says. “It’s good and you pass the trial, but they won’t earn you any favor if you meet my sister later. You can still have some for the trip though.” She gives you a small basket of muffins. “It can be hungry work, sometimes.” She gestures to a door on the opposite wall from where you entered. “Good luck.”"
+		},
+
+		{
+			"id": 22,
+			"sound": false,
+			"image": "",
+			"needed": [1, 2, 3],
+			"receiving": [-1, -2, -3, 4],
+			"redirect": {
+				"id": 21,
+				"error": ""
+			},
+			"options": [
+				{
+					"id": -1,
+					"text": "Move on to the next trial. ",
+					"given": []
+				}
+			],
+			"dialogue": "Her nose wrinkles, and you’re sure you did something wrong. “Yup,” she says. “That’s her muffin alright.” She puts the muffin down without taking another bite and packs up a couple of them. “If you give these to her, she’s probably going to make her trial easier on you.” She gives you a basket of Lucky Muffins and gestures to a door on the opposite wall from where you entered. “Good luck.”"
 		}
 	]
 }

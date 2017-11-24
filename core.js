@@ -14,9 +14,10 @@ class Scene {
 
 class Redirect {
 
-	constructor(scene, text) {
+	constructor(scene, text, given) {
 		this.scene = scene;
 		this.text = text;
+		this.given = given;
 	}
 }
 
@@ -103,6 +104,18 @@ function setScene(scene) {
 
 	if(scenes[currentScene].door) {
 		open.play();
+	}
+
+	for(var i = 0; i < scenes[currentScene].options.length; i++) {
+		if(scenes[currentScene].options[i].given != null) {
+			for(var j = 0; j < scenes[currentScene].options[i].given.length; j++) {
+				if(scenes[currentScene].options[i].given[j] < 0) {
+					inventory[-scenes[currentScene].options[i].given[j]] = false;
+				}else if(scenes[currentScene].options[i].given[j] > 0){
+					inventory[scenes[currentScene].options[i].given[j]] = true;
+				}
+			}
+		}
 	}
 
 	for(var i = 0; i < scenes[currentScene].receive.length; i++) {
@@ -239,7 +252,8 @@ function addScenes() {
 				for(var j = 0; j < Object.entries(json["scenes"][i]["options"]).length; j++) {
 					optionsArray.push(new Redirect(
 						json["scenes"][i]["options"][j]["id"],
-						json["scenes"][i]["options"][j]["text"]));
+						json["scenes"][i]["options"][j]["text"],
+						Array.from(json["scenes"][i]["options"][j]["given"])));
 				}
 
 				scenes.push(new Scene(
@@ -250,7 +264,7 @@ function addScenes() {
 					Array.from(json["scenes"][i]["receiving"]),
 					new Redirect(
 						json["scenes"][i]["redirect"]["id"],
-						json["scenes"][i]["redirect"]["error"]),
+						json["scenes"][i]["redirect"]["error"], null),
 					optionsArray,
 					json["scenes"][i]["dialogue"]
 					));
@@ -264,3 +278,32 @@ function addScenes() {
 	httpRequest.send();
 
 }
+
+/*
+
+	{
+			"id": 0,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 0,
+					"text": "",
+					"given": []
+				},
+				{
+					"id": 0,
+					"text": "",
+					"given": []
+				}
+			],
+			"dialogue": ""
+		}
+
+*/
