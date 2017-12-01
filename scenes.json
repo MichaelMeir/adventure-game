@@ -123,7 +123,7 @@
 		{
 			"id": 4,
 			"sound": true,
-			"image": "",
+			"image": "tutorial.png",
 			"needed": [],
 			"receiving": [],
 			"redirect": {
@@ -367,7 +367,7 @@
 			},
 			"options": [
 				{
-					"id": -1,
+					"id": 36,
 					"text": "Choose the stone door. ",
 					"given": []
 				},
@@ -392,7 +392,7 @@
 			},
 			"options": [
 				{
-					"id": -1,
+					"id": 23,
 					"text": "Choose the wooden door. ",
 					"given": []
 				},
@@ -573,6 +573,404 @@
 				}
 			],
 			"dialogue": "Her nose wrinkles, and you’re sure you did something wrong. “Yup,” she says. “That’s her muffin alright.” She puts the muffin down without taking another bite and packs up a couple of them. “If you give these to her, she’s probably going to make her trial easier on you.” She gives you a basket of Lucky Muffins and gestures to a door on the opposite wall from where you entered. “Good luck.”"
+		},
+
+		{
+			"id": 23,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 24,
+					"text": "Start the trial. ",
+					"given": []
+				}
+			],
+			"dialogue": "Michael nods and touches the wooden door. It glows like the previous door did, and he gestures for you to walk through. \n \n Upon entry, you notice the room indeed seems to be a library, with a gorgeous mix of modern and old-fashioned furnishing, with a matching door straight across from where you just entered. You stop and listen when you hear a soft, distant hum. \n You follow the hum to a more secluded corner of the large library, and you see a young woman swinging slowly in a hammock. The hammock’s full of blankets, seemingly creating a soft nest for her to rest in, and she is drawing while humming a soft melody. \n You feel like you’ve heard the melody before, and though you cannot place where it’s from, it fills you with relaxation and happiness. \n \n “Welcome to my den.” You’re shocked back to reality, realizing that the hum has stopped while you were lost in your nostalgia. “I’m Katharina, pleased to meet you.” \n You murmur a small greeting, slightly embarrassed by your lack of focus. “I’m sure Michael made my trial sound pointless and easy when he explained it to you, but I would like to warn you right away.” \n She finally looks up from her drawing, catching your gaze immediately. “It may sound easy, but if you aren’t completely stuck in your ways, the thoughts may cling to you for a long time to come.” \n She grins, seeming more like a feral predator than a fellow human. “Let’s get started, shall we?”"
+		},
+
+		{
+			"id": 24,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 27,
+					"text": "The apple and the rock, titled “acceptance”. ",
+					"given": []
+				},
+				{
+					"id": 28,
+					"text": "The beautiful pearl, titled “perfection”. ",
+					"given": []
+				},
+				{
+					"id": 29,
+					"text": "The chicken with a duckling, titled “true family”. ",
+					"given": []
+				},
+				{
+					"id": 25,
+					"text": "How is this even a trial? ",
+					"given": []
+				}
+			],
+			"dialogue": "Katharina puts down her drawing tools, making the hammock swing slightly more as she sits up fully. “The other trial makers will test your skills, your wits, your basic intellect and knowledge that may prove useful later in life.” \n You watch as she gets out of the hammock and stretches, flinching as you hear her bones crack and pop. “I, however, do not want to test skills you can easily learn with enough time and dedication. I want to know if you are the right kind of person; willing to listen and learn in the first place.” \n She moves over to a rotating whiteboard, rotating it and revealing three images with titles under them. “So, what would you like to talk about?”"
+		},
+
+		{
+			"id": 25,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 27,
+					"text": "Choose the apple and the rock, titled “acceptance”. ",
+					"given": []
+				},
+				{
+					"id": 28,
+					"text": "Choose the beautiful pearl, titled “perfection”. ",
+					"given": []
+				},
+				{
+					"id": 29,
+					"text": "Choose the chicken with a duckling, titled “true family”. ",
+					"given": []
+				},
+				{
+					"id": 30,
+					"text": "Can we talk about the multi-sided stories instead? ",
+					"given": []
+				},
+				{
+					"id": 26,
+					"text": "I refuse! This is pointless! ",
+					"given": []
+				}
+			],
+			"dialogue": "“We are all different, perfect in our own way. But sometimes we get taught there’s only one side to the story we’re told. This, however, is not true.” She smiles softly at you. “This is why I wish to test for open-mindedness, so I know who I can rely on to help rather than hinder, should I ever need a secondary opinion.” You let your eyes linger on the three images once more."
+		},
+
+		{
+			"id": 26,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 57,
+					"text": "Go to the door and move on to the next trial. ",
+					"given": [5]
+				}
+			],
+			"dialogue": "She sighs and gestures back to the area you came from. “I’m sorry you think so. But I will not judge you just because our opinions differ in such a way. The other door will let you through.” \n She gets back into the hammock and resumes her drawing. She seems slightly upset, but you can’t think of anything to say and just turn and leave before you upset her further."
+		},
+
+		{
+			"id": 27,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 31,
+					"text": "Sit with her.",
+					"given": [6]
+				}
+			],
+			"dialogue": "You point to the picture of the apple and the rock. “Ah, acceptance. A very good choice, and a very important topic to understand.” She smiles, looking at you with approval. \n \n “Please, sit with me.” She sits down by a small table in a soft looking chair, gesturing for you to sit in the other."
+		},
+
+		{
+			"id": 28,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 31,
+					"text": "Sit with her.",
+					"given": [7]
+				}
+			],
+			"dialogue": "You point to the picture of the apple and the rock. “Ah, perfection. A very good choice, and a very important topic to understand.” She smiles, looking at you with approval. \n \n “Please, sit with me.” She sits down by a small table in a soft looking chair, gesturing for you to sit in the other."
+		},
+
+		{
+			"id": 29,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 31,
+					"text": "Sit with her. ",
+					"given": [8]
+				}
+			],
+			"dialogue": "You point to the picture of the apple and the rock. “Ah, true family. A very good choice, and a very important topic to understand.” She smiles, looking at you with approval. \n \n “Please, sit with me.” She sits down by a small table in a soft looking chair, gesturing for you to sit in the other."
+		},
+
+		{
+			"id": 30,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 0,
+					"text": "Sit with her. ",
+					"given": [9]
+				}
+			],
+			"dialogue": "She seems surprised by the request, but her surprise is quickly replaced by joy. “Oh, it’s been so long since someone chose based on what I say, rather than what I present them with. Please, sit with me.” She sits down by a small table in a soft looking chair, gesturing for you to sit in the other."
+		},
+
+		{
+			"id": 31,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 32,
+					"text": "Grab a drink and a snack and ask her to begin.",
+					"given": []
+				}
+			],
+			"dialogue": "Once you sit, she opens a small hatch in the bookcase, which was painted so well that you thought it was another shelf with books. “Help yourself,” she says as she pours herself a cup of tea. \n You move to get a drink from the small room as well, and you’re surprised by the amount of choice you have. Hot chocolate, coffee, tea, fresh juices, water, sodas, cocoa, milk, even a large assortment of fruits, cookies, biscuits and cakes. Clearly she wants you to be comfortable during the chat."
+		},
+
+		{
+			"id": 32,
+			"sound": false,
+			"image": "",
+			"needed": [6],
+			"receiving": [-6],
+			"redirect": {
+				"id": 33,
+				"error": ""
+			},
+			"options": [
+				{
+					"id": 0,
+					"text": "Go back to the door and move on to the next trial. ",
+					"given": [10]
+				}
+			],
+			"dialogue": "“So, acceptance..” She takes a sip of tea and smiles. “Acceptance can be many things, but today we will talk about accepting others. The flaws and quirks, the good and the bad, the prejudice that creates impassable barriers between you and those that could be your best friends.” \n She looks at you, making sure you’re listening. “The picture shows it well. An apple and a rock. The apple is beautiful, and if you’re starving it may even save your life. But you cannot tell from looking at it if it is rotten or has worms. Likewise, the rock may have no uses to you, but once cracked open, it may turn out to be a beautiful geode, full of shimmering crystals. If you knew the apple was full of worms and the rock a geode, would you still pick the apple?” \n She puts down her teacup. “You cannot know what is on the inside. Though some rocks are just rocks, and some apples are delicious, you cannot know this in advance. That is why acceptance is important. It lets us meet strangers and potentially make new friends, friends who will be with us for many years to come.” \n With a smile, she gestures down the path you came from. “Think about it. The door is open for you now.” She gives you a Special Gemstone and goes back to her hammock, once more humming softly to herself."
+		},
+
+		{
+			"id": 33,
+			"sound": false,
+			"image": "",
+			"needed": [7],
+			"receiving": [-7],
+			"redirect": {
+				"id": 34,
+				"error": ""
+			},
+			"options": [
+				{
+					"id": 58,
+					"text": "Go back to the door and move on to the next trial. ",
+					"given": [10]
+				}
+			],
+			"dialogue": "“So, perfection..” She takes a sip of tea and smiles. “If I asked you what perfection was, I’m sure you’d be able to tell me about several things. Special items, good memories, family members, friends, the person you love.. But true perfection does not actually exist.” \n She looks at you, making sure you’re listening. “The things you call perfect may be useless to some other people. True perfection, something that everyone will agree is perfect, is impossible, as someone is always likely to disagree. Even in world-wide competitions for special titles of beauty or perfection, there will always be someone who disagrees.” \n She puts down her teacup. “This is why it’s important to accept that we’re all different, that we will always find different things perfect. Our opinions are part of who we are, and so long as no one tries to force you to share theirs, we should simply accept that we like different things. After all, our flaws are what make us perfect.” \n With a smile, she gestures down the path you came from. “Think about it. The door is open for you now.” She gives you a Special Gemstone and goes back to her hammock, once more humming softly to herself."
+		},
+
+		{
+			"id": 34,
+			"sound": false,
+			"image": "",
+			"needed": [8],
+			"receiving": [-8],
+			"redirect": {
+				"id": 35,
+				"error": ""
+			},
+			"options": [
+				{
+					"id": 58,
+					"text": "Go back to the door and move on to the next trial. ",
+					"given": [10]
+				}
+			],
+			"dialogue": "“So, true family..” She takes a sip of tea and smiles. “Some would say that family is who you grew up with, while some others would say only blood can make you family. Neither of these are true on their own, however.” \n She looks at you, making sure you’re listening. “If you grew up abused, would you love your family as a family, just because of the blood connecting you? And just because you grew up with a family, would you call them your family, even if you did not want to be with them, but had no choice?” \n She puts down her teacup. “Family can be many things, but first of all it is those you love. You may not share blood, you may live far apart, you may barely know each other, but if your heart says you’re family, then clearly you have a connection. A brother is a brother, a sister is a sister, and it does not matter where they came from. Family is in your heart and soul, not just in flesh and blood.” \n With a smile, she gestures down the path you came from. “Think about it. The door is open for you now.” She gives you a Special Gemstone and goes back to her hammock, once more humming softly to herself."
+		},
+
+		{
+			"id": 35,
+			"sound": false,
+			"image": "",
+			"needed": [9],
+			"receiving": [-9],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 58,
+					"text": "Go back to the door and move on to the next trial. ",
+					"given": [10]
+				}
+			],
+			"dialogue": "“So, multi-sided stories..” She takes a sip of tea and smiles. “It isn’t always a pleasant topic. Many get upset when I bring it up. After all, if we grow up learning that someone was bad, how can someone else possibly claim that they were good?” \n She looks at you, making sure you’re listening. “But we must remember that the winner writes the history books. If two kingdoms are at war because both want the farms to keep their people alive, does it really matter which side you’re on? Both sides want the same, and both sides will attempt to take the other’s lands for their own.” \n She puts down her teacup. “Some people have bad personalities and will act harsher than the opposing force, but that won’t change that their goals may actually be the same. You only think the other side is bad, because you’re not on that side. If you were, then your current side would be the bad one. We really should not judge those that we could have been. After all; we don’t choose where we’re born or raised.” \n With a smile, she gestures down the path you came from. “Think about it. The door is open for you now.” She gives you a Special Gemstone and goes back to her hammock, once more humming softly to herself."
+		},
+
+		{
+			"id": 0,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 37,
+					"text": "Start the trial. ",
+					"given": []
+				}
+			],
+			"dialogue": "Michael nods and touches the stone door. It glows like the previous door did, and he gestures for you to walk through. \n \n Inside, you find what looks like a tomb. A very well decorated one, with gold and gemstones in the walls, silk curtains draped along the sides of the room, beautiful golden designs on the stone pillars, the floor made with polished marble, and the furniture made with exotic materials you cannot even name. \n “Welcome.” You look away from the decor, seeing three men laying back in a mountain of pillows. Despite the warning, you rub your eyes and blink rapidly, feeling uncertain whether your eyes are playing a trick on your or not. \n The three men are identical, and they are all dressed in exotic clothes that match the theme of the room."
+		},
+
+		{
+			"id": 37,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 38,
+					"text": "Let’s get started then. ",
+					"given": []
+				}
+			],
+			"dialogue": "They all get up as soon as you say you’re here for the trial, and they walk over to a wall with three doors. They sit down on a lavish chair each, placed in front of each of the three doors. \n “One door leads to victory, the other two to your doom, and you may only ask one of us which door leads you true,” says the first. \n “However, not all of us will tell you the truth, for though we look the same, our answers are not. One is Truth who always speaks truth, one is Lie who always lies, and one is Wisdom who may answer either way. You must figure out which of us to ask to get the true path,” says the second. \n “You may ask us all one question each, and from the hints you gain, you must then choose who to ask about the door,” says the third. \n They all grin, and you can’t help feeling like you made a terrible choice. Together, they all call out. “Let the trial begin!”"
+		},
+
+		{
+			"id": 38,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 39,
+					"text": "Ask for a hint. ",
+					"given": []
+				},
+				{
+					"id": 47,
+					"text": "Ask about the true door. ",
+					"given": []
+				},
+				{
+					"id": 52,
+					"text": "Choose a door. ",
+					"given": ""
+				}
+			],
+			"dialogue": "You look at the three men, contemplating what to do."
+		},
+
+		{
+			"id": 39,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 40,
+					"text": "First man. ",
+					"given": []
+				},
+				{
+					"id": 47,
+					"text": "Ask about the true door. ",
+					"given": []
+				},
+				{
+					"id": 52,
+					"text": "",
+					"given": []
+				}
+			],
+			"dialogue": "Who do you want to ask?"
 		}
 	]
 }
+
+//51 needs item 14 else to 47
+//43 needs item 11/12/13 else to 40/41/42
