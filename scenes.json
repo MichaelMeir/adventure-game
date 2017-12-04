@@ -547,7 +547,7 @@
 			},
 			"options": [
 				{
-					"id": -1,
+					"id": 55,
 					"text": "Move on to the next trial. ",
 					"given": []
 				}
@@ -567,7 +567,7 @@
 			},
 			"options": [
 				{
-					"id": -1,
+					"id": 56,
 					"text": "Move on to the next trial. ",
 					"given": []
 				}
@@ -968,6 +968,586 @@
 				}
 			],
 			"dialogue": "Who do you want to ask?"
+		},
+
+		{
+			"id": 40,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 45,
+					"text": "Who are you? ",
+					"given": [11]
+				},
+				{
+					"id": 44,
+					"text": "Who is the middle guy? ",
+					"given": [11]
+				},
+				{
+					"id": 46,
+					"text": "Who is the right guy? ",
+					"given": [11]
+				}
+			],
+			"dialogue": "What will you ask first man?"
+		},
+
+		{
+			"id": 41,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 44,
+					"text": "Who are you? ",
+					"given": [12]
+				},
+				{
+					"id": 45,
+					"text": "Who is the left guy? ",
+					"given": [12]
+				},
+				{
+					"id": 45,
+					"text": "Who is the right guy? ",
+					"given": [12]
+				}
+			],
+			"dialogue": "What will you ask second man?"
+		},
+
+		{
+			"id": 42,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 44,
+					"text": "Who are you? ",
+					"given": [13]
+				},
+				{
+					"id": 46,
+					"text": "Who is the left guy? ",
+					"given": [13]
+				},
+				{
+					"id": 45,
+					"text": "Who is the right guy? ",
+					"given": [13]
+				}
+			],
+			"dialogue": "What will you ask the third man?"
+		},
+
+		{
+			"id": 43,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 38,
+					"text": "Continue. ",
+					"given": []
+				}
+			],
+			"dialogue": "The man just shakes his head. \n You already asked him for a hint, remember?"
+		},
+
+		{
+			"id": 44,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 38,
+					"text": "Continue. ",
+					"given": []
+				}
+			],
+			"dialogue": "“Truth Tom,” he says."
+		},
+
+		{
+			"id": 45,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 38,
+					"text": "Continue. ",
+					"given": []
+				}
+			],
+			"dialogue": "“Lie Tom,” he says."
+		},
+
+		{
+			"id": 46,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 38,
+					"text": "Continue. ",
+					"given": []
+				}
+			],
+			"dialogue": "“Wisdom Tom,” he says."
+		},
+
+		{
+			"id": 47,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 48,
+					"text": "First man. ",
+					"given": [14]
+				},
+				{
+					"id": 49,
+					"text": "Second man. ",
+					"given": [14]
+				},
+				{
+					"id": 50,
+					"text": "Third man. ",
+					"given": [14]
+				}
+			],
+			"dialogue": "Who do you want to ask about the door?"
+		},
+
+		{
+			"id": 48,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 38,
+					"text": "Continue. ",
+					"given": []
+				}
+			],
+			"dialogue": "“The middle door,” he says."
+		},
+
+		{
+			"id": 49,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 38,
+					"text": "Continue. ",
+					"given": []
+				}
+			],
+			"dialogue": "“The right door,” he says."
+		},
+
+		{
+			"id": 50,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 38,
+					"text": "Continue. ",
+					"given": []
+				}
+			],
+			"dialogue": "“The left door,” he says."
+		},
+
+		{
+			"id": 51,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 38,
+					"text": "Continue. ",
+					"given": []
+				}
+			],
+			"dialogue": "You already asked one of them about the true door, so they all refuse to answer."
+		},
+
+		{
+			"id": 52,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 54,
+					"text": "Choose the left door. ",
+					"given": []
+				},
+				{
+					"id": 53,
+					"text": "Choose the middle door. ",
+					"given": []
+				},
+				{
+					"id": 53,
+					"text": "Choose the right door. ",
+					"given": []
+				},
+				{
+					"id": 38,
+					"text": "Go back and ask more. ",
+					"given": []
+				}
+			],
+			"dialogue": "You look at the three doors and the three men look at you excitedly. Are you ready to choose?"
+		},
+
+		{
+			"id": 53,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": -1,
+					"text": "Back to menu. ",
+					"given": []
+				}
+			],
+			"dialogue": "You walk through the door nervously, and no sooner has the door closed behind you, when the floor begins to move, sending you down a slide into darkness. When you finally land, you notice you’re in a cell of some sort. \n “Ah, a newcomer! Wonderful!” You look towards the voice, the same voice as the three you met before, though this man’s voice is dripping with the promise of pain. “Do not worry, young one, you won’t be inferior for long.” With a sadistic, gleeful laugh, he walks away, leaving you alone in the dark. \n Soon, you too will become just another member of the Tom army. \n \n Game Over. "
+		},
+
+		{
+			"id": 54,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 59,
+					"text": "Continue. ",
+					"given": []
+				}
+			],
+			"dialogue": "You’re stuck in a dark hallway after the door closes, and when nothing bad happens, you start taking slow, careful steps. It takes a few minutes to get to the end, but a door lights up and opens before you, leading you out into another rotunda, similar to the first, but with three new doors. \n “Ah, you made it! I wasn’t sure you would. Tom likes to confuse the poor bastards who choose his trial. Glad to see you made it.” You smile with relief when you hear Michael greet you. You’re safe. For now."
+		},
+
+		{
+			"id": 55,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 59,
+					"text": "Continue. ",
+					"given": []
+				}
+			],
+			"dialogue": "You emerge into another rotunda, similar to the first, but with three new doors. You look around for Michael, when the basket of muffins is torn from your grip. \n “Muffins! Alright!” Immediately, Michael starts gobbling up the muffins from the basket. \n He says some odd greeting through the mouthful of muffin, and you wonder whether he’s starving, or whether his manners are always that horrific."
+		},
+
+		{
+			"id": 56,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 59,
+					"text": "Continue. ",
+					"given": []
+				}
+			],
+			"dialogue": "You emerge into another rotunda, similar to the first, but with three new doors. You look around for Michael, when the basket of muffins is almost torn from your grip. \n “Muffins! Alright!” You just manage to save a single Lucky Muffin before Michael starts gobbling up the other muffins from the basket. \n He says some odd greeting through the mouthful of muffin, and you wonder whether he’s starving, or whether his manners are always that horrific."
+		},
+
+		{
+			"id": 57,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 59,
+					"text": "Continue. ",
+					"given": []
+				}
+			],
+			"dialogue": "You emerge into another rotunda, similar to the first, but with three new doors. You look around for Michael, hoping he won’t notice how guilty you feel. \n However, when you spot him, it’s obvious that he knows. He looks very disappointed in you."
+		},
+
+		{
+			"id": 58,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 59,
+					"text": "Continue. ",
+					"given": []
+				}
+			],
+			"dialogue": "You emerge into another rotunda, similar to the first, but with three new doors. You look around for Michael, when your wrist is grabbed from behind. \n “Ooooh! Pretty!” You turn and look, seeing Michael holding on to your wrist and staring at the Special Gemstone. “You actually sat through her philosophy blabbering? Impressive. People rarely have the patience for her long speeches.” You try to tell him that the chat wasn’t that long, but he doesn’t seem to be listening. \n He’s far too busy staring at the sparkling gem in your hand."
+		},
+
+		{
+			"id": 59,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 60,
+					"text": "Look at the doors. ",
+					"given": []
+				}
+			],
+			"dialogue": "“The second set of trials is more intense.” You look at Michael, as he moves to the middle of the room. “Only one of them is fully safe, and the other two are not only potentially lethal, but you may fail them and have to return here.” You just nod and look at the three new doors."
+		},
+
+		{
+			"id": 60,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 61,
+					"text": "Ask about the laboratory door. ",
+					"given": []
+				},
+				{
+					"id": 62,
+					"text": "Ask about the normal door. ",
+					"given": []
+				},
+				{
+					"id": 63,
+					"text": "Ask about the hospital door. ",
+					"given": []
+				}
+			],
+			"dialogue": "You look at the three doors. \n Both the left and the right door are pristine white, however the markings are very different. The left door seems laboratory-like, whilst the right one seems medical, hospital-like. The door in the middle is also white, but seems to be a normal wooden door, common in most households."
+		},
+
+		{
+			"id": 61,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 66,
+					"text": "Choose the laboratory door. ",
+					"given": []
+				},
+				{
+					"id": 60,
+					"text": "Look at the doors again. ",
+					"given": []
+				}
+			],
+			"dialogue": "Michael grins. “Ah, Aimee. The resident mad scientist. She’s crazy, but harmless. Most of the time. She’s probably got some technological tinkering she could use some help with.” He chuckles, seeming to get lost in thoughts and memories."
+		},
+
+		{
+			"id": 62,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 77,
+					"text": "Choose the normal door. ",
+					"given": []
+				},
+				{
+					"id": 60,
+					"text": "Look at the doors again. ",
+					"given": []
+				}
+			],
+			"dialogue": "With a sigh, Michael rubs his temples. “Matthew volunteered to make a trial, but kept delaying it because he was too busy obsessing over his precious chocolate milk, so we had to turn that into a trial. All I can say if you choose his trial is good luck.”"
+		},
+
+		{
+			"id": 63,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 107,
+					"text": "Choose the hospital door. ",
+					"given": []
+				},
+				{
+					"id": 60,
+					"text": "Look at the doors again. ",
+					"given": []
+				}
+			],
+			"dialogue": "“Lukas’ trial..” Michael doesn’t look all that keen, and seems to avoid the door. “He’s a good guy, but his reasoning can be confusing. He once wanted to make a plague that would turn the victim’s lifeforce into an ethereal energy, which he wanted to use to get a friend back from the dead. Took months to convince him it would be a bad idea!”"
+		},
+
+		{
+			"id": 64,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 60,
+					"text": "Continue. ",
+					"given": []
+				}
+			],
+			"dialogue": "The door does not budge. “You failed that trial. You have to choose another one.” You listen to Michael and choose another door."
 		}
 	]
 }
