@@ -14,10 +14,18 @@ class Scene {
 
 class Redirect {
 
-	constructor(scene, text, given) {
+	constructor(scene, text, given, exceptions) {
 		this.scene = scene;
 		this.text = text;
 		this.given = given;
+		this.exceptions = exceptions;
+	}
+}
+
+class SceneException {
+	constructor(items, scene) {
+		this.items = items;
+		this.scene = scene;
 	}
 }
 
@@ -60,7 +68,26 @@ document.onload = new function() {
 	locked.volume = 0.2;
 }
 
-function setScene(scene, given) {
+function setScene(scene, given, exception) {
+
+	for(var i = 0; i < exception.length; i++) {
+		var except = exception[i];
+
+		var hasItem = 0;
+
+		for(var j = 0; j < except[i].items.length; j++) {
+			if(inventory[except[i].items[j]]) {
+				hasItem++;
+			}
+		}
+
+		if(except.items.length > hasItem) {
+			break;
+		}else{
+			setScene(except.scene, given);
+		}
+	}
+
 	for(var i = 0; i < scenes.length; i++) {
 		if(scenes[i].scene == scene) {
 			currentScene = i;
@@ -145,7 +172,15 @@ function setScene(scene, given) {
 	document.getElementById("options").innerHTML = "";
 
 	for(var i = 0; i < scenes[currentScene].options.length; i++) {
-		document.getElementById("options").innerHTML += "<p><a href=\"javascript:void(0)\" onclick=\"setScene(" + scenes[currentScene].options[i].scene + ", [" + scenes[currentScene].options[i].given +"])\">" + scenes[currentScene].options[i].text + " </a></p>";
+		var exceptionText = "[";
+		for(var j = 0; j < scenes[currentScene].options[i].exceptions.length; j++) {
+			exceptionText += "{ 'items': " + scenes[currentScene].options[i].exceptions[j].items + ", 'scene': " + scenes[currentScene].options[i].exceptions[j].scene + "}, ";
+		}
+		exceptionText = exceptionText.substring(0, exceptionText.length - 2) + "]";
+		if(!exceptionText.includes("items")) {
+			exceptionText = "[]";
+		}
+		document.getElementById("options").innerHTML += "<p><a href=\"javascript:void(0)\" onclick=\"setScene(" + scenes[currentScene].options[i].scene + ", [" + scenes[currentScene].options[i].given +"], " + exceptionText +")\">" + scenes[currentScene].options[i].text + " </a></p>";
 	}
 
 }
@@ -244,10 +279,18 @@ function addScenes() {
 				var optionsArray = [];
 
 				for(var j = 0; j < Object.entries(json["scenes"][i]["options"]).length; j++) {
+					
+					var exceptionArray = [];
+
+					for(var k = 0; k < Object.entries(json["scenes"][i]["options"][j]["exception"]).length; k++) {
+						exceptionArray.push(json["scenes"][i]["options"][j]["exception"][k]["items"], json["scenes"][i]["options"][j]["exception"][k]["scene"]);
+					}
+
 					optionsArray.push(new Redirect(
 						json["scenes"][i]["options"][j]["id"],
 						json["scenes"][i]["options"][j]["text"],
-						Array.from(json["scenes"][i]["options"][j]["given"])));
+						Array.from(json["scenes"][i]["options"][j]["given"]),
+						exceptionArray));
 				}
 
 				scenes.push(new Scene(
@@ -264,7 +307,7 @@ function addScenes() {
 					));
 			}
 			log.innerHTML = "";
-			setScene(0, []);
+			setScene(0, [], []);
 		}
 	};
 
@@ -289,11 +332,13 @@ function addScenes() {
 				{
 					"id": 0,
 					"text": "",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 0,
 					"text": "",
+					"exception": [],
 					"given": []
 				}
 			],

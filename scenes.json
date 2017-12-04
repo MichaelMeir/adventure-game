@@ -14,6 +14,7 @@
 				{
 					"id": 0,
 					"text": "Home",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -34,21 +35,25 @@
 				{
 					"id": 8,
 					"text": "Start game. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 3,
 					"text": "Tutorial, please. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 2,
 					"text": "Information. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 1,
 					"text": "Credits.  ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -69,6 +74,7 @@
 				{
 					"id": 0,
 					"text": "Back to menu. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -89,6 +95,7 @@
 				{
 					"id": 0,
 					"text": "Back to menu. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -109,11 +116,13 @@
 				{
 					"id": 0,
 					"text": "Yes, thank you, I’ll return to the menu. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 4,
 					"text": "No, sorry, can you give an example? ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -134,16 +143,19 @@
 				{
 					"id": 5,
 					"text": "Read note. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 6,
 					"text": "Eat the cinnamon cookie. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 7,
 					"text": "Eat the chocolate cookie. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -164,11 +176,13 @@
 				{
 					"id": 6,
 					"text": "Eat the cinnamon cookie. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 7,
 					"text": "Eat the chocolate cookie. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -189,6 +203,7 @@
 				{
 					"id": 0,
 					"text": "Back to menu. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -209,6 +224,7 @@
 				{
 					"id": 0,
 					"text": "Back to menu. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -229,11 +245,13 @@
 				{
 					"id": 10,
 					"text": "Hand over the letter. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 9,
 					"text": "Refuse. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -254,6 +272,7 @@
 				{
 					"id": -1,
 					"text": "Return to menu.",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -274,6 +293,7 @@
 				{
 					"id": 11,
 					"text": "Continue.",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -294,6 +314,7 @@
 				{
 					"id": 12,
 					"text": "Look at the doors. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -314,16 +335,19 @@
 				{
 					"id": 13,
 					"text": "Ask about the white door. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 14,
 					"text": "Ask about the stone door. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 15,
 					"text": "Ask about the wooden door. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -344,11 +368,13 @@
 				{
 					"id": 16,
 					"text": "Choose the white door.  ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 12,
 					"text": "Look at the doors again. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -369,11 +395,13 @@
 				{
 					"id": 36,
 					"text": "Choose the stone door. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 12,
 					"text": "Look at the doors again. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -394,11 +422,13 @@
 				{
 					"id": 23,
 					"text": "Choose the wooden door. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 12,
 					"text": "Look at the doors again. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -419,6 +449,7 @@
 				{
 					"id": 17,
 					"text": "Start the trial. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -439,16 +470,19 @@
 				{
 					"id": 18,
 					"text": "Vanilla dough. ",
+					"exception": [],
 					"given": [1]
 				},
 				{
 					"id": 18,
 					"text": "Almond dough. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 18,
 					"text": "Chocolate dough. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -469,16 +503,19 @@
 				{
 					"id": 19,
 					"text": "Strawberry jam filling. ",
+					"exception": [],
 					"given": [2]
 				},
 				{
 					"id": 19,
 					"text": "Pastry cream filling. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 19,
 					"text": "Salty caramel filling.  ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -499,16 +536,19 @@
 				{
 					"id": 20,
 					"text": "Top with nuts. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 20,
 					"text": "Top with berries. ",
+					"exception": [],
 					"given": [3]
 				},
 				{
 					"id": 20,
 					"text": "Top with raw sugar. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -529,6 +569,7 @@
 				{
 					"id": 22,
 					"text": "Wait with bated breath. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -549,6 +590,7 @@
 				{
 					"id": 55,
 					"text": "Move on to the next trial. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -569,6 +611,7 @@
 				{
 					"id": 56,
 					"text": "Move on to the next trial. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -589,6 +632,7 @@
 				{
 					"id": 24,
 					"text": "Start the trial. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -609,21 +653,25 @@
 				{
 					"id": 27,
 					"text": "The apple and the rock, titled “acceptance”. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 28,
 					"text": "The beautiful pearl, titled “perfection”. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 29,
 					"text": "The chicken with a duckling, titled “true family”. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 25,
 					"text": "How is this even a trial? ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -644,26 +692,31 @@
 				{
 					"id": 27,
 					"text": "Choose the apple and the rock, titled “acceptance”. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 28,
 					"text": "Choose the beautiful pearl, titled “perfection”. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 29,
 					"text": "Choose the chicken with a duckling, titled “true family”. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 30,
 					"text": "Can we talk about the multi-sided stories instead? ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 26,
 					"text": "I refuse! This is pointless! ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -684,6 +737,7 @@
 				{
 					"id": 57,
 					"text": "Go to the door and move on to the next trial. ",
+					"exception": [],
 					"given": [5]
 				}
 			],
@@ -704,6 +758,7 @@
 				{
 					"id": 31,
 					"text": "Sit with her.",
+					"exception": [],
 					"given": [6]
 				}
 			],
@@ -724,6 +779,7 @@
 				{
 					"id": 31,
 					"text": "Sit with her.",
+					"exception": [],
 					"given": [7]
 				}
 			],
@@ -744,6 +800,7 @@
 				{
 					"id": 31,
 					"text": "Sit with her. ",
+					"exception": [],
 					"given": [8]
 				}
 			],
@@ -764,6 +821,7 @@
 				{
 					"id": 0,
 					"text": "Sit with her. ",
+					"exception": [],
 					"given": [9]
 				}
 			],
@@ -784,6 +842,7 @@
 				{
 					"id": 32,
 					"text": "Grab a drink and a snack and ask her to begin.",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -804,6 +863,7 @@
 				{
 					"id": 0,
 					"text": "Go back to the door and move on to the next trial. ",
+					"exception": [],
 					"given": [10]
 				}
 			],
@@ -824,6 +884,7 @@
 				{
 					"id": 58,
 					"text": "Go back to the door and move on to the next trial. ",
+					"exception": [],
 					"given": [10]
 				}
 			],
@@ -844,6 +905,7 @@
 				{
 					"id": 58,
 					"text": "Go back to the door and move on to the next trial. ",
+					"exception": [],
 					"given": [10]
 				}
 			],
@@ -864,6 +926,7 @@
 				{
 					"id": 58,
 					"text": "Go back to the door and move on to the next trial. ",
+					"exception": [],
 					"given": [10]
 				}
 			],
@@ -884,6 +947,7 @@
 				{
 					"id": 37,
 					"text": "Start the trial. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -904,6 +968,7 @@
 				{
 					"id": 38,
 					"text": "Let’s get started then. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -924,16 +989,19 @@
 				{
 					"id": 39,
 					"text": "Ask for a hint. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 47,
 					"text": "Ask about the true door. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 52,
 					"text": "Choose a door. ",
+					"exception": [],
 					"given": ""
 				}
 			],
@@ -954,16 +1022,19 @@
 				{
 					"id": 40,
 					"text": "First man. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 47,
 					"text": "Ask about the true door. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 52,
 					"text": "",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -984,16 +1055,19 @@
 				{
 					"id": 45,
 					"text": "Who are you? ",
+					"exception": [],
 					"given": [11]
 				},
 				{
 					"id": 44,
 					"text": "Who is the middle guy? ",
+					"exception": [],
 					"given": [11]
 				},
 				{
 					"id": 46,
 					"text": "Who is the right guy? ",
+					"exception": [],
 					"given": [11]
 				}
 			],
@@ -1014,16 +1088,19 @@
 				{
 					"id": 44,
 					"text": "Who are you? ",
+					"exception": [],
 					"given": [12]
 				},
 				{
 					"id": 45,
 					"text": "Who is the left guy? ",
+					"exception": [],
 					"given": [12]
 				},
 				{
 					"id": 45,
 					"text": "Who is the right guy? ",
+					"exception": [],
 					"given": [12]
 				}
 			],
@@ -1044,16 +1121,19 @@
 				{
 					"id": 44,
 					"text": "Who are you? ",
+					"exception": [],
 					"given": [13]
 				},
 				{
 					"id": 46,
 					"text": "Who is the left guy? ",
+					"exception": [],
 					"given": [13]
 				},
 				{
 					"id": 45,
 					"text": "Who is the right guy? ",
+					"exception": [],
 					"given": [13]
 				}
 			],
@@ -1074,6 +1154,7 @@
 				{
 					"id": 38,
 					"text": "Continue. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1094,6 +1175,7 @@
 				{
 					"id": 38,
 					"text": "Continue. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1114,6 +1196,7 @@
 				{
 					"id": 38,
 					"text": "Continue. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1134,6 +1217,7 @@
 				{
 					"id": 38,
 					"text": "Continue. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1154,16 +1238,19 @@
 				{
 					"id": 48,
 					"text": "First man. ",
+					"exception": [],
 					"given": [14]
 				},
 				{
 					"id": 49,
 					"text": "Second man. ",
+					"exception": [],
 					"given": [14]
 				},
 				{
 					"id": 50,
 					"text": "Third man. ",
+					"exception": [],
 					"given": [14]
 				}
 			],
@@ -1184,6 +1271,7 @@
 				{
 					"id": 38,
 					"text": "Continue. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1204,6 +1292,7 @@
 				{
 					"id": 38,
 					"text": "Continue. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1224,6 +1313,7 @@
 				{
 					"id": 38,
 					"text": "Continue. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1244,6 +1334,7 @@
 				{
 					"id": 38,
 					"text": "Continue. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1264,21 +1355,25 @@
 				{
 					"id": 54,
 					"text": "Choose the left door. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 53,
 					"text": "Choose the middle door. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 53,
 					"text": "Choose the right door. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 38,
 					"text": "Go back and ask more. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1299,6 +1394,7 @@
 				{
 					"id": -1,
 					"text": "Back to menu. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1319,6 +1415,7 @@
 				{
 					"id": 59,
 					"text": "Continue. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1339,6 +1436,7 @@
 				{
 					"id": 59,
 					"text": "Continue. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1359,6 +1457,7 @@
 				{
 					"id": 59,
 					"text": "Continue. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1379,6 +1478,7 @@
 				{
 					"id": 59,
 					"text": "Continue. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1399,6 +1499,7 @@
 				{
 					"id": 59,
 					"text": "Continue. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1419,6 +1520,7 @@
 				{
 					"id": 60,
 					"text": "Look at the doors. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1439,16 +1541,19 @@
 				{
 					"id": 61,
 					"text": "Ask about the laboratory door. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 62,
 					"text": "Ask about the normal door. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 63,
 					"text": "Ask about the hospital door. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1469,11 +1574,13 @@
 				{
 					"id": 66,
 					"text": "Choose the laboratory door. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 60,
 					"text": "Look at the doors again. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1494,11 +1601,13 @@
 				{
 					"id": 77,
 					"text": "Choose the normal door. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 60,
 					"text": "Look at the doors again. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1519,11 +1628,13 @@
 				{
 					"id": 107,
 					"text": "Choose the hospital door. ",
+					"exception": [],
 					"given": []
 				},
 				{
 					"id": 60,
 					"text": "Look at the doors again. ",
+					"exception": [],
 					"given": []
 				}
 			],
@@ -1544,6 +1655,7 @@
 				{
 					"id": 60,
 					"text": "Continue. ",
+					"exception": [],
 					"given": []
 				}
 			],
