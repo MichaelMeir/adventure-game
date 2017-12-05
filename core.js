@@ -71,20 +71,21 @@ document.onload = new function() {
 function setScene(scene, given, exception) {
 
 	for(var i = 0; i < exception.length; i++) {
+
 		var except = exception[i];
 
 		var hasItem = 0;
 
-		for(var j = 0; j < except[i].items.length; j++) {
-			if(inventory[except[i].items[j]]) {
+		for(var j = 0; j < except["items"].length; j++) {
+			if(inventory[except["items"][j]]) {
 				hasItem++;
 			}
 		}
 
-		if(except.items.length > hasItem) {
-			break;
-		}else{
-			setScene(except.scene, given);
+		if(except["items"].length == hasItem) {
+			console.log("SceneException: redirecting to scene " + except["scene"]);
+			setScene(except["scene"], given, {"exceptions": []});
+			return;
 		}
 	}
 
@@ -174,7 +175,7 @@ function setScene(scene, given, exception) {
 	for(var i = 0; i < scenes[currentScene].options.length; i++) {
 		var exceptionText = "[";
 		for(var j = 0; j < scenes[currentScene].options[i].exceptions.length; j++) {
-			exceptionText += "{ 'items': " + scenes[currentScene].options[i].exceptions[j].items + ", 'scene': " + scenes[currentScene].options[i].exceptions[j].scene + "}, ";
+			exceptionText += "{ 'items': [" + scenes[currentScene].options[i].exceptions[j].items + "], 'scene': " + scenes[currentScene].options[i].exceptions[j].scene + "}, ";
 		}
 		exceptionText = exceptionText.substring(0, exceptionText.length - 2) + "]";
 		if(!exceptionText.includes("items")) {
@@ -283,7 +284,7 @@ function addScenes() {
 					var exceptionArray = [];
 
 					for(var k = 0; k < Object.entries(json["scenes"][i]["options"][j]["exception"]).length; k++) {
-						exceptionArray.push(json["scenes"][i]["options"][j]["exception"][k]["items"], json["scenes"][i]["options"][j]["exception"][k]["scene"]);
+						exceptionArray.push(new SceneException(json["scenes"][i]["options"][j]["exception"][k]["items"], json["scenes"][i]["options"][j]["exception"][k]["scene"]));
 					}
 
 					optionsArray.push(new Redirect(

@@ -567,9 +567,12 @@
 			},
 			"options": [
 				{
-					"id": 22,
+					"id": 21,
 					"text": "Wait with bated breath. ",
-					"exception": [],
+					"exception": [{
+						"items": [1, 2, 3],
+						"scene": 22
+					}],
 					"given": []
 				}
 			],
@@ -842,7 +845,24 @@
 				{
 					"id": 32,
 					"text": "Grab a drink and a snack and ask her to begin.",
-					"exception": [],
+					"exception": [
+						{
+							"items": [6],
+							"scene": 32
+						},
+						{
+							"items": [7],
+							"scene": 33
+						},
+						{
+							"items": [8],
+							"scene": 34
+						},
+						{
+							"items": [9],
+							"scene": 35
+						}
+					],
 					"given": []
 				}
 			],
@@ -995,7 +1015,10 @@
 				{
 					"id": 47,
 					"text": "Ask about the true door. ",
-					"exception": [],
+					"exception": [{
+						"items": [14],
+						"scene": 51
+					}],
 					"given": []
 				},
 				{
@@ -1022,19 +1045,28 @@
 				{
 					"id": 40,
 					"text": "First man. ",
-					"exception": [],
+					"exception": [{
+						"items": [11],
+						"scene": 43
+					}],
 					"given": []
 				},
 				{
-					"id": 47,
+					"id": 41,
 					"text": "Ask about the true door. ",
-					"exception": [],
+					"exception": [{
+						"items": [12],
+						"scene": 43
+					}],
 					"given": []
 				},
 				{
-					"id": 52,
+					"id": 42,
 					"text": "",
-					"exception": [],
+					"exception": [{
+						"items": [13],
+						"scene": 43
+					}],
 					"given": []
 				}
 			],
@@ -1574,7 +1606,10 @@
 				{
 					"id": 66,
 					"text": "Choose the laboratory door. ",
-					"exception": [],
+					"exception": [{
+						"items": [15],
+						"scene": 64
+					}],
 					"given": []
 				},
 				{
@@ -1628,7 +1663,10 @@
 				{
 					"id": 107,
 					"text": "Choose the hospital door. ",
-					"exception": [],
+					"exception": [{
+						"items": [16],
+						"scene": 64
+					}],
 					"given": []
 				},
 				{
