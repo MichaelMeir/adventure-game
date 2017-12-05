@@ -1698,6 +1698,1019 @@
 				}
 			],
 			"dialogue": "The door does not budge. “You failed that trial. You have to choose another one.” You listen to Michael and choose another door."
+		},
+
+		{
+			"id": 65,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 60,
+					"text": "Continue. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "Michael looks up from a book when you return through the door. “Ah, failed the trial, did you? Well, it’s okay. Only the third set of trials can be deadlocked by failures.” He closes and puts down the book, and you see a comic sticking out between the pages. \n You decide not to comment on it, as Michael shows you the doors once more."
+		},
+
+		{
+			"id": 66,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 67,
+					"text": "Start the trial. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "Michael nods and touches the laboratory door. It glows like the previous doors did, and he gestures for you to walk through. \n \n You walk into the room which is full of all the stereotypical science items you’d see in movies, along with a mess of wires and machine parts spread out on the tables. \n \n “One moment!” The voice is followed by the sound of many metal items clattering to the floor, and shortly after a woman squeezes her way through to you. “Hi! I’m Aimee! Sorry about the mess, I started tinkering and forgot the time. Let’s get straight to work, shall we?”"
+		},
+
+		{
+			"id": 67,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 68,
+					"text": "Start working. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "“I am working on this nifty little thing!” She holds up a small robot dragon. It looks more like a toy than anything else. “I know, I know, it’s nothing special yet. But that’s what you’re here for! You’re going to MAKE it special!” \n She grins and puts the dragon down. “All the parts have markings on them to show what they do. Let’s try to put together something useful.”"
+		},
+
+		{
+			"id": 68,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 69,
+					"text": "Red eye lenses with leaf design. ",
+					"exception": [],
+					"given": [17]
+				},
+				{
+					"id": 69,
+					"text": "Green eye lenses with flame design. ",
+					"exception": [],
+					"given": [18]
+				},
+				{
+					"id": 69,
+					"text": "Purple eye lenses with snowflake design. ",
+					"exception": [],
+					"given": [19]
+				}
+			],
+			"dialogue": "Aimee looks at you. “Are you ready?” You nod. No going back now. “Alright, first we implant the eye module. Hand me the lenses, would you?”"
+		},
+
+		{
+			"id": 69,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 70,
+					"text": "Pink canister with heart image. ",
+					"exception": [],
+					"given": [20]
+				},
+				{
+					"id": 70,
+					"text": "White canister with bottle image. ",
+					"exception": [],
+					"given": [21]
+				},
+				{
+					"id": 70,
+					"text": "Blue canister with a crossed-out flame image.  ",
+					"exception": [],
+					"given": [22]
+				},
+				{
+					"id": 70,
+					"text": "Green canister with flower image. ",
+					"exception": [],
+					"given": [23]
+				}
+			],
+			"dialogue": "After securing the eye lenses, she grabs a new tool. “Alright, hand me one of the canisters, please.”"
+		},
+
+		{
+			"id": 70,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 71,
+					"text": "Chip labelled “plants”. ",
+					"exception": [],
+					"given": [24]
+				},
+				{
+					"id": 71,
+					"text": "Chip labelled “illness”. ",
+					"exception": [],
+					"given": [25]
+				},
+				{
+					"id": 71,
+					"text": "Chip labelled “heat”. ",
+					"exception": [],
+					"given": [26]
+				}
+			],
+			"dialogue": "“One more to go!” Dropping the tool on the floor, she hastily grabs a new one. “Get me one of the control chips, ‘kay?”"
+		},
+
+		{
+			"id": 71,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 0,
+					"text": "Wait with bated breath. ",
+					"exception": [
+						{
+							"items": [17, 23, 24],
+							"scene": 73
+						},
+						{
+							"items": [19, 20, 25],
+							"scene": 74
+						},
+						{
+							"items": [19, 22, 26],
+							"scene": 75
+						},
+						{
+							"items": [18, 21],
+							"scene": 76
+						}
+					],
+					"given": []
+				}
+			],
+			"dialogue": "Aimee grins. “Here goes nothing.” And as soon as the final part has been secured, the little robot clicks to life, eyes glowing and wings flapping. It looks around for a moment, then suddenly takes off and flies up high."
+		},
+
+		{
+			"id": 72,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 122,
+					"text": "Move on to the next trial. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The robot flaps in circles for a few seconds before it lands. “Damn, the parts weren’t compatible.” Aimee gestures to a door on the other side of the messy room. “But at least it worked! You can move on to the last set of trials now.”"
+		},
+
+		{
+			"id": 73,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 122,
+					"text": "Move on to the next trial. ",
+					"exception": [],
+					"given": [27]
+				}
+			],
+			"dialogue": "The robot flaps in circles for a few seconds before it swoops down and lands on a table holding experimental plants. \n The eyes glow brighter, and a spray of liquid comes out of the little dragon’s mouth, and before your eyes, the weak and sickly plants begin to thrive. \n “Well done!” Aimee pats your back. “You made a gardening robot!” You aren’t sure whether to be impressed or find it silly, but she seems happy, so you let her have her moment. \n “Alright, the robot worked. Have this, and you can move on to the last set of trials.” She hands you a Metal Part, and you accept it, despite not knowing what it’s good for."
+		},
+
+		{
+			"id": 74,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 122,
+					"text": "Move on to the next trial. ",
+					"exception": [],
+					"given": [27]
+				}
+			],
+			"dialogue": "The robot flaps in circles for a few seconds before it swoops down and bites your arm. You are about to scream in pain, when you notice there is no pain. \n “Amazing!” Aimee pats your back. “You made a medical robot that detects and prevents illnesses!” You grin, feeling very impressed with yourself, and as the robot lets go and lands on the table, you feel refreshed and full of energy. \n “Alright, the robot worked. Have this, and you can move on to the last set of trials.” She hands you a Metal Part, and you accept it, despite not knowing what it’s good for."
+		},
+
+		{
+			"id": 75,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 122,
+					"text": "Move on to the next trial. ",
+					"exception": [],
+					"given": [27]
+				}
+			],
+			"dialogue": "The robot flaps in circles for a few seconds before it swoops down and douses Aimee’s scented candles in foam. \n “Wonderful!” Aimee pats your back. “You made a fire extinguishing dragon!” She laughs, and you can’t help joining her at the silly irony. \n “Alright, the robot worked. Have this, and you can move on to the last set of trials.” She hands you a Metal Part, and you accept it, despite not knowing what it’s good for."
+		},
+
+		{
+			"id": 76,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 65,
+					"text": "FIRE! RUN! ",
+					"exception": [],
+					"given": [15]
+				}
+			],
+			"dialogue": "The robot flaps in circles for a few seconds, then swoops down and starts spraying pure alcohol everywhere. Aimee shrieks and runs for cover, as the heat from the laser eyes immediately turns the alcohol into flames, and the lab is set ablaze. You are cut off from both the exit to the next trial and from Aimee, so you run as fast as you can to the nearest door, even if it does lead back where you came from."
+		},
+
+		{
+			"id": 77,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 78,
+					"text": "Talk to the guy. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 79,
+					"text": "Leave through the door immediately. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 80,
+					"text": "Check out the puzzle. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "Michael nods and unlocks the door. It doesn’t glows like the previous doors did, but rather was just locked by a regular key. He gestures for you to walk through. \n \n You walk into a small room, and immediately notice a young man trying to break open a glass door on the left wall. Straight ahead is another door, and to your right is a table with two jugs, a large tub of water and an odd machine set in the wall."
+		},
+
+		{
+			"id": 78,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 79,
+					"text": "Just leave through the door. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 80,
+					"text": "Check out the puzzle. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You try to talk to the guy, but all he does is sob and keep hitting the door. “My choccy milk! My precious choccy milk!” \n You notice the door doesn’t even have a single scratch or crack, but the wooden chair is little more than splinters on the floor. He doesn’t respond to you at all."
+		},
+
+		{
+			"id": 79,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 78,
+					"text": "Talk to the guy. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 80,
+					"text": "Check out the puzzle. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The door’s locked, no surprise there. You look back at the man and the puzzle. He hasn’t even noticed you yet."
+		},
+
+		{
+			"id": 80,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 81,
+					"text": "Start the trial. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You walk up to the table and see a very simple sign hanging on the wall just above it. \n \n Get four liters of water in the boiler. \n If you add too much or too little, the boiler resets. \n \n Well, that sounds easy enough. \n You check out the large tub and the jugs. One jug has the number 5 on it and the other has the number 3 on it. The tub is too big for you to even guess how much it holds. \n You glance to the weird man, still trying to break the glass door and still unaware of your presence."
+		},
+
+		{
+			"id": 81,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 99,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 86,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 0 liter(s). "
+		},
+
+		{
+			"id": 82,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 100,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 86,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 87,
+					"text": "Pour 5 jug into 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 81,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 1 liter(s). "
+		},
+
+		{
+			"id": 83,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 101,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 86,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 93,
+					"text": "Pour 5 jug into 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 81,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 2 liter(s). "
+		},
+
+		{
+			"id": 84,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 102,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 86,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 99,
+					"text": "Pour 5 jug into 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 81,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 3 liter(s). "
+		},
+
+		{
+			"id": 85,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 103,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 86,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 100,
+					"text": "Pour 5 jug into 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 81,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 106,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 4 liter(s). "
+		},
+
+		{
+			"id": 86,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 104,
+					"text": "Fill 3 jug. (104)",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 101,
+					"text": "Pour 5 jug into 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 81,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 5 liter(s). "
+		},
+
+		{
+			"id": 87,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 99,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 92,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 82,
+					"text": "Pour 3 jug into 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 81,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 0 liter(s). "
+		},
+
+		{
+			"id": 88,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 100,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 92,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 83,
+					"text": "Pour 3 jug into 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 93,
+					"text": "Pour 5 jug into 3 jug.  ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 82,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 87,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 1 liter(s)."
+		},
+
+		{
+			"id": 89,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 101,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 92,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 84,
+					"text": "Pour 3 jug into 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 99,
+					"text": "Pour 5 jug into 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 83,
+					"text": "Empty 3 jug.  ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 87,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 2 liter(s)."
+		},
+
+		{
+			"id": 90,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 102,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 92,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 85,
+					"text": "Pour 3 jug into 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 100,
+					"text": "Pour 5 jug into 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 84,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 87,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 3 liter(s)."
+		},
+
+		{
+			"id": 91,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 103,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 92,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 86,
+					"text": "Pour 3 jug into 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 101,
+					"text": "Pour 5 jug into 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 85,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 87,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 106,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 4 liter(s)."
+		},
+
+		{
+			"id": 92,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 104,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 102,
+					"text": "Pour 5 jug into 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 86,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 87,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 5 liter(s)."
 		}
 	]
 }
