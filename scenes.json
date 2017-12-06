@@ -57,7 +57,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Welcome! \nThis is the Clearwater Trial. \nHow may I help you?!"
+			"dialogue": "Welcome! \nThis is the Clearwater Trial. \nHow may I help you?\n"
 		},
 
 		{
@@ -78,7 +78,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Thank you for showing interest in the people who worked on creating this little game. \n\nStory creation & writing. \nKatharina. \n\nLiterally everything else. \nMichael."
+			"dialogue": "Thank you for showing interest in the people who worked on creating this little game. \n\nStory creation & writing. \nKatharina. \n\nSuper cool art. \nWilliam. \n\nLiterally everything else. \nMichael.\n"
 		},
 
 		{
@@ -99,7 +99,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "About the game: \nThis is a text-based adventure game where you will face puzzles of varying types and difficulties. \nThey are set up in three groups of three, meaning a total of nine puzzles, where solving one in a group will unlock the next area, and should you fail the puzzle, you have two other puzzles to attempt instead. \nNone are too hard, though some may seem challenging. \nWhether they are a piece of cake or turn your brain to mush, we hope you enjoy them. \n\nAbout the creator: \nMichael is learning coding and has to make a text-based game in java for class. However, he doesn’t think of himself as a good story creator, and asks a friend for help. \nAs they share the same Discord group, they both agree that making a silly game, based on their silly corner of internet madness, and full of references that no one outside the Discord will get, is a good idea. And so, the work began. \n\nIf you’re reading this, the coding and story were finished and combined into a game, and we both hope you’ll enjoy the end result."
+			"dialogue": "About the game: \nThis is a text-based adventure game where you will face puzzles of varying types and difficulties. \nThey are set up in three groups of three, meaning a total of nine puzzles, where solving one in a group will unlock the next area, and should you fail the puzzle, you have two other puzzles to attempt instead. \nNone are too hard, though some may seem challenging. \nWhether they are a piece of cake or turn your brain to mush, we hope you enjoy them. \n\nAbout the creator: \nMichael is learning coding and has to make a text-based game in java for class. However, he doesn’t think of himself as a good story creator, and asks a friend for help. \nAs they share the same Discord group, they both agree that making a silly game, based on their silly corner of internet madness, and full of references that no one outside the Discord will get, is a good idea. And so, the work began. \n\nIf you’re reading this, the coding and story were finished and combined into a game, and we both hope you’ll enjoy the end result.\n"
 		},
 
 		{
@@ -126,7 +126,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Ah, new to text-based games, perhaps? \nAlright, here’s a rundown. \n\nThis text will be a bit of story, telling you what is going on, what you can do and what you see around you, and the buttons underneath will give you choices. \nSome may give or take items you can use or have used, some may give hidden items you aren’t told about, which may help or hinder later on, by locking or unlocking new dialogue. \n\nDid this help?"
+			"dialogue": "Ah, new to text-based games, perhaps? \nAlright, here’s a rundown. \n\nThis text will be a bit of story, telling you what is going on, what you can do and what you see around you, and the buttons underneath will give you choices. \nSome may give or take items you can use or have used, some may give hidden items you aren’t told about, which may help or hinder later on, by locking or unlocking new dialogue. \n\nDid this help?\n"
 		},
 
 		{
@@ -159,7 +159,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Of course! \nText-based games aren’t for everyone, so here’s a small example situation. \nHopefully this will help you understand better. \n\nYou’re standing in front of a table. On the table are two plates and a note. \nThe two plates hold one cookie each; one is cinnamon, and the other is chocolate."
+			"dialogue": "Of course! \nText-based games aren’t for everyone, so here’s a small example situation. \nHopefully this will help you understand better. \n\nYou’re standing in front of a table. On the table are two plates and a note. \nThe two plates hold one cookie each; one is cinnamon, and the other is chocolate.\n"
 		},
 
 		{
@@ -186,7 +186,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The note reads: \n“The cinnamon cookie is poisoned.”"
+			"dialogue": "The note reads: \n“The cinnamon cookie is poisoned.”\n"
 		},
 
 		{
@@ -207,7 +207,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "If you read the note, you would know this cookie was poisoned. \nThis was just an example, however, so nothing happens. \nIn the actual game, you may have met a game over and had to restart. \n\nHope this helped. \nGood luck and enjoy the game!"
+			"dialogue": "If you read the note, you would know this cookie was poisoned. \nThis was just an example, however, so nothing happens. \nIn the actual game, you may have met a game over and had to restart. \n\nHope this helped. \nGood luck and enjoy the game!\n"
 		},
 
 		{
@@ -228,7 +228,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "If you read the note, you would know the other cookie was poisoned and this one was safe. \nThis was just an example, however, so nothing happens. \nIn the actual game, you may have met a game over and had to restart if you chose the other cookie. \n\nHope this helped. \nGood luck and enjoy the game!"
+			"dialogue": "If you read the note, you would know the other cookie was poisoned and this one was safe. \nThis was just an example, however, so nothing happens. \nIn the actual game, you may have met a game over and had to restart if you chose the other cookie. \n\nHope this helped. \nGood luck and enjoy the game!\n"
 		},
 
 		{
@@ -255,7 +255,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You walk down the path, as told by the letter you received. \nWhen you heard of the Clearwater Trial, it never crossed your mind that you may have to go to a dark forest to do your trials. \n\nThe forest grows denser by the minute as you walk, and you soon realize the plants are different than the ones near the parking lot. \nThe forest is no longer a mere forest, it has become a dark, damp jungle. \n\nAs you step into a clearing, matching the description of the letter, with lit candles and lanterns strewn about everywhere, you feel more alone than ever. You’re sure this is where you were meant to meet the guide. \nYou turn, contemplating making your way back to the car and going home, but the path is gone. \n\n“Welcome to the Clearwater Trial.” You spin around at the sudden voice. “May I see your acceptance letter?”"
+			"dialogue": "You walk down the path, as told by the letter you received. \nWhen you heard of the Clearwater Trial, it never crossed your mind that you may have to go to a dark forest to do your trials. \n\nThe forest grows denser by the minute as you walk, and you soon realize the plants are different than the ones near the parking lot. \nThe forest is no longer a mere forest, it has become a dark, damp jungle. \n\nAs you step into a clearing, matching the description of the letter, with lit candles and lanterns strewn about everywhere, you feel more alone than ever. You’re sure this is where you were meant to meet the guide. \nYou turn, contemplating making your way back to the car and going home, but the path is gone. \n\n“Welcome to the Clearwater Trial.” You spin around at the sudden voice. “May I see your acceptance letter?”\n"
 		},
 
 		{
@@ -276,7 +276,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "“I see.” He nods and gestures to the area behind you. “You may leave.” \nYou aren’t completely sure what’s going on, but as you turn, you see the path is there once more. \nYou turn back to ask the man what’s going on, but he’s gone and all the lights around the clearing have gone out. \n\nYou head back to the car, confused and disappointed. \nGuess today wasn’t your lucky day after all. \n\nMissed the chance. \nGame over."
+			"dialogue": "“I see.” He nods and gestures to the area behind you. “You may leave.” \nYou aren’t completely sure what’s going on, but as you turn, you see the path is there once more. \nYou turn back to ask the man what’s going on, but he’s gone and all the lights around the clearing have gone out. \n\nYou head back to the car, confused and disappointed. \nGuess today wasn’t your lucky day after all. \n\nMissed the chance. \nGame over.\n"
 		},
 
 		{
@@ -297,7 +297,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You hand over the letter, watching the man’s smile forming into an almost feral grin. \n“I see.” He looks at you and gives back the letter. “I am Michael. I will be your guide today. Welcome to the Clearwater Trial.” He turns and walks over to a large stone wall. “Are you certain you wish to attempt the trial? Not all who enter will survive.” \nYou nod. You have worked hard to get this far, and you do not want to lose your chance now."
+			"dialogue": "You hand over the letter, watching the man’s smile forming into an almost feral grin. \n“I see.” He looks at you and gives back the letter. “I am Michael. I will be your guide today. Welcome to the Clearwater Trial.” He turns and walks over to a large stone wall. “Are you certain you wish to attempt the trial? Not all who enter will survive.” \nYou nod. You have worked hard to get this far, and you do not want to lose your chance now.\n"
 		},
 
 		{
@@ -318,7 +318,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Michael nods, an expression of approval on his face. He touches the stone wall, and intricate markings begin to glow, outlining what you can only describe as doors carved directly into the rock. \nAs you watch, the doors open where no door was before, and the man beckons you to follow with a wave of his hand. \n\nAs you enter, you find yourself in a small rotunda. Michael stands in the middle, waiting for your attention to return to him. \n“The first round of trials. You will choose one, and should you succeed, you will move on to the next chamber, the next trials. Should you fail, you will return here. Should you fail all three, you will be sent home.” \nHe waits for a sign that you heard and understood what he said, before continuing. \n“In this first set of trials, only one is potentially fatal. I will not tell you which door that is.” \n\nHe gestures around the room to three doors. “I can give you a small hint as to each door’s trial, should you be uncertain.”"
+			"dialogue": "Michael nods, an expression of approval on his face. He touches the stone wall, and intricate markings begin to glow, outlining what you can only describe as doors carved directly into the rock. \nAs you watch, the doors open where no door was before, and the man beckons you to follow with a wave of his hand. \n\nAs you enter, you find yourself in a small rotunda. Michael stands in the middle, waiting for your attention to return to him. \n“The first round of trials. You will choose one, and should you succeed, you will move on to the next chamber, the next trials. Should you fail, you will return here. Should you fail all three, you will be sent home.” \nHe waits for a sign that you heard and understood what he said, before continuing. \n“In this first set of trials, only one is potentially fatal. I will not tell you which door that is.” \n\nHe gestures around the room to three doors. “I can give you a small hint as to each door’s trial, should you be uncertain.”\n"
 		},
 
 		{
@@ -351,7 +351,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You look at the three doors. \nTo your left is a pristine, white door, akin to the kind you’d see leading to a kitchen. \nTo your right is a stone door, lavishly decorated with gold, silks and royal colors, with a large T as its centerpiece. \nIn the middle, revealed as Michael steps aside, you see a wooden door with dark blue accents, similar to what you’d see in a library."
+			"dialogue": "You look at the three doors. \nTo your left is a pristine, white door, akin to the kind you’d see leading to a kitchen. \nTo your right is a stone door, lavishly decorated with gold, silks and royal colors, with a large T as its centerpiece. \nIn the middle, revealed as Michael steps aside, you see a wooden door with dark blue accents, similar to what you’d see in a library.\n"
 		},
 
 		{
@@ -378,7 +378,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Michael looks at the pristine, white door. “Ah, miss Violet’s trial. A combination challenge. Quite easy and straight-forward, so long as you know how to listen.””"
+			"dialogue": "Michael looks at the pristine, white door. “Ah, miss Violet’s trial. A combination challenge. Quite easy and straight-forward, so long as you know how to listen.”\n"
 		},
 
 		{
@@ -405,7 +405,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Michael chuckles as you ask about the stone door. “Tom is crazy with a capital c. Never before met a person narcissistic enough to create clones of themselves, yet that’s what you will find beyond the door. His riddle isn’t too much of a challenge, but many second guess themselves or overthink it and miss the obvious details.”"
+			"dialogue": "Michael chuckles as you ask about the stone door. “Tom is crazy with a capital c. Never before met a person narcissistic enough to create clones of themselves, yet that’s what you will find beyond the door. His riddle isn’t too much of a challenge, but many second guess themselves or overthink it and miss the obvious details.”\n"
 		},
 
 		{
@@ -432,7 +432,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Michael looks at the wooden door. “Barely a challenge at all. Miss Katharina wishes more to provoke your mind than test it. She has quite a neutral view of the world, and often wishes to broaden the views and thoughts of others. I doubt you could fail her trial, even if you tried.”"
+			"dialogue": "Michael looks at the wooden door. “Barely a challenge at all. Miss Katharina wishes more to provoke your mind than test it. She has quite a neutral view of the world, and often wishes to broaden the views and thoughts of others. I doubt you could fail her trial, even if you tried.”\n"
 		},
 
 		{
@@ -453,7 +453,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Michael nods and touches the white door. It glows like the previous door did, and he gestures for you to walk through. \n\nYou walk into the room which, indeed, is a kitchen. A young woman, barely an adult, is standing by the counter, mixing various ingredients. \nAs you approach, she looks at you and smiles brightly. “Oh, hello. I’m Violet. Are you here for the trial?” You nod, and she brightens further. \n“Wonderful! You’re just in time! I’m making muffins for my sister. She’s in charge of one of the later trials. Maybe you can bring them to her afterwards!” She claps her hands excitedly, and you grab a spare apron, wondering how this is considered a trial at all."
+			"dialogue": "Michael nods and touches the white door. It glows like the previous door did, and he gestures for you to walk through. \n\nYou walk into the room which, indeed, is a kitchen. A young woman, barely an adult, is standing by the counter, mixing various ingredients. \nAs you approach, she looks at you and smiles brightly. “Oh, hello. I’m Violet. Are you here for the trial?” You nod, and she brightens further. \n“Wonderful! You’re just in time! I’m making muffins for my sister. She’s in charge of one of the later trials. Maybe you can bring them to her afterwards!” She claps her hands excitedly, and you grab a spare apron, wondering how this is considered a trial at all.\n"
 		},
 
 		{
@@ -486,7 +486,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "“Alright!” she squeaks. “Let’s start simple! We need to make the dough. The dough’s almost done already. We just need to flavor it.” She puts three items in front of you; vanilla extract, finely chopped almonds, and finely chopped dark, bittersweet chocolate. \n“My sister and I are like night and day,” she says cheerfully. “And she’s definitely the basic one. I’ll go get the fillings!” With that, she leaves you to figure out the correct flavoring on your own."
+			"dialogue": "“Alright!” she squeaks. “Let’s start simple! We need to make the dough. The dough’s almost done already. We just need to flavor it.” She puts three items in front of you; vanilla extract, finely chopped almonds, and finely chopped dark, bittersweet chocolate. \n“My sister and I are like night and day,” she says cheerfully. “And she’s definitely the basic one. I’ll go get the fillings!” With that, she leaves you to figure out the correct flavoring on your own.\n"
 		},
 
 		{
@@ -519,7 +519,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You mix in the flavoring. Violet returns shortly after, deems it fitting, and pours the dough into the muffin forms. You sit in silence for a little moment before Violet drags you back to the counter. \n“We need to get the filling ready. Just put the one you choose into the bag!” She gives you a plastic bag and a spoon, then sets three bowls before you; strawberry jam, pastry cream and salty caramel. \n“She always did have a sweeter tooth than me,” Violet says with a giggle. “I’m surprised she doesn’t match the filling to her fluffy curls!” With that, she once more runs off and searches the kitchen."
+			"dialogue": "You mix in the flavoring. Violet returns shortly after, deems it fitting, and pours the dough into the muffin forms. You sit in silence for a little moment before Violet drags you back to the counter. \n“We need to get the filling ready. Just put the one you choose into the bag!” She gives you a plastic bag and a spoon, then sets three bowls before you; strawberry jam, pastry cream and salty caramel. \n“She always did have a sweeter tooth than me,” Violet says with a giggle. “I’m surprised she doesn’t match the filling to her fluffy curls!” With that, she once more runs off and searches the kitchen.\n"
 		},
 
 		{
@@ -552,7 +552,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You use the spoon to scrape and pour the filling into the plastic bag. When Violet returns with the muffins, she happily accepts the bag, cuts off a corner, and squeezes the filling into the muffins. \n“Okay, before they cool off completely, we need to get the toppings on them!” She gestures to three bowls she’s set out on the table; a bowl full of various kinds of nuts, a bowl full of various kinds of berries, and a bowl full of raw sugar. \n“My sister and I both like to outweigh our previous choices at this stage. Sweetness is good on a salty muffin, and a sharp, tangy flavor tends to fit the basic, sweet muffin my sister likes. Makes it less boring.” She doesn’t run off again, but she doesn’t offer any more words of wisdom either, just looks at you and waits to see what you do."
+			"dialogue": "You use the spoon to scrape and pour the filling into the plastic bag. When Violet returns with the muffins, she happily accepts the bag, cuts off a corner, and squeezes the filling into the muffins. \n“Okay, before they cool off completely, we need to get the toppings on them!” She gestures to three bowls she’s set out on the table; a bowl full of various kinds of nuts, a bowl full of various kinds of berries, and a bowl full of raw sugar. \n“My sister and I both like to outweigh our previous choices at this stage. Sweetness is good on a salty muffin, and a sharp, tangy flavor tends to fit the basic, sweet muffin my sister likes. Makes it less boring.” She doesn’t run off again, but she doesn’t offer any more words of wisdom either, just looks at you and waits to see what you do.\n"
 		},
 
 		{
@@ -576,7 +576,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Violet inspects the muffins, giving a small hum of thought. “Very good. They look amazing. But do they taste amazing? Do you think you made the perfect muffins for my sister?” She offers you a muffin and takes one for herself."
+			"dialogue": "Violet inspects the muffins, giving a small hum of thought. “Very good. They look amazing. But do they taste amazing? Do you think you made the perfect muffins for my sister?” She offers you a muffin and takes one for herself.\n"
 		},
 
 		{
@@ -597,7 +597,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You watch nervously, and although she seems to enjoy the muffin, you get a feeling you didn’t make the right muffin. “Sorry,” she suddenly says. “It’s good and you pass the trial, but they won’t earn you any favor if you meet my sister later. You can still have some for the trip though.” She gives you a small basket of muffins. “It can be hungry work, sometimes.” She gestures to a door on the opposite wall from where you entered. “Good luck.”"
+			"dialogue": "You watch nervously, and although she seems to enjoy the muffin, you get a feeling you didn’t make the right muffin. “Sorry,” she suddenly says. “It’s good and you pass the trial, but they won’t earn you any favor if you meet my sister later. You can still have some for the trip though.” She gives you a small basket of muffins. “It can be hungry work, sometimes.” She gestures to a door on the opposite wall from where you entered. “Good luck.”\n"
 		},
 
 		{
@@ -618,7 +618,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Her nose wrinkles, and you’re sure you did something wrong. “Yup,” she says. “That’s her muffin alright.” She puts the muffin down without taking another bite and packs up a couple of them. “If you give these to her, she’s probably going to make her trial easier on you.” She gives you a basket of Lucky Muffins and gestures to a door on the opposite wall from where you entered. “Good luck.”"
+			"dialogue": "Her nose wrinkles, and you’re sure you did something wrong. “Yup,” she says. “That’s her muffin alright.” She puts the muffin down without taking another bite and packs up a couple of them. “If you give these to her, she’s probably going to make her trial easier on you.” She gives you a basket of Lucky Muffins and gestures to a door on the opposite wall from where you entered. “Good luck.”\n"
 		},
 
 		{
@@ -639,7 +639,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Michael nods and touches the wooden door. It glows like the previous door did, and he gestures for you to walk through. \n \n Upon entry, you notice the room indeed seems to be a library, with a gorgeous mix of modern and old-fashioned furnishing, with a matching door straight across from where you just entered. You stop and listen when you hear a soft, distant hum. \n You follow the hum to a more secluded corner of the large library, and you see a young woman swinging slowly in a hammock. The hammock’s full of blankets, seemingly creating a soft nest for her to rest in, and she is drawing while humming a soft melody. \n You feel like you’ve heard the melody before, and though you cannot place where it’s from, it fills you with relaxation and happiness. \n \n “Welcome to my den.” You’re shocked back to reality, realizing that the hum has stopped while you were lost in your nostalgia. “I’m Katharina, pleased to meet you.” \n You murmur a small greeting, slightly embarrassed by your lack of focus. “I’m sure Michael made my trial sound pointless and easy when he explained it to you, but I would like to warn you right away.” \n She finally looks up from her drawing, catching your gaze immediately. “It may sound easy, but if you aren’t completely stuck in your ways, the thoughts may cling to you for a long time to come.” \n She grins, seeming more like a feral predator than a fellow human. “Let’s get started, shall we?”"
+			"dialogue": "Michael nods and touches the wooden door. It glows like the previous door did, and he gestures for you to walk through. \n\nUpon entry, you notice the room indeed seems to be a library, with a gorgeous mix of modern and old-fashioned furnishing, with a matching door straight across from where you just entered. You stop and listen when you hear a soft, distant hum. \nYou follow the hum to a more secluded corner of the large library, and you see a young woman swinging slowly in a hammock. The hammock’s full of blankets, seemingly creating a soft nest for her to rest in, and she is drawing while humming a soft melody. \nYou feel like you’ve heard the melody before, and though you cannot place where it’s from, it fills you with relaxation and happiness. \n\n“Welcome to my den.” You’re shocked back to reality, realizing that the hum has stopped while you were lost in your nostalgia. “I’m Katharina, pleased to meet you.” \nYou murmur a small greeting, slightly embarrassed by your lack of focus. “I’m sure Michael made my trial sound pointless and easy when he explained it to you, but I would like to warn you right away.” \nShe finally looks up from her drawing, catching your gaze immediately. “It may sound easy, but if you aren’t completely stuck in your ways, the thoughts may cling to you for a long time to come.” \nShe grins, seeming more like a feral predator than a fellow human. “Let’s get started, shall we?”\n"
 		},
 
 		{
@@ -678,7 +678,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Katharina puts down her drawing tools, making the hammock swing slightly more as she sits up fully. “The other trial makers will test your skills, your wits, your basic intellect and knowledge that may prove useful later in life.” \n You watch as she gets out of the hammock and stretches, flinching as you hear her bones crack and pop. “I, however, do not want to test skills you can easily learn with enough time and dedication. I want to know if you are the right kind of person; willing to listen and learn in the first place.” \n She moves over to a rotating whiteboard, rotating it and revealing three images with titles under them. “So, what would you like to talk about?”"
+			"dialogue": "Katharina puts down her drawing tools, making the hammock swing slightly more as she sits up fully. “The other trial makers will test your skills, your wits, your basic intellect and knowledge that may prove useful later in life.” \nYou watch as she gets out of the hammock and stretches, flinching as you hear her bones crack and pop. “I, however, do not want to test skills you can easily learn with enough time and dedication. I want to know if you are the right kind of person; willing to listen and learn in the first place.” \nShe moves over to a rotating whiteboard, rotating it and revealing three images with titles under them. “So, what would you like to talk about?”\n"
 		},
 
 		{
@@ -723,7 +723,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "“We are all different, perfect in our own way. But sometimes we get taught there’s only one side to the story we’re told. This, however, is not true.” She smiles softly at you. “This is why I wish to test for open-mindedness, so I know who I can rely on to help rather than hinder, should I ever need a secondary opinion.” You let your eyes linger on the three images once more."
+			"dialogue": "“We are all different, perfect in our own way. But sometimes we get taught there’s only one side to the story we’re told. This, however, is not true.” She smiles softly at you. “This is why I wish to test for open-mindedness, so I know who I can rely on to help rather than hinder, should I ever need a secondary opinion.” You let your eyes linger on the three images once more.\n"
 		},
 
 		{
@@ -744,7 +744,7 @@
 					"given": [5]
 				}
 			],
-			"dialogue": "She sighs and gestures back to the area you came from. “I’m sorry you think so. But I will not judge you just because our opinions differ in such a way. The other door will let you through.” \n She gets back into the hammock and resumes her drawing. She seems slightly upset, but you can’t think of anything to say and just turn and leave before you upset her further."
+			"dialogue": "She sighs and gestures back to the area you came from. “I’m sorry you think so. But I will not judge you just because our opinions differ in such a way. The other door will let you through.” \nShe gets back into the hammock and resumes her drawing. She seems slightly upset, but you can’t think of anything to say and just turn and leave before you upset her further.\n"
 		},
 
 		{
@@ -765,7 +765,7 @@
 					"given": [6]
 				}
 			],
-			"dialogue": "You point to the picture of the apple and the rock. “Ah, acceptance. A very good choice, and a very important topic to understand.” She smiles, looking at you with approval. \n \n “Please, sit with me.” She sits down by a small table in a soft looking chair, gesturing for you to sit in the other."
+			"dialogue": "You point to the picture of the apple and the rock. “Ah, acceptance. A very good choice, and a very important topic to understand.” She smiles, looking at you with approval. \n\n“Please, sit with me.” She sits down by a small table in a soft looking chair, gesturing for you to sit in the other.\n"
 		},
 
 		{
@@ -786,7 +786,7 @@
 					"given": [7]
 				}
 			],
-			"dialogue": "You point to the picture of the apple and the rock. “Ah, perfection. A very good choice, and a very important topic to understand.” She smiles, looking at you with approval. \n \n “Please, sit with me.” She sits down by a small table in a soft looking chair, gesturing for you to sit in the other."
+			"dialogue": "You point to the picture of the apple and the rock. “Ah, perfection. A very good choice, and a very important topic to understand.” She smiles, looking at you with approval. \n\n“Please, sit with me.” She sits down by a small table in a soft looking chair, gesturing for you to sit in the other.\n"
 		},
 
 		{
@@ -807,7 +807,7 @@
 					"given": [8]
 				}
 			],
-			"dialogue": "You point to the picture of the apple and the rock. “Ah, true family. A very good choice, and a very important topic to understand.” She smiles, looking at you with approval. \n \n “Please, sit with me.” She sits down by a small table in a soft looking chair, gesturing for you to sit in the other."
+			"dialogue": "You point to the picture of the apple and the rock. “Ah, true family. A very good choice, and a very important topic to understand.” She smiles, looking at you with approval. \n\n“Please, sit with me.” She sits down by a small table in a soft looking chair, gesturing for you to sit in the other.\n"
 		},
 
 		{
@@ -822,13 +822,13 @@
 			},
 			"options": [
 				{
-					"id": 0,
+					"id": 31,
 					"text": "Sit with her. ",
 					"exception": [],
 					"given": [9]
 				}
 			],
-			"dialogue": "She seems surprised by the request, but her surprise is quickly replaced by joy. “Oh, it’s been so long since someone chose based on what I say, rather than what I present them with. Please, sit with me.” She sits down by a small table in a soft looking chair, gesturing for you to sit in the other."
+			"dialogue": "She seems surprised by the request, but her surprise is quickly replaced by joy. “Oh, it’s been so long since someone chose based on what I say, rather than what I present them with. Please, sit with me.” She sits down by a small table in a soft looking chair, gesturing for you to sit in the other.\n"
 		},
 
 		{
@@ -866,7 +866,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Once you sit, she opens a small hatch in the bookcase, which was painted so well that you thought it was another shelf with books. “Help yourself,” she says as she pours herself a cup of tea. \n You move to get a drink from the small room as well, and you’re surprised by the amount of choice you have. Hot chocolate, coffee, tea, fresh juices, water, sodas, cocoa, milk, even a large assortment of fruits, cookies, biscuits and cakes. Clearly she wants you to be comfortable during the chat."
+			"dialogue": "Once you sit, she opens a small hatch in the bookcase, which was painted so well that you thought it was another shelf with books. “Help yourself,” she says as she pours herself a cup of tea. \nYou move to get a drink from the small room as well, and you’re surprised by the amount of choice you have. Hot chocolate, coffee, tea, fresh juices, water, sodas, cocoa, milk, even a large assortment of fruits, cookies, biscuits and cakes. Clearly she wants you to be comfortable during the chat.\n"
 		},
 
 		{
@@ -881,13 +881,13 @@
 			},
 			"options": [
 				{
-					"id": 0,
+					"id": 58,
 					"text": "Go back to the door and move on to the next trial. ",
 					"exception": [],
 					"given": [10]
 				}
 			],
-			"dialogue": "“So, acceptance..” She takes a sip of tea and smiles. “Acceptance can be many things, but today we will talk about accepting others. The flaws and quirks, the good and the bad, the prejudice that creates impassable barriers between you and those that could be your best friends.” \n She looks at you, making sure you’re listening. “The picture shows it well. An apple and a rock. The apple is beautiful, and if you’re starving it may even save your life. But you cannot tell from looking at it if it is rotten or has worms. Likewise, the rock may have no uses to you, but once cracked open, it may turn out to be a beautiful geode, full of shimmering crystals. If you knew the apple was full of worms and the rock a geode, would you still pick the apple?” \n She puts down her teacup. “You cannot know what is on the inside. Though some rocks are just rocks, and some apples are delicious, you cannot know this in advance. That is why acceptance is important. It lets us meet strangers and potentially make new friends, friends who will be with us for many years to come.” \n With a smile, she gestures down the path you came from. “Think about it. The door is open for you now.” She gives you a Special Gemstone and goes back to her hammock, once more humming softly to herself."
+			"dialogue": "“So, acceptance..” She takes a sip of tea and smiles. “Acceptance can be many things, but today we will talk about accepting others. The flaws and quirks, the good and the bad, the prejudice that creates impassable barriers between you and those that could be your best friends.” \nShe looks at you, making sure you’re listening. “The picture shows it well. An apple and a rock. The apple is beautiful, and if you’re starving it may even save your life. But you cannot tell from looking at it if it is rotten or has worms. Likewise, the rock may have no uses to you, but once cracked open, it may turn out to be a beautiful geode, full of shimmering crystals. If you knew the apple was full of worms and the rock a geode, would you still pick the apple?” \nShe puts down her teacup. “You cannot know what is on the inside. Though some rocks are just rocks, and some apples are delicious, you cannot know this in advance. That is why acceptance is important. It lets us meet strangers and potentially make new friends, friends who will be with us for many years to come.” \nWith a smile, she gestures down the path you came from. “Think about it. The door is open for you now.” She gives you a Special Gemstone and goes back to her hammock, once more humming softly to herself.\n"
 		},
 
 		{
@@ -908,7 +908,7 @@
 					"given": [10]
 				}
 			],
-			"dialogue": "“So, perfection..” She takes a sip of tea and smiles. “If I asked you what perfection was, I’m sure you’d be able to tell me about several things. Special items, good memories, family members, friends, the person you love.. But true perfection does not actually exist.” \n She looks at you, making sure you’re listening. “The things you call perfect may be useless to some other people. True perfection, something that everyone will agree is perfect, is impossible, as someone is always likely to disagree. Even in world-wide competitions for special titles of beauty or perfection, there will always be someone who disagrees.” \n She puts down her teacup. “This is why it’s important to accept that we’re all different, that we will always find different things perfect. Our opinions are part of who we are, and so long as no one tries to force you to share theirs, we should simply accept that we like different things. After all, our flaws are what make us perfect.” \n With a smile, she gestures down the path you came from. “Think about it. The door is open for you now.” She gives you a Special Gemstone and goes back to her hammock, once more humming softly to herself."
+			"dialogue": "“So, perfection..” She takes a sip of tea and smiles. “If I asked you what perfection was, I’m sure you’d be able to tell me about several things. Special items, good memories, family members, friends, the person you love.. But true perfection does not actually exist.” \nShe looks at you, making sure you’re listening. “The things you call perfect may be useless to some other people. True perfection, something that everyone will agree is perfect, is impossible, as someone is always likely to disagree. Even in world-wide competitions for special titles of beauty or perfection, there will always be someone who disagrees.” \nShe puts down her teacup. “This is why it’s important to accept that we’re all different, that we will always find different things perfect. Our opinions are part of who we are, and so long as no one tries to force you to share theirs, we should simply accept that we like different things. After all, our flaws are what make us perfect.” \nWith a smile, she gestures down the path you came from. “Think about it. The door is open for you now.” She gives you a Special Gemstone and goes back to her hammock, once more humming softly to herself.\n"
 		},
 
 		{
@@ -929,7 +929,7 @@
 					"given": [10]
 				}
 			],
-			"dialogue": "“So, true family..” She takes a sip of tea and smiles. “Some would say that family is who you grew up with, while some others would say only blood can make you family. Neither of these are true on their own, however.” \n She looks at you, making sure you’re listening. “If you grew up abused, would you love your family as a family, just because of the blood connecting you? And just because you grew up with a family, would you call them your family, even if you did not want to be with them, but had no choice?” \n She puts down her teacup. “Family can be many things, but first of all it is those you love. You may not share blood, you may live far apart, you may barely know each other, but if your heart says you’re family, then clearly you have a connection. A brother is a brother, a sister is a sister, and it does not matter where they came from. Family is in your heart and soul, not just in flesh and blood.” \n With a smile, she gestures down the path you came from. “Think about it. The door is open for you now.” She gives you a Special Gemstone and goes back to her hammock, once more humming softly to herself."
+			"dialogue": "“So, true family..” She takes a sip of tea and smiles. “Some would say that family is who you grew up with, while some others would say only blood can make you family. Neither of these are true on their own, however.” \nShe looks at you, making sure you’re listening. “If you grew up abused, would you love your family as a family, just because of the blood connecting you? And just because you grew up with a family, would you call them your family, even if you did not want to be with them, but had no choice?” \nShe puts down her teacup. “Family can be many things, but first of all it is those you love. You may not share blood, you may live far apart, you may barely know each other, but if your heart says you’re family, then clearly you have a connection. A brother is a brother, a sister is a sister, and it does not matter where they came from. Family is in your heart and soul, not just in flesh and blood.” \nWith a smile, she gestures down the path you came from. “Think about it. The door is open for you now.” She gives you a Special Gemstone and goes back to her hammock, once more humming softly to herself.\n"
 		},
 
 		{
@@ -950,7 +950,7 @@
 					"given": [10]
 				}
 			],
-			"dialogue": "“So, multi-sided stories..” She takes a sip of tea and smiles. “It isn’t always a pleasant topic. Many get upset when I bring it up. After all, if we grow up learning that someone was bad, how can someone else possibly claim that they were good?” \n She looks at you, making sure you’re listening. “But we must remember that the winner writes the history books. If two kingdoms are at war because both want the farms to keep their people alive, does it really matter which side you’re on? Both sides want the same, and both sides will attempt to take the other’s lands for their own.” \n She puts down her teacup. “Some people have bad personalities and will act harsher than the opposing force, but that won’t change that their goals may actually be the same. You only think the other side is bad, because you’re not on that side. If you were, then your current side would be the bad one. We really should not judge those that we could have been. After all; we don’t choose where we’re born or raised.” \n With a smile, she gestures down the path you came from. “Think about it. The door is open for you now.” She gives you a Special Gemstone and goes back to her hammock, once more humming softly to herself."
+			"dialogue": "“So, multi-sided stories..” She takes a sip of tea and smiles. “It isn’t always a pleasant topic. Many get upset when I bring it up. After all, if we grow up learning that someone was bad, how can someone else possibly claim that they were good?” \nShe looks at you, making sure you’re listening. “But we must remember that the winner writes the history books. If two kingdoms are at war because both want the farms to keep their people alive, does it really matter which side you’re on? Both sides want the same, and both sides will attempt to take the other’s lands for their own.” \nShe puts down her teacup. “Some people have bad personalities and will act harsher than the opposing force, but that won’t change that their goals may actually be the same. You only think the other side is bad, because you’re not on that side. If you were, then your current side would be the bad one. We really should not judge those that we could have been. After all; we don’t choose where we’re born or raised.” \nWith a smile, she gestures down the path you came from. “Think about it. The door is open for you now.” She gives you a Special Gemstone and goes back to her hammock, once more humming softly to herself.\n"
 		},
 
 		{
@@ -971,7 +971,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Michael nods and touches the stone door. It glows like the previous door did, and he gestures for you to walk through. \n \n Inside, you find what looks like a tomb. A very well decorated one, with gold and gemstones in the walls, silk curtains draped along the sides of the room, beautiful golden designs on the stone pillars, the floor made with polished marble, and the furniture made with exotic materials you cannot even name. \n “Welcome.” You look away from the decor, seeing three men laying back in a mountain of pillows. Despite the warning, you rub your eyes and blink rapidly, feeling uncertain whether your eyes are playing a trick on your or not. \n The three men are identical, and they are all dressed in exotic clothes that match the theme of the room."
+			"dialogue": "Michael nods and touches the stone door. It glows like the previous door did, and he gestures for you to walk through. \n\nInside, you find what looks like a tomb. A very well decorated one, with gold and gemstones in the walls, silk curtains draped along the sides of the room, beautiful golden designs on the stone pillars, the floor made with polished marble, and the furniture made with exotic materials you cannot even name. \n“Welcome.” You look away from the decor, seeing three men laying back in a mountain of pillows. Despite the warning, you rub your eyes and blink rapidly, feeling uncertain whether your eyes are playing a trick on your or not. \nThe three men are identical, and they are all dressed in exotic clothes that match the theme of the room.\n"
 		},
 
 		{
@@ -992,7 +992,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "They all get up as soon as you say you’re here for the trial, and they walk over to a wall with three doors. They sit down on a lavish chair each, placed in front of each of the three doors. \n “One door leads to victory, the other two to your doom, and you may only ask one of us which door leads you true,” says the first. \n “However, not all of us will tell you the truth, for though we look the same, our answers are not. One is Truth who always speaks truth, one is Lie who always lies, and one is Wisdom who may answer either way. You must figure out which of us to ask to get the true path,” says the second. \n “You may ask us all one question each, and from the hints you gain, you must then choose who to ask about the door,” says the third. \n They all grin, and you can’t help feeling like you made a terrible choice. Together, they all call out. “Let the trial begin!”"
+			"dialogue": "They all get up as soon as you say you’re here for the trial, and they walk over to a wall with three doors. They sit down on a lavish chair each, placed in front of each of the three doors. \n“One door leads to victory, the other two to your doom, and you may only ask one of us which door leads you true,” says the first. \n“However, not all of us will tell you the truth, for though we look the same, our answers are not. One is Truth who always speaks truth, one is Lie who always lies, and one is Wisdom who may answer either way. You must figure out which of us to ask to get the true path,” says the second. \n“You may ask us all one question each, and from the hints you gain, you must then choose who to ask about the door,” says the third. \nThey all grin, and you can’t help feeling like you made a terrible choice. Together, they all call out. “Let the trial begin!”\n"
 		},
 
 		{
@@ -1028,7 +1028,7 @@
 					"given": ""
 				}
 			],
-			"dialogue": "You look at the three men, contemplating what to do."
+			"dialogue": "You look at the three men, contemplating what to do.\n"
 		},
 
 		{
@@ -1053,7 +1053,7 @@
 				},
 				{
 					"id": 41,
-					"text": "Ask about the true door. ",
+					"text": "Second man. ",
 					"exception": [{
 						"items": [12],
 						"scene": 43
@@ -1062,7 +1062,7 @@
 				},
 				{
 					"id": 42,
-					"text": "",
+					"text": "Third man. ",
 					"exception": [{
 						"items": [13],
 						"scene": 43
@@ -1070,7 +1070,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Who do you want to ask?"
+			"dialogue": "Who do you want to ask?\n"
 		},
 
 		{
@@ -1103,7 +1103,7 @@
 					"given": [11]
 				}
 			],
-			"dialogue": "What will you ask first man?"
+			"dialogue": "What will you ask the first man?\n"
 		},
 
 		{
@@ -1136,7 +1136,7 @@
 					"given": [12]
 				}
 			],
-			"dialogue": "What will you ask second man?"
+			"dialogue": "What will you ask the second man?\n"
 		},
 
 		{
@@ -1169,7 +1169,7 @@
 					"given": [13]
 				}
 			],
-			"dialogue": "What will you ask the third man?"
+			"dialogue": "What will you ask the third man?\n"
 		},
 
 		{
@@ -1190,7 +1190,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The man just shakes his head. \n You already asked him for a hint, remember?"
+			"dialogue": "The man just shakes his head. \nYou already asked him for a hint, remember?\n"
 		},
 
 		{
@@ -1211,7 +1211,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "“Truth Tom,” he says."
+			"dialogue": "“Truth Tom,” he says.\n"
 		},
 
 		{
@@ -1232,7 +1232,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "“Lie Tom,” he says."
+			"dialogue": "“Lie Tom,” he says.\n"
 		},
 
 		{
@@ -1253,7 +1253,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "“Wisdom Tom,” he says."
+			"dialogue": "“Wisdom Tom,” he says.\n"
 		},
 
 		{
@@ -1286,7 +1286,7 @@
 					"given": [14]
 				}
 			],
-			"dialogue": "Who do you want to ask about the door?"
+			"dialogue": "Who do you want to ask about the door?\n"
 		},
 
 		{
@@ -1307,7 +1307,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "“The middle door,” he says."
+			"dialogue": "“The middle door,” he says.\n"
 		},
 
 		{
@@ -1328,7 +1328,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "“The right door,” he says."
+			"dialogue": "“The right door,” he says.\n"
 		},
 
 		{
@@ -1349,7 +1349,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "“The left door,” he says."
+			"dialogue": "“The left door,” he says.\n"
 		},
 
 		{
@@ -1370,7 +1370,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You already asked one of them about the true door, so they all refuse to answer."
+			"dialogue": "You already asked one of them about the true door, so they all refuse to answer.\n"
 		},
 
 		{
@@ -1409,7 +1409,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You look at the three doors and the three men look at you excitedly. Are you ready to choose?"
+			"dialogue": "You look at the three doors and the three men look at you excitedly. Are you ready to choose?\n"
 		},
 
 		{
@@ -1430,7 +1430,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You walk through the door nervously, and no sooner has the door closed behind you, when the floor begins to move, sending you down a slide into darkness. When you finally land, you notice you’re in a cell of some sort. \n “Ah, a newcomer! Wonderful!” You look towards the voice, the same voice as the three you met before, though this man’s voice is dripping with the promise of pain. “Do not worry, young one, you won’t be inferior for long.” With a sadistic, gleeful laugh, he walks away, leaving you alone in the dark. \n Soon, you too will become just another member of the Tom army. \n \n Game Over. "
+			"dialogue": "You walk through the door nervously, and no sooner has the door closed behind you, when the floor begins to move, sending you down a slide into darkness. When you finally land, you notice you’re in a cell of some sort. \n“Ah, a newcomer! Wonderful!” You look towards the voice, the same voice as the three you met before, though this man’s voice is dripping with the promise of pain. “Do not worry, young one, you won’t be inferior for long.” With a sadistic, gleeful laugh, he walks away, leaving you alone in the dark. \nSoon, you too will become just another member of the Tom army. \n\nGame Over. \n"
 		},
 
 		{
@@ -1451,7 +1451,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You’re stuck in a dark hallway after the door closes, and when nothing bad happens, you start taking slow, careful steps. It takes a few minutes to get to the end, but a door lights up and opens before you, leading you out into another rotunda, similar to the first, but with three new doors. \n “Ah, you made it! I wasn’t sure you would. Tom likes to confuse the poor bastards who choose his trial. Glad to see you made it.” You smile with relief when you hear Michael greet you. You’re safe. For now."
+			"dialogue": "You’re stuck in a dark hallway after the door closes, and when nothing bad happens, you start taking slow, careful steps. It takes a few minutes to get to the end, but a door lights up and opens before you, leading you out into another rotunda, similar to the first, but with three new doors. \n“Ah, you made it! I wasn’t sure you would. Tom likes to confuse the poor bastards who choose his trial. Glad to see you made it.” You smile with relief when you hear Michael greet you. You’re safe. For now.\n"
 		},
 
 		{
@@ -1472,7 +1472,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You emerge into another rotunda, similar to the first, but with three new doors. You look around for Michael, when the basket of muffins is torn from your grip. \n “Muffins! Alright!” Immediately, Michael starts gobbling up the muffins from the basket. \n He says some odd greeting through the mouthful of muffin, and you wonder whether he’s starving, or whether his manners are always that horrific."
+			"dialogue": "You emerge into another rotunda, similar to the first, but with three new doors. You look around for Michael, when the basket of muffins is torn from your grip. \n“Muffins! Alright!” Immediately, Michael starts gobbling up the muffins from the basket. \nHe says some odd greeting through the mouthful of muffin, and you wonder whether he’s starving, or whether his manners are always that horrific.\n"
 		},
 
 		{
@@ -1493,7 +1493,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You emerge into another rotunda, similar to the first, but with three new doors. You look around for Michael, when the basket of muffins is almost torn from your grip. \n “Muffins! Alright!” You just manage to save a single Lucky Muffin before Michael starts gobbling up the other muffins from the basket. \n He says some odd greeting through the mouthful of muffin, and you wonder whether he’s starving, or whether his manners are always that horrific."
+			"dialogue": "You emerge into another rotunda, similar to the first, but with three new doors. You look around for Michael, when the basket of muffins is almost torn from your grip. \n“Muffins! Alright!” You just manage to save a single Lucky Muffin before Michael starts gobbling up the other muffins from the basket. \nHe says some odd greeting through the mouthful of muffin, and you wonder whether he’s starving, or whether his manners are always that horrific.\n"
 		},
 
 		{
@@ -1514,7 +1514,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You emerge into another rotunda, similar to the first, but with three new doors. You look around for Michael, hoping he won’t notice how guilty you feel. \n However, when you spot him, it’s obvious that he knows. He looks very disappointed in you."
+			"dialogue": "You emerge into another rotunda, similar to the first, but with three new doors. You look around for Michael, hoping he won’t notice how guilty you feel. \nHowever, when you spot him, it’s obvious that he knows. He looks very disappointed in you.\n"
 		},
 
 		{
@@ -1535,7 +1535,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You emerge into another rotunda, similar to the first, but with three new doors. You look around for Michael, when your wrist is grabbed from behind. \n “Ooooh! Pretty!” You turn and look, seeing Michael holding on to your wrist and staring at the Special Gemstone. “You actually sat through her philosophy blabbering? Impressive. People rarely have the patience for her long speeches.” You try to tell him that the chat wasn’t that long, but he doesn’t seem to be listening. \n He’s far too busy staring at the sparkling gem in your hand."
+			"dialogue": "You emerge into another rotunda, similar to the first, but with three new doors. You look around for Michael, when your wrist is grabbed from behind. \n“Ooooh! Pretty!” You turn and look, seeing Michael holding on to your wrist and staring at the Special Gemstone. “You actually sat through her philosophy blabbering? Impressive. People rarely have the patience for her long speeches.” You try to tell him that the chat wasn’t that long, but he doesn’t seem to be listening. \nHe’s far too busy staring at the sparkling gem in your hand.\n"
 		},
 
 		{
@@ -1556,7 +1556,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "“The second set of trials is more intense.” You look at Michael, as he moves to the middle of the room. “Only one of them is fully safe, and the other two are not only potentially lethal, but you may fail them and have to return here.” You just nod and look at the three new doors."
+			"dialogue": "“The second set of trials is more intense.” You look at Michael, as he moves to the middle of the room. “Only one of them is fully safe, and the other two are not only potentially lethal, but you may fail them and have to return here.” You just nod and look at the three new doors.\n"
 		},
 
 		{
@@ -1589,7 +1589,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You look at the three doors. \n Both the left and the right door are pristine white, however the markings are very different. The left door seems laboratory-like, whilst the right one seems medical, hospital-like. The door in the middle is also white, but seems to be a normal wooden door, common in most households."
+			"dialogue": "You look at the three doors. \nBoth the left and the right door are pristine white, however the markings are very different. The left door seems laboratory-like, whilst the right one seems medical, hospital-like. The door in the middle is also white, but seems to be a normal wooden door, common in most households.\n"
 		},
 
 		{
@@ -1619,7 +1619,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Michael grins. “Ah, Aimee. The resident mad scientist. She’s crazy, but harmless. Most of the time. She’s probably got some technological tinkering she could use some help with.” He chuckles, seeming to get lost in thoughts and memories."
+			"dialogue": "Michael grins. “Ah, Aimee. The resident mad scientist. She’s crazy, but harmless. Most of the time. She’s probably got some technological tinkering she could use some help with.” He chuckles, seeming to get lost in thoughts and memories.\n"
 		},
 
 		{
@@ -1646,7 +1646,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "With a sigh, Michael rubs his temples. “Matthew volunteered to make a trial, but kept delaying it because he was too busy obsessing over his precious chocolate milk, so we had to turn that into a trial. All I can say if you choose his trial is good luck.”"
+			"dialogue": "With a sigh, Michael rubs his temples. “Matthew volunteered to make a trial, but kept delaying it because he was too busy obsessing over his precious chocolate milk, so we had to turn that into a trial. All I can say if you choose his trial is good luck.”\n"
 		},
 
 		{
@@ -1676,7 +1676,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "“Lukas’ trial..” Michael doesn’t look all that keen, and seems to avoid the door. “He’s a good guy, but his reasoning can be confusing. He once wanted to make a plague that would turn the victim’s lifeforce into an ethereal energy, which he wanted to use to get a friend back from the dead. Took months to convince him it would be a bad idea!”"
+			"dialogue": "“Lukas’ trial..” Michael doesn’t look all that keen, and seems to avoid the door. “He’s a good guy, but his reasoning can be confusing. He once wanted to make a plague that would turn the victim’s lifeforce into an ethereal energy, which he wanted to use to get a friend back from the dead. Took months to convince him it would be a bad idea!”\n"
 		},
 
 		{
@@ -1697,7 +1697,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The door does not budge. “You failed that trial. You have to choose another one.” You listen to Michael and choose another door."
+			"dialogue": "The door does not budge. “You failed that trial. You have to choose another one.” You listen to Michael and choose another door.\n"
 		},
 
 		{
@@ -1718,7 +1718,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Michael looks up from a book when you return through the door. “Ah, failed the trial, did you? Well, it’s okay. Only the third set of trials can be deadlocked by failures.” He closes and puts down the book, and you see a comic sticking out between the pages. \n You decide not to comment on it, as Michael shows you the doors once more."
+			"dialogue": "Michael looks up from a book when you return through the door. “Ah, failed the trial, did you? Well, it’s okay. Only the third set of trials can be deadlocked by failures.” He closes and puts down the book, and you see a comic sticking out between the pages. \nYou decide not to comment on it, as Michael shows you the doors once more.\n"
 		},
 
 		{
@@ -1739,7 +1739,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Michael nods and touches the laboratory door. It glows like the previous doors did, and he gestures for you to walk through. \n \n You walk into the room which is full of all the stereotypical science items you’d see in movies, along with a mess of wires and machine parts spread out on the tables. \n \n “One moment!” The voice is followed by the sound of many metal items clattering to the floor, and shortly after a woman squeezes her way through to you. “Hi! I’m Aimee! Sorry about the mess, I started tinkering and forgot the time. Let’s get straight to work, shall we?”"
+			"dialogue": "Michael nods and touches the laboratory door. It glows like the previous doors did, and he gestures for you to walk through. \n\nYou walk into the room which is full of all the stereotypical science items you’d see in movies, along with a mess of wires and machine parts spread out on the tables. \n\n“One moment!” The voice is followed by the sound of many metal items clattering to the floor, and shortly after a woman squeezes her way through to you. “Hi! I’m Aimee! Sorry about the mess, I started tinkering and forgot the time. Let’s get straight to work, shall we?”\n"
 		},
 
 		{
@@ -1760,7 +1760,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "“I am working on this nifty little thing!” She holds up a small robot dragon. It looks more like a toy than anything else. “I know, I know, it’s nothing special yet. But that’s what you’re here for! You’re going to MAKE it special!” \n She grins and puts the dragon down. “All the parts have markings on them to show what they do. Let’s try to put together something useful.”"
+			"dialogue": "“I am working on this nifty little thing!” She holds up a small robot dragon. It looks more like a toy than anything else. “I know, I know, it’s nothing special yet. But that’s what you’re here for! You’re going to MAKE it special!” \nShe grins and puts the dragon down. “All the parts have markings on them to show what they do. Let’s try to put together something useful.”\n"
 		},
 
 		{
@@ -1793,7 +1793,7 @@
 					"given": [19]
 				}
 			],
-			"dialogue": "Aimee looks at you. “Are you ready?” You nod. No going back now. “Alright, first we implant the eye module. Hand me the lenses, would you?”"
+			"dialogue": "Aimee looks at you. “Are you ready?” You nod. No going back now. “Alright, first we implant the eye module. Hand me the lenses, would you?”\n"
 		},
 
 		{
@@ -1832,7 +1832,7 @@
 					"given": [23]
 				}
 			],
-			"dialogue": "After securing the eye lenses, she grabs a new tool. “Alright, hand me one of the canisters, please.”"
+			"dialogue": "After securing the eye lenses, she grabs a new tool. “Alright, hand me one of the canisters, please.”\n"
 		},
 
 		{
@@ -1865,7 +1865,7 @@
 					"given": [26]
 				}
 			],
-			"dialogue": "“One more to go!” Dropping the tool on the floor, she hastily grabs a new one. “Get me one of the control chips, ‘kay?”"
+			"dialogue": "“One more to go!” Dropping the tool on the floor, she hastily grabs a new one. “Get me one of the control chips, ‘kay?”\n"
 		},
 
 		{
@@ -1880,7 +1880,7 @@
 			},
 			"options": [
 				{
-					"id": 0,
+					"id": 72,
 					"text": "Wait with bated breath. ",
 					"exception": [
 						{
@@ -1903,7 +1903,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Aimee grins. “Here goes nothing.” And as soon as the final part has been secured, the little robot clicks to life, eyes glowing and wings flapping. It looks around for a moment, then suddenly takes off and flies up high."
+			"dialogue": "Aimee grins. “Here goes nothing.” And as soon as the final part has been secured, the little robot clicks to life, eyes glowing and wings flapping. It looks around for a moment, then suddenly takes off and flies up high.\n"
 		},
 
 		{
@@ -1924,7 +1924,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The robot flaps in circles for a few seconds before it lands. “Damn, the parts weren’t compatible.” Aimee gestures to a door on the other side of the messy room. “But at least it worked! You can move on to the last set of trials now.”"
+			"dialogue": "The robot flaps in circles for a few seconds before it lands. “Damn, the parts weren’t compatible.” Aimee gestures to a door on the other side of the messy room. “But at least it worked! You can move on to the last set of trials now.”\n"
 		},
 
 		{
@@ -1945,7 +1945,7 @@
 					"given": [27]
 				}
 			],
-			"dialogue": "The robot flaps in circles for a few seconds before it swoops down and lands on a table holding experimental plants. \n The eyes glow brighter, and a spray of liquid comes out of the little dragon’s mouth, and before your eyes, the weak and sickly plants begin to thrive. \n “Well done!” Aimee pats your back. “You made a gardening robot!” You aren’t sure whether to be impressed or find it silly, but she seems happy, so you let her have her moment. \n “Alright, the robot worked. Have this, and you can move on to the last set of trials.” She hands you a Metal Part, and you accept it, despite not knowing what it’s good for."
+			"dialogue": "The robot flaps in circles for a few seconds before it swoops down and lands on a table holding experimental plants. \nThe eyes glow brighter, and a spray of liquid comes out of the little dragon’s mouth, and before your eyes, the weak and sickly plants begin to thrive. \n“Well done!” Aimee pats your back. “You made a gardening robot!” You aren’t sure whether to be impressed or find it silly, but she seems happy, so you let her have her moment. \n“Alright, the robot worked. Have this, and you can move on to the last set of trials.” She hands you a Metal Part, and you accept it, despite not knowing what it’s good for.\n"
 		},
 
 		{
@@ -1966,7 +1966,7 @@
 					"given": [27]
 				}
 			],
-			"dialogue": "The robot flaps in circles for a few seconds before it swoops down and bites your arm. You are about to scream in pain, when you notice there is no pain. \n “Amazing!” Aimee pats your back. “You made a medical robot that detects and prevents illnesses!” You grin, feeling very impressed with yourself, and as the robot lets go and lands on the table, you feel refreshed and full of energy. \n “Alright, the robot worked. Have this, and you can move on to the last set of trials.” She hands you a Metal Part, and you accept it, despite not knowing what it’s good for."
+			"dialogue": "The robot flaps in circles for a few seconds before it swoops down and bites your arm. You are about to scream in pain, when you notice there is no pain. \n“Amazing!” Aimee pats your back. “You made a medical robot that detects and prevents illnesses!” You grin, feeling very impressed with yourself, and as the robot lets go and lands on the table, you feel refreshed and full of energy. \n“Alright, the robot worked. Have this, and you can move on to the last set of trials.” She hands you a Metal Part, and you accept it, despite not knowing what it’s good for.\n"
 		},
 
 		{
@@ -1987,7 +1987,7 @@
 					"given": [27]
 				}
 			],
-			"dialogue": "The robot flaps in circles for a few seconds before it swoops down and douses Aimee’s scented candles in foam. \n “Wonderful!” Aimee pats your back. “You made a fire extinguishing dragon!” She laughs, and you can’t help joining her at the silly irony. \n “Alright, the robot worked. Have this, and you can move on to the last set of trials.” She hands you a Metal Part, and you accept it, despite not knowing what it’s good for."
+			"dialogue": "The robot flaps in circles for a few seconds before it swoops down and douses Aimee’s scented candles in foam. \n“Wonderful!” Aimee pats your back. “You made a fire extinguishing dragon!” She laughs, and you can’t help joining her at the silly irony. \n“Alright, the robot worked. Have this, and you can move on to the last set of trials.” She hands you a Metal Part, and you accept it, despite not knowing what it’s good for.\n"
 		},
 
 		{
@@ -2008,7 +2008,7 @@
 					"given": [15]
 				}
 			],
-			"dialogue": "The robot flaps in circles for a few seconds, then swoops down and starts spraying pure alcohol everywhere. Aimee shrieks and runs for cover, as the heat from the laser eyes immediately turns the alcohol into flames, and the lab is set ablaze. You are cut off from both the exit to the next trial and from Aimee, so you run as fast as you can to the nearest door, even if it does lead back where you came from."
+			"dialogue": "The robot flaps in circles for a few seconds, then swoops down and starts spraying pure alcohol everywhere. Aimee shrieks and runs for cover, as the heat from the laser eyes immediately turns the alcohol into flames, and the lab is set ablaze. You are cut off from both the exit to the next trial and from Aimee, so you run as fast as you can to the nearest door, even if it does lead back where you came from.\n"
 		},
 
 		{
@@ -2041,7 +2041,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "Michael nods and unlocks the door. It doesn’t glows like the previous doors did, but rather was just locked by a regular key. He gestures for you to walk through. \n \n You walk into a small room, and immediately notice a young man trying to break open a glass door on the left wall. Straight ahead is another door, and to your right is a table with two jugs, a large tub of water and an odd machine set in the wall."
+			"dialogue": "Michael nods and unlocks the door. It doesn’t glows like the previous doors did, but rather was just locked by a regular key. He gestures for you to walk through. \n\nYou walk into a small room, and immediately notice a young man trying to break open a glass door on the left wall. Straight ahead is another door, and to your right is a table with two jugs, a large tub of water and an odd machine set in the wall.\n"
 		},
 
 		{
@@ -2068,7 +2068,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You try to talk to the guy, but all he does is sob and keep hitting the door. “My choccy milk! My precious choccy milk!” \n You notice the door doesn’t even have a single scratch or crack, but the wooden chair is little more than splinters on the floor. He doesn’t respond to you at all."
+			"dialogue": "You try to talk to the guy, but all he does is sob and keep hitting the door. “My choccy milk! My precious choccy milk!” \nYou notice the door doesn’t even have a single scratch or crack, but the wooden chair is little more than splinters on the floor. He doesn’t respond to you at all.\n"
 		},
 
 		{
@@ -2095,7 +2095,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The door’s locked, no surprise there. You look back at the man and the puzzle. He hasn’t even noticed you yet."
+			"dialogue": "The door’s locked, no surprise there. You look back at the man and the puzzle. He hasn’t even noticed you yet.\n"
 		},
 
 		{
@@ -2116,7 +2116,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "You walk up to the table and see a very simple sign hanging on the wall just above it. \n \n Get four liters of water in the boiler. \n If you add too much or too little, the boiler resets. \n \n Well, that sounds easy enough. \n You check out the large tub and the jugs. One jug has the number 5 on it and the other has the number 3 on it. The tub is too big for you to even guess how much it holds. \n You glance to the weird man, still trying to break the glass door and still unaware of your presence."
+			"dialogue": "You walk up to the table and see a very simple sign hanging on the wall just above it. \n\nGet four liters of water in the boiler. \nIf you add too much or too little, the boiler resets. \n\nWell, that sounds easy enough. \nYou check out the large tub and the jugs. One jug has the number 5 on it and the other has the number 3 on it. The tub is too big for you to even guess how much it holds. \nYou glance to the weird man, still trying to break the glass door and still unaware of your presence.\n"
 		},
 
 		{
@@ -2143,7 +2143,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 0 liter(s). "
+			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 0 liter(s). \n"
 		},
 
 		{
@@ -2188,7 +2188,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 1 liter(s). "
+			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 1 liter(s). \n"
 		},
 
 		{
@@ -2233,7 +2233,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 2 liter(s). "
+			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 2 liter(s). \n"
 		},
 
 		{
@@ -2278,7 +2278,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 3 liter(s). "
+			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 3 liter(s). \n"
 		},
 
 		{
@@ -2323,7 +2323,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 4 liter(s). "
+			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 4 liter(s). \n"
 		},
 
 		{
@@ -2362,7 +2362,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 5 liter(s). "
+			"dialogue": "The 3 jug currently holds 0 liter(s) and the 5 jug currently holds 5 liter(s). \n"
 		},
 
 		{
@@ -2407,7 +2407,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 0 liter(s). "
+			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 0 liter(s). \n"
 		},
 
 		{
@@ -2470,7 +2470,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 1 liter(s)."
+			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 1 liter(s).\n"
 		},
 
 		{
@@ -2533,7 +2533,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 2 liter(s)."
+			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 2 liter(s).\n"
 		},
 
 		{
@@ -2596,7 +2596,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 3 liter(s)."
+			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 3 liter(s).\n"
 		},
 
 		{
@@ -2659,7 +2659,7 @@
 					"given": []
 				}
 			],
-			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 4 liter(s)."
+			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 4 liter(s).\n"
 		},
 
 		{
@@ -2710,7 +2710,2715 @@
 					"given": []
 				}
 			],
-			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 5 liter(s)."
+			"dialogue": "The 3 jug currently holds 1 liter(s) and the 5 jug currently holds 5 liter(s).\n"
+		},
+
+		{
+			"id": 93,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 99,
+					"text": "Fill 3 jug.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 98,
+					"text": "Fill 5 jug.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 83,
+					"text": "Pour 3 jug into 5 jug.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 81,
+					"text": "Empty 3 jug.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 2 liter(s) and the 5 jug currently holds 0 liter(s). \n"
+		},
+
+		{
+			"id": 94,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 100,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 98,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 84,
+					"text": "Pour 3 jug into 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 99,
+					"text": "Pour 5 jug into 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 82,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 93,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 2 liter(s) and the 5 jug currently holds 1 liter(s). \n"
+		},
+
+		{
+			"id": 95,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 101,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 98,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 85,
+					"text": "Pour 3 jug into 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 100,
+					"text": "Pour 5 jug into 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 83,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 93,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 2 liter(s) and the 5 jug currently holds 2 liter(s). \n"
+		},
+
+		{
+			"id": 96,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 102,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 98,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 86,
+					"text": "Pour 3 jug into 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 101,
+					"text": "Pour 5 jug into 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 84,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 93,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 2 liter(s) and the 5 jug currently holds 3 liter(s). \n"
+		},
+
+		{
+			"id": 97,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 103,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 98,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 92,
+					"text": "Pour 3 jug into 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 102,
+					"text": "Pour 5 jug into 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 85,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 93,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 106,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 2 liter(s) and the 5 jug currently holds 4 liter(s). \n"
+		},
+
+		{
+			"id": 98,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 104,
+					"text": "Fill 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 103,
+					"text": "Pour 5 jug into 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 86,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 93,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 2 liter(s) and the 5 jug currently holds 5 liter(s). \n"
+		},
+
+		{
+			"id": 99,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 104,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 84,
+					"text": "Pour 3 jug into 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 81,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 3 liter(s) and the 5 jug currently holds 0 liter(s). \n"
+		},
+
+		{
+			"id": 100,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 104,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 85,
+					"text": "Pour 3 jug into 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 82,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 99,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 3 liter(s) and the 5 jug currently holds 1 liter(s). \n"
+		},
+
+		{
+			"id": 101,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 104,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 86,
+					"text": "Pour 3 jug into 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 83,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 99,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 3 liter(s) and the 5 jug currently holds 2 liter(s). \n"
+		},
+
+		{
+			"id": 102,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 104,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 92,
+					"text": "Pour 3 jug into 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 84,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 99,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 3 liter(s) and the 5 jug currently holds 3 liter(s). \n"
+		},
+
+		{
+			"id": 103,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 104,
+					"text": "Fill 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 98,
+					"text": "Pour 3 jug into 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 85,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 99,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 106,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 3 liter(s) and the 5 jug currently holds 4 liter(s). \n"
+		},
+
+		{
+			"id": 104,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 86,
+					"text": "Empty 3 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 99,
+					"text": "Empty 5 jug. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 3 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 105,
+					"text": "Pour 5 jug into the boiler. ",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The 3 jug currently holds 3 liter(s) and the 5 jug currently holds 5 liter(s). \n"
+		},
+
+		{
+			"id": 105,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 81,
+					"text": "Try again.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The boiler gives a small hum, but you soon hear a draining gurgle from the machine. \nYou sigh. Time to start over then. \n"
+		},
+
+		{
+			"id": 106,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 122,
+					"text": "Move on to the next trial.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The boiler gives a small hum, and you grin when you hear a low whirring sound. Two clicks can be heard, along with a yell of “CHOCCY MILK!”. \nAs you turn, you see the man has gotten through the unlocked door, and is now chugging the chocolate milk. You shake your head. Best to leave the crazy guy be. \n"
+		},
+
+		{
+			"id": 107,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 109,
+					"text": "Join him.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 108,
+					"text": "Try to leave through the door instead.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "Michael nods and touches the hospital door. It glows like the previous doors did, and he gestures for you to walk through. \n\nYou find yourself in a hallway. At the end is another door, and to your left is a wall with a glass door and a large window. \nAs you look through the window, you see a pristine, sterile room, and you cannot decide whether it looks more like a laboratory or a surgery room. \nThe man inside looks up and makes some gestures that clearly shows he is not happy to have company, but after a moment his shoulders slump and he waves for you to come in and join him. \n"
+		},
+
+		{
+			"id": 108,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 109,
+					"text": "Continue.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "He looks very unimpressed as you walk to the door. You try to open the door, but it is locked. \nYou look back at him and he just shakes his head. You make your way to the room, feeling thoroughly humiliated. \n"
+		},
+
+		{
+			"id": 109,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 110,
+					"text": "Start the trial.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "As soon as you enter, the man hands you a set of laboratory clothing. “Here’s the deal.” Based on the voice alone, you know not to cross this guy. \n“This is delicate work. One wrong move and you may kill everyone and everything on the entire planet. So you do as I say, when I say it. Do not speak unless spoken to, and no questions. Got it?” \nYou nod, thoroughly intimidated by the man’s no-nonsense personality. “Good. Better get to it then.” \n"
+		},
+
+		{
+			"id": 110,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 111,
+					"text": "Use the white one.",
+					"exception": [],
+					"given": [28]
+				},
+				{
+					"id": 111,
+					"text": "Use the black one.",
+					"exception": [],
+					"given": [29]
+				},
+				{
+					"id": 111,
+					"text": "Use the clear one.",
+					"exception": [],
+					"given": [30]
+				}
+			],
+			"dialogue": "The man gives you three flasks with liquid and a glass jar to mix them in. “Here. Start with a base that won’t kill us all.” You look at the three flasks. \nThe first liquid is white like milk, the second is black like oil, and the third is clear like water. \n"
+		},
+
+		{
+			"id": 111,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 112,
+					"text": "Use the red one.",
+					"exception": [],
+					"given": [31]
+				},
+				{
+					"id": 112,
+					"text": "Use the orange one.",
+					"exception": [],
+					"given": [32]
+				},
+				{
+					"id": 112,
+					"text": "Use the yellow one.",
+					"exception": [],
+					"given": [33]
+				},
+				{
+					"id": 112,
+					"text": "Use the green one.",
+					"exception": [],
+					"given": [34]
+				},
+				{
+					"id": 112,
+					"text": "Use the blue one.",
+					"exception": [],
+					"given": [35]
+				},
+				{
+					"id": 112,
+					"text": "Use the purple one.",
+					"exception": [],
+					"given": [36]
+				}
+			],
+			"dialogue": "He hums in thought. “Alright, not the worst choice, I suppose.” He puts a new row of flasks in front of you. \n“Add two others and try not to kill us all, would you? And no, I did not sort the bottles this way on purpose. That blasted cat wannabe keeps rearranging the flasks if I don’t already have them in a rainbow pattern.” He goes back to his own work, mumbling about stupid girls obsessed with rainbows. \n"
+		},
+
+		{
+			"id": 112,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 114,
+					"text": "Use the red one.",
+					"exception": [{
+						"items": [31],
+						"scene": 113
+					}],
+					"given": [31]
+				},
+				{
+					"id": 114,
+					"text": "Use the orange one.",
+					"exception": [{
+						"items": [32],
+						"scene": 113
+					}],
+					"given": [32]
+				},
+				{
+					"id": 114,
+					"text": "Use the yellow one.",
+					"exception": [{
+						"items": [33],
+						"scene": 113
+					}],
+					"given": [33]
+				},
+				{
+					"id": 114,
+					"text": "Use the green one.",
+					"exception": [{
+						"items": [34],
+						"scene": 113
+					}],
+					"given": [34]
+				},
+				{
+					"id": 114,
+					"text": "Use the blue one.",
+					"exception": [{
+						"items": [35],
+						"scene": 113
+					}],
+					"given": [35]
+				},
+				{
+					"id": 114,
+					"text": "Use the purple one.",
+					"exception": [{
+						"items": [36],
+						"scene": 113
+					}],
+					"given": [36]
+				}
+			],
+			"dialogue": "You watch the two liquids mix, wondering if you chose badly or not. \nThe man clearly does not care to watch over you, and you simply hope you make a good choice for the final liquid. \nThis is more a trial of luck than a trial of skill. \n"
+		},
+
+		{
+			"id": 113,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 112,
+					"text": "Continue.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You already used this liquid. \nChoose another one. \n"
+		},
+
+		{
+			"id": 114,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 115,
+					"text": "Continue.",
+					"exception": [{
+						"items": [28, 31, 35],
+						"scene": 116
+					},
+					{
+						"items": [28, 33, 34],
+						"scene": 117
+					},
+					{
+						"items": [29, 31, 36],
+						"scene": 118
+					},
+					{
+						"items": [29, 32, 34],
+						"scene": 119
+					},
+					{
+						"items": [30, 32, 33],
+						"scene": 120
+					},
+					{
+						"items": [30, 35, 36],
+						"scene": 121
+					}],
+					"given": []
+				}
+			],
+			"dialogue": "“Alright, let’s see how you did.” You proudly hold up the jar, showing him the odd swirl of colors. Despite not knowing what you were doing, you point out there’s no bad reaction. \nHe just rolls his eyes when you point it out, and takes out a small bottle with a shimmering, golden liquid and a dropper. “Of course there’s no bad reaction. Your concoction hasn’t been activated.” \nThen, with no warning, he drips a single drop of the golden liquid into the jar, and the colorful mix begins to react. A lot. \n"
+		},
+
+		{
+			"id": 115,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 122,
+					"text": "Move on to the next trial.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The hissing, bubbling concoction gives a last sputtering sound, before it rests at the bottom of the jar as nothing more than disgusting sludge. \n“At least you did not kill us all.” You glare at the man, but he just waves dismissively. “Get going before I show you what real science does to a person.” \nYou pale at the implication and his tone of voice, and you rush to exit his domain. \n"
+		},
+
+		{
+			"id": 116,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 65,
+					"text": "Admit defeat.",
+					"exception": [],
+					"given": [16]
+				}
+			],
+			"dialogue": "The concoction hisses and sputters, and you drop the jar as it heats up. It melts into the floor, creating a hissing, spitting puddle. “Wonderful. Now I have to clean that up as well.” \nYou glare at the man, and he glares back. Before you can defend yourself, he grabs you and drags you back to the door you entered through. “And STAY out!” \n"
+		},
+
+		{
+			"id": 117,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 122,
+					"text": "Move on to the next trial.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "A small sprout comes up after the mixture settles, and within seconds, long vines are creeping out of the jar and winding loosely around your arms. \nThe man gives a huff of annoyance. “Great. As if we don’t have enough plants already. Just get out of my sight.” You put down the jar and untangle yourself. At least he isn’t too angry. \n"
+		},
+
+		{
+			"id": 118,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 122,
+					"text": "Move on to the next trial before he notices you.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The man looks positively insane as he grabs the jar, immediately pulling off his mask and laughing maniacally. “I’M BACK!” he yells, as green lines begin spreading across his skin, following the paths of his blood vessels. \nLarge patches of green spread on his skin, and you quickly leave while he laughs like a maniac in the background, hoping your lab suit is enough to protect you from the green plague. \n"
+		},
+
+		{
+			"id": 119,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 65,
+					"text": "Well, at least you're alive.",
+					"exception": [],
+					"given": [16]
+				}
+			],
+			"dialogue": "The concoction begins to grow, bubbling over the edges of the jar and pouring onto the floor. It begins to pull you in, and you fight against the pull. It does not work however, and soon you find yourself fully enveloped in the slimy monstrosity. \nJust as you think you’re not going to make it, the man pulls you from the slime and throws you on the floor. “Useless. Get out of my sight.” Shaking and soaked, you head back through the door to try another trial. \n"
+		},
+
+		{
+			"id": 120,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": -1,
+					"text": "Back to menu.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The concoction bursts into flames, fire shooting out of the jar. As the jar heats up, you drop it and it shatters, throwing liquid fire everywhere. \nThe man doesn’t seem to care, as his suit protects him completely. And it doesn’t take long for you to realize yours does not. \nScreaming in agony, trying hard to put out the flames, you feel the liquid fire bite into your skin. It doesn’t take long before you pass out. \n\nGame Over. \n"
+		},
+
+		{
+			"id": 121,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 122,
+					"text": "Luckily, it did. Move on to the next trial.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The liquid begins to heat up immediately, soon turning into steam and clouding up the room. “This is why we can’t have nice things!” He sounds very angry, so you quickly make your escape, trying to bump into as few things as you can. \nYou eventually find your way out, and you run to the exit, hoping it counted as a win. \n"
+		},
+
+		{
+			"id": 122,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 123,
+					"text": "Look at the doors.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "Michael is right there, ready to greet you when you emerge. “Did you have fun?” You glare at him. “I shall take that as a yes.” You are about to argue, but you just sigh and slump with relief that you finished another trial. \n“Now now, don’t be that way. You still have a final trial to get through before you can rest.” You wearily look at Michael, as he gestures to the three new doors, the last set of doors. \nYou can’t wait for all of this to be over with. \n"
+		},
+
+		{
+			"id": 123,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 124,
+					"text": "Ask about the wooden door.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 125,
+					"text": "Ask about the pink door.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 126,
+					"text": "Ask about the stone door.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You look at the three doors, the final three, and you almost want to cry with relief. \nThe left door is a nice, standard wooden door, with a large British flag painted on the front of it, and a sign that says “Gun Zone”. \nThe right door looks like the door to a young girl’s bedroom, it is pink and decorated with stickers of muffins, rainbows, unicorns and all sorts of cute images. \nThe middle door is made of stone and just has a carving of a gemstone on it. \n"
+		},
+
+		{
+			"id": 124,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 130,
+					"text": "Choose the wooden door.",
+					"exception": [{
+						"items": [37],
+						"scene": 129
+					}],
+					"given": []
+				},
+				{
+					"id": 123,
+					"text": "Look at the doors again.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "“Ah, yes, William’s door.” Michael grins. “As you can see, he is British and likes guns. I’m sure he has an amazing gun-related challenge in store for you!” \nYou notice he didn’t give a definitive hint as to what the challenge is, and you safely assume that it won’t actually be gun related. \n"
+		},
+
+		{
+			"id": 125,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 168,
+					"text": "Choose the pink door.",
+					"exception": [{
+						"items": [38],
+						"scene": 129
+					}],
+					"given": []
+				},
+				{
+					"id": 123,
+					"text": "Look at the doors again.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "Michael looks at the pink door. “Yes, Isabel’s door. She’s older than her sister, but acts so much more childishly. She’s mature, but she enjoys the little moments, usually with family. She’s a very kind person, and I’m sure her trial isn’t too harsh.” He hums in thought. “Makes me wonder why they put her in the third set..” \n"
+		},
+
+		{
+			"id": 126,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 138,
+					"text": "Choose the stone door.",
+					"exception": [{
+						"items": [39],
+						"scene": 129
+					}],
+					"given": []
+				},
+				{
+					"id": 123,
+					"text": "Look at the doors again.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "Michael sighs. “We had hoped to have a great puzzle in there with snakes, but they wouldn’t stop biting everyone but their handler, so we had to improvise. The gem puzzle isn’t as tricky as we would’ve liked, but it isn’t easy either at least. And the snakes are still part of it, just.. Don’t get too close to them. They bite.” \n"
+		},
+
+		{
+			"id": 127,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 123,
+					"text": "Look at the doors again.",
+					"exception": [{
+						"items": [37, 38, 39],
+						"scene": 128
+					}],
+					"given": []
+				}
+			],
+			"dialogue": "Michael looks up when you return from the trial. “Oh, bad luck? Well, we’re all unlucky at times. Maybe the next trial will be easier. \n"
+		},
+
+		{
+			"id": 128,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": -1,
+					"text": "Back to menu.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "“Oh.. Uhm.. Awkward, I know, but it seems you don’t have any more chances. You failed all three final trials.” Your shoulders slump. You did all of this for nothing. \n“Well, that sucks. Maybe you’ll be lucky and get picked again in the future.” Michael leads you over to a new door, one that wasn’t there before, and as he opens it, you’re back in the clearing it all started in. \n“Have a nice day!” With that, he slams the door, and you walk back down the path, disappointed and defeated. \n\nGame Over. \n"
+		},
+
+		{
+			"id": 129,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 123,
+					"text": "Look at the doors again.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "The door won’t budge, as you failed this trial already. \nBetter choose another one. \n"
+		},
+
+		{
+			"id": 130,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 135,
+					"text": "Start the trial.",
+					"exception": [{
+						"items": [27],
+						"scene": 131
+					}],
+					"given": []
+				}
+			],
+			"dialogue": "Michael nods and touches the wooden door. It glows like the previous doors did, and he gestures for you to walk through. \n\nYou enter into a small room, which looks more like a log cabin than anything else. In the corner sits a young man, peacefully cleaning a gun. \n“About time,” he says in a strong, British accent. “I was beginning to get bored.” He looks at you. “So, let’s get this over with, shall we?” \n"
+		},
+
+		{
+			"id": 131,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 132,
+					"text": "Sweet tea.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 132,
+					"text": "Bitter tea.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 132,
+					"text": "Fruity tea.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 134,
+					"text": "Non-flavored tea.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 132,
+					"text": "Iced tea.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 133,
+					"text": "Cold tea.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 132,
+					"text": "Green tea.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You take the odd metal part out of your pocket and offer it to the guy. He perks up and grins. “Hey, that’s the part I need!” You hand it over and he clicks it in place on his gun. “Alright, for that I’m going to take it easy on you.” \nHe looks straight at you. “What is the one True Tea?” You almost laugh, but the seriousness of his stare, and the way he caresses the gun, makes it clear it isn’t a laughing matter to him. \n"
+		},
+
+		{
+			"id": 132,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 176,
+					"text": "I'm going! Don't shoot me!",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "He looks at you, very insulted. “You DARE call that a true tea!? I’d rather drink my own piss, thank you very much!” \nHe looks at his gun. “But, well, you did get me the part I needed. You can move on.” He lifts the gun and aims at you. “Unless you want to stick around for target practice.” \n"
+		},
+
+		{
+			"id": 133,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": -1,
+					"text": "Back to menu.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "He stares at you silently, moving closer to you. You feel the tip of the gun’s barrel rest just under your chin, as he leans in and whispers. “Go back to America.” You hear a click and everything goes black. \n\nGame Over. \n"
+		},
+
+		{
+			"id": 134,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 176,
+					"text": "Finish your final trial.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "He nods and gestures to the door in the back. “We may make an honorary Brit of you yet.” \nHis focus turns back to his gun, and with the loving look in his eyes, you quickly leave before you witness anything you can never unsee. \n"
+		},
+
+		{
+			"id": 135,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 136,
+					"text": "Fish.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 136,
+					"text": "Bird.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 137,
+					"text": "Cat.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "As soon as you say you want to start the trial, he throws a paper at you. “Solve this junk and I’ll let you through. Copied it from the internet. Couldn’t be bothered.” \nYou take the crumpled paper and smooth it out. It’s a zebra puzzle, a very small one at that. Only three by three squares to fill in. \nThree houses, three colors, three pets and three nationalities. This should be easy. \n\nColors: Black, Brown, White. \nNationality: Greek, Irish, Swede. \nPet: Fish, Bird, Cat. \n\n- The bird lives in the white house. \n- There is one house between the Irish and the Swede. \n- There is one house between the white house and the Swede. \n- The black house is directly to the left of the brown house. \n- The Greek lives to the left of the fish. \nWhich pet lives in the middle house? \n"
+		},
+
+		{
+			"id": 136,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 127,
+					"text": "Go back.",
+					"exception": [],
+					"given": [37]
+				}
+			],
+			"dialogue": "“Wrong.” He gestures for you to go back, and when you start to complain, he simply points his gun at you. You quickly back away and leave. \n"
+		},
+
+		{
+			"id": 137,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 176,
+					"text": "Finish your final trial.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "“Yeah, sure, whatever.” He lifts his gun and aims at you. “What’re you waiting for? Get going!” You run through the door, happy to be away from the gun crazy guy. \n"
+		},
+
+		{
+			"id": 138,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 140,
+					"text": "Start the trial.",
+					"exception": [{
+						"items": [10],
+						"scene": 139
+					}],
+					"given": []
+				}
+			],
+			"dialogue": "Michael nods and touches the stone door. It glows like the previous doors did, and he gestures for you to walk through. \n\nYou walk in and notice several walls have terrariums set in them, each of them with a snake. However, none of the terrariums have glass covering them. \nStraight ahead is a door with five little slots, and a box secured just underneath, filled with a massive amount of gems, all matching the different slot shapes, but in so many varying colorations that guessing would take you days. \n"
+		},
+
+		{
+			"id": 139,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 176,
+					"text": "Finish your final trial.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You notice another gem slot further up the door, and you take out the gem from your pocket. You reach up and put it in, and it fits perfectly. \nThe door gives a few clicks and metallic grinding sounds, after which it swings open, allowing you to go through without having to face the snakes at all. \n"
+		},
+
+		{
+			"id": 140,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 142,
+					"text": "Investigate the snakes.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 141,
+					"text": "Investigate the gem slots.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You aren’t sure how to solve the puzzle, as you don’t see any text or instructions anywhere, except a single sign that says “one chance”. \nYou look around for a while, and suddenly you notice there are five snakes and five gem slots. Maybe the snakes are a clue? \n"
+		},
+
+		{
+			"id": 141,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 154,
+					"text": "Place the gems.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 142,
+					"text": "Investigate the snakes.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You look at the gem slots. \nHeart, star, crescent moon, clover, teardrop. \nThe gems in the box below all match one of the slot shapes, but there are too many colors to choose from. \nIf the sign meant you only have one chance per slot, guessing won’t do you any good. \nAre you sure you want to try? \n"
+		},
+
+		{
+			"id": 142,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 143,
+					"text": "The blue snake.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 145,
+					"text": "The red snake.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 147,
+					"text": "The green snake.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 149,
+					"text": "The white snake.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 151,
+					"text": "The yellow snake.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 141,
+					"text": "I've seen enough. Back to the gem slots.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "There are five snakes of varying sizes. \nWhich would you like to investigate? \n"
+		},
+
+		{
+			"id": 143,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 153,
+					"text": "Move closer.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 144,
+					"text": "Investigate from a distance.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You move up close to the blue snake, and it immediately curls up and puffs up its body. It hisses in warning. \n"
+		},
+
+		{
+			"id": 144,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 142,
+					"text": "Interesting.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You watch the snake, and as it slithers back into the foliage, you notice the blue isn’t natural, it’s actually a pattern of clovers painted onto the scales. \n"
+		},
+
+		{
+			"id": 145,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 153,
+					"text": "Move closer.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 146,
+					"text": "Investigate from a distance.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You move up close to the red snake, and it rears up, hissing in warning. You notice the red isn’t natural, but rather seems to be streaks down its body. \n"
+		},
+
+		{
+			"id": 146,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 142,
+					"text": "Smartly hidden.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "As you watch the snake, it flares its hood to scare you off. Inside the hood are small red markings that vaguely look like stars. \n"
+		},
+
+		{
+			"id": 147,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 153,
+					"text": "Move closer.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 148,
+					"text": "Investigate from a distance.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You move up close to the green snake, and it curls up and rattles its tail. \n"
+		},
+
+		{
+			"id": 148,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 142,
+					"text": "How clever!",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "As you wait and watch, the snake slowly calms and stops rattling, and unlike the green on the main body, which are just long streaks, you notice little green teardrops on the rattle. \n"
+		},
+
+		{
+			"id": 149,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 153,
+					"text": "Move closer.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 150,
+					"text": "Investigate from a distance.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You move up close to the white snake, and notice it’s got black spots here and there. Fake black spots at that. \n"
+		},
+
+		{
+			"id": 150,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 142,
+					"text": "Good to know.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "Against the white scales, it’s easy to see the black hearts for what they are. However, with no black gems, you can only assume that the heart gem would be white, not black. \n"
+		},
+
+		{
+			"id": 151,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 153,
+					"text": "Move closer.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 152,
+					"text": "Investigate from a distance.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You move up close to the yellow snake, and it immediately buries itself in the sand it was resting on. \n"
+		},
+
+		{
+			"id": 152,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 142,
+					"text": "That's cute.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "As you watch, the snake’s little head peeks out of the sand, revealing a yellow crescent moon on its nose. \n"
+		},
+
+		{
+			"id": 153,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 127,
+					"text": "Run before they bite!",
+					"exception": [],
+					"given": [39]
+				}
+			],
+			"dialogue": "The snake tries to strike, but luckily for you, it misses. However, this triggers all the snakes to begin advancing on you, and you quickly turn and run back out from the trial. \n"
+		},
+
+		{
+			"id": 154,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 156,
+					"text": "Gem slot 1; the heart.",
+					"exception": [{
+						"items": [40],
+						"scene": 167
+					}],
+					"given": []
+				},
+				{
+					"id": 157,
+					"text": "Gem slot 2; the star.",
+					"exception": [{
+						"items": [41],
+						"scene": 167
+					}],
+					"given": []
+				},
+				{
+					"id": 158,
+					"text": "Gem slot 3; the crescent moon.",
+					"exception": [{
+						"items": [42],
+						"scene": 167
+					}],
+					"given": []
+				},
+				{
+					"id": 159,
+					"text": "Gem slot 4; the clover.",
+					"exception": [{
+						"items": [43],
+						"scene": 167
+					}],
+					"given": []
+				},
+				{
+					"id": 160,
+					"text": "Gem slot 5; the teardrop.",
+					"exception": [{
+						"items": [44],
+						"scene": 167
+					}],
+					"given": []
+				},
+				{
+					"id": 142,
+					"text": "Maybe not so confident after all.. Let’s go back, just to make sure.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You feel confident that you’ll pick the right gems, and you begin picking up the gems you wish to place. \n"
+		},
+
+		{
+			"id": 155,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": -1,
+					"text": "Back to menu.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "As you place the wrong gem in the socket, you hear a rustling sound, and before your eyes, thousands of tiny snakes flow from cracks and holes in the door and the walls. Within seconds you are overwhelmed and covered in bites. \nYou scream and try to get them off, but nothing works. You feel yourself swell up and grow heavy, and with a low thump, you fall to the ground. As the snakes crowd around you to ensure the “threat” is gone, everything fades to black. \n\nGame Over. \n"
+		},
+
+		{
+			"id": 156,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 155,
+					"text": "The blue gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The red gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The green gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 161,
+					"text": "The white gem.",
+					"exception": [{
+						"items": [41, 42, 43, 44],
+						"scene": 166
+					}],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The yellow gem.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You look at the heart-shaped gem slot and the gems in the box below. \n"
+		},
+
+		{
+			"id": 157,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 155,
+					"text": "The blue gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 162,
+					"text": "The red gem.",
+					"exception": [{
+						"items": [40, 42, 43, 44],
+						"scene": 166
+					}],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The green gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The white gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The yellow gem.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You look at the star-shaped gem slot and the gems in the box below. \n"
+		},
+
+		{
+			"id": 158,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 155,
+					"text": "The blue gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The red gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The green gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The white gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 163,
+					"text": "The yellow gem.",
+					"exception": [{
+						"items": [40, 41, 43, 44],
+						"scene": 166
+					}],
+					"given": []
+				}
+			],
+			"dialogue": "You look at the crescent moon-shaped gem slot and the gems in the box below. \n"
+		},
+
+		{
+			"id": 159,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 164,
+					"text": "The blue gem.",
+					"exception": [{
+						"items": [40, 41, 42, 44],
+						"scene": 166
+					}],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The red gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The green gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The white gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The yellow gem.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You look at the clover-shaped gem slot and the gems in the box below. \n"
+		},
+
+		{
+			"id": 160,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 155,
+					"text": "The blue gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The red gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 165,
+					"text": "The green gem.",
+					"exception": [{
+						"items": [40, 41, 42, 43],
+						"scene": 166
+					}],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The white gem.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 155,
+					"text": "The yellow gem.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You look at the teardrop-shaped gem slot and the gems in the box below. \n"
+		},
+
+		{
+			"id": 161,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 154,
+					"text": "Continue.",
+					"exception": [],
+					"given": [40]
+				}
+			],
+			"dialogue": "The heart-shaped gem fits and you sigh with relief when nothing bad happens. \n"
+		},
+
+		{
+			"id": 162,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 154,
+					"text": "Continue.",
+					"exception": [],
+					"given": [41]
+				}
+			],
+			"dialogue": "The star-shaped gem fits and you sigh with relief when nothing bad happens. \n"
+		},
+
+		{
+			"id": 163,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 154,
+					"text": "Continue.",
+					"exception": [],
+					"given": [42]
+				}
+			],
+			"dialogue": "The crescent moon-shaped gem fits and you sigh with relief when nothing bad happens. \n"
+		},
+
+		{
+			"id": 164,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 154,
+					"text": "Continue.",
+					"exception": [],
+					"given": [43]
+				}
+			],
+			"dialogue": "The clover-shaped gem fits and you sigh with relief when nothing bad happens. \n"
+		},
+
+		{
+			"id": 165,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 154,
+					"text": "Continue.",
+					"exception": [],
+					"given": [44]
+				}
+			],
+			"dialogue": "The teardrop-shaped gem fits and you sigh with relief when nothing bad happens. \n"
+		},
+
+		{
+			"id": 166,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 176,
+					"text": "Finih your final trial.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "There’s a small clicking sound and a metallic grinding, and you can’t help grinning when the door swings open. \n"
+		},
+
+		{
+			"id": 167,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 154,
+					"text": "Continue.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "You’ve already filled in this gem slot correctly. \n"
+		},
+
+		{
+			"id": 168,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 173,
+					"text": "Start the trial.",
+					"exception": [{
+						"items": [4],
+						"scene": 169
+					}],
+					"given": []
+				}
+			],
+			"dialogue": "Michael nods and touches the pink door. It glows like the previous doors did, and he gestures for you to walk through. \n\nYou enter a beautiful garden, and you see a young woman resting among the flowers. As you move closer, she sits up and shrieks. “DON’T STEP ON THE NEW SHOOTS!” \nYou stop and look on the ground. You were just about to step on a patch of tiny sprouts. How did she know? \nShe gets up and rushes over to you, making sure the little plants are unharmed. After checking, she stands up straight and smiles at you. “Here for the trial, are you? I’m Isabel! Nice to meet you!” \n"
+		},
+
+		{
+			"id": 169,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 170,
+					"text": "Continue.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "Guessing that this must be the sister mentioned earlier, you bring out the last surviving muffin from the Michael muffin massacre. “Oh!” She happily accepts the muffin. \n“You met my sister! That’s amazing! She’s annoying sometimes, but I love her.” She happily munches the muffin and gestures for you to follow her. \nAfter eating the muffin, she sits down by a large pond, and you see colorful koi carps swimming around, shimmering in the light. “You brought me a muffin from my sister; my favorite at that, so I’m going to give you an easy peasy riddle.” \n"
+		},
+
+		{
+			"id": 170,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 171,
+					"text": "1 day.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 171,
+					"text": "5 days.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 171,
+					"text": "12 days.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 171,
+					"text": "24 days.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 171,
+					"text": "36 days.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 171,
+					"text": "40 days.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 172,
+					"text": "47 days.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "Isabel gestures to the pond. “In the pond are lily pads. Those lily pads double every day. If it takes 48 days to cover the pond, how long would it take to cover it half full?” She smiles at you, patiently awaiting your answer. \n"
+		},
+
+		{
+			"id": 171,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 127,
+					"text": "Go back.",
+					"exception": [],
+					"given": [38]
+				}
+			],
+			"dialogue": "She pouts. “Sorry, that’s wrong. I have to send you back now.” She gets up and leads you back to the door. “Sorry.. But thank you for the muffin!” \n"
+		},
+
+		{
+			"id": 172,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 176,
+					"text": "Finish your final trial.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "She claps her hands excitedly. “Yes! That’s right! You can move on now!” She gets up and drags you to the door, excitedly pushing you towards it. \n"
+		},
+
+		{
+			"id": 173,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 174,
+					"text": "First (or seventh) link.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 174,
+					"text": "Second (or sixth) link.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 175,
+					"text": "Third (or fifth) link.",
+					"exception": [],
+					"given": []
+				},
+				{
+					"id": 174,
+					"text": "Fourth (middle) link.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "“Alright!” Isabel grins excitedly. “A rich woman hires you to watch over her beloved pets while she is on vacation for a week. Every day, a maid will come check on you and give you your payment. At the end of the week, you will be paid in full in the form of a necklace, which has seven links with a diamond set in each of them. You can break off only one link. Which link will you break off so you can get paid every single day?” \n"
+		},
+
+		{
+			"id": 174,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 165,
+					"text": "Go back.",
+					"exception": [],
+					"given": [38]
+				}
+			],
+			"dialogue": "“Sorry, that isn’t it.” She gets up and leads you back to the door. \n“Sorry. Better luck with your next trial.” You smile at her and return to the rotunda. \n"
+		},
+
+		{
+			"id": 175,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 176,
+					"text": "Finish your final trial.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "“Yes!” she squeaks. “That’s right! By breaking off the third link, you get three pieces; one with one link, one with two links and one with four links! On the first day, you’re given the single link, on the second day you give it back and get the one with two, on the third you get the single link again, on the fourth you give both pieces back and get the four link piece, then the one link piece, then you trade the one link for the two links, and on the final day you get the single link and you have all seven!” \nShe blushes when she notices your amused smile. She’s cute when she’s rambling. “Let’s go!” She grabs your arm and drags you off to the door, the final door. \n“Go on! Go on! You earned it!” You smile and head through the door. \n"
+		},
+
+		{
+			"id": 176,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 177,
+					"text": "Continue.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "As you walk through the door, Michael is once again there to greet you. “Well done, you managed to finish three trials.” Despite your exhaustion, you grin. \nMichael puts an arm around your shoulders and leads you to a small room. “Go freshen up. There are fresh clothes on the table. I’ll wait outside.” \n"
+		},
+
+		{
+			"id": 177,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": 178,
+					"text": "Continue.",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "After a nice, hot shower and with a clean, dry set of clothes on, you emerge from the room, happy and refreshed. “Wonderful! You’re ready! Well, let’s not dally!” \nHe puts his arm around your shoulders again and leads you up to a large set of doors, with a sign saying “Clearwater Facilities” above them. \n"
+		},
+
+		{
+			"id": 178,
+			"sound": false,
+			"image": "",
+			"needed": [],
+			"receiving": [],
+			"redirect": {
+				"id": null,
+				"error": null
+			},
+			"options": [
+				{
+					"id": -1,
+					"text": "You Win! Let's see those stats!",
+					"exception": [],
+					"given": []
+				}
+			],
+			"dialogue": "As you open the doors, you see many people waiting inside. Some you recognize from the trials, others you’ve never seen before. \n“This is it then.” Michael grins and pats your back. “Welcome to the madness.” \n\nThe End. \n"
 		}
 	]
 }
