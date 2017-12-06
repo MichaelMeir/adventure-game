@@ -234,7 +234,7 @@
 		{
 			"id": 8,
 			"sound": true,
-			"image": "1.png",
+			"image": "forest.png",
 			"needed": [],
 			"receiving": [],
 			"redirect": {
@@ -303,7 +303,7 @@
 		{
 			"id": 11,
 			"sound": false,
-			"image": "",
+			"image": "rotunda.png",
 			"needed": [],
 			"receiving": [],
 			"redirect": {
@@ -438,7 +438,7 @@
 		{
 			"id": 16,
 			"sound": false,
-			"image": "",
+			"image": "kls.png",
 			"needed": [],
 			"receiving": [],
 			"redirect": {
@@ -1520,7 +1520,7 @@
 		{
 			"id": 58,
 			"sound": false,
-			"image": "",
+			"image": "rotunda.png",
 			"needed": [],
 			"receiving": [],
 			"redirect": {
@@ -1724,7 +1724,7 @@
 		{
 			"id": 66,
 			"sound": false,
-			"image": "",
+			"image": "kls.png",
 			"needed": [],
 			"receiving": [],
 			"redirect": {
@@ -2014,7 +2014,7 @@
 		{
 			"id": 77,
 			"sound": false,
-			"image": "",
+			"image": "water.png",
 			"needed": [],
 			"receiving": [],
 			"redirect": {
@@ -3388,7 +3388,7 @@
 		{
 			"id": 107,
 			"sound": false,
-			"image": "",
+			"image": "kls.png",
 			"needed": [],
 			"receiving": [],
 			"redirect": {
@@ -3822,7 +3822,7 @@
 		{
 			"id": 122,
 			"sound": false,
-			"image": "",
+			"image": "rotunda.png",
 			"needed": [],
 			"receiving": [],
 			"redirect": {
@@ -5136,7 +5136,7 @@
 		{
 			"id": 168,
 			"sound": false,
-			"image": "",
+			"image": "garden.png",
 			"needed": [],
 			"receiving": [],
 			"redirect": {
